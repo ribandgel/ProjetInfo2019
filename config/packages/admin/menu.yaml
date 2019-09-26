@@ -1,0 +1,6 @@
+easy_admin:
+    design:
+        menu:
+            - label: 'Address'
+              entity: Address
+              icon: 'map-marker-alt'
