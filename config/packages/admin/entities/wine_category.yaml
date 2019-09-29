@@ -1,0 +1,14 @@
+easy_admin:
+    entities:
+          WineCategory:
+            class: App\Entity\WineCategory
+            form:
+                fields:
+                    - { property: 'color' }
+                    - { property: 'variety' }
+
+            list:
+                fields:
+                    - { property: 'color' }
+                    - { property: 'variety' }
+

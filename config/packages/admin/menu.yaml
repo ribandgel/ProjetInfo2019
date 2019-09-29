@@ -4,3 +4,18 @@ easy_admin:
             - label: 'Address'
               entity: Address
               icon: 'map-marker-alt'
+            - label: 'Beverage'
+              entity: Beverage
+              icon: 'tint'
+            - label: 'Professional'
+              entity: Professional
+              icon: 'user-tie'
+            - label: 'Wine'
+              entity: Wine
+              icon: 'wine-bottle'
+            - label: 'WineCategory'
+              entity: WineCategory
+              icon: 'glass-cheers'
+            - label: 'Winery'
+              entity: Winery
+              icon: 'building'

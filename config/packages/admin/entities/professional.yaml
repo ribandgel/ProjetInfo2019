@@ -1,0 +1,14 @@
+easy_admin:
+    entities:
+          Professional:
+            class: App\Entity\Professional
+            form:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'address' }
+
+            list:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'address' }
+

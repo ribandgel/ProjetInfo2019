@@ -1,0 +1,14 @@
+easy_admin:
+    entities:
+          Wine:
+            class: App\Entity\Wine
+            form:
+                fields:
+                    - { property: 'winery' }
+                    - { property: 'year' }
+
+            list:
+                fields:
+                    - { property: 'winery' }
+                    - { property: 'year' }
+

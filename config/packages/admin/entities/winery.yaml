@@ -1,0 +1,15 @@
+easy_admin:
+    entities:
+          Winery:
+            class: App\Entity\Winery
+            form:
+                fields:
+                    - { property: 'name' }
+                    - { property: 'phone' }
+                    - { property: 'wines' }
+                    - { property: 'address' }
+
+            list:
+                fields:
+                    - { property: 'name' }
+
