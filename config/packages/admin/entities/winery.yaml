@@ -6,8 +6,7 @@ easy_admin:
                 fields:
                     - { property: 'name' }
                     - { property: 'phone' }
-                    - { property: 'wines' }
-                    - { property: 'address' }
+                    - { property: 'address' , type: 'App\Form\AddressType', type_options: {label: false}}
 
             list:
                 fields:

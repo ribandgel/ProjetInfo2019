@@ -6,8 +6,12 @@ easy_admin:
                 fields:
                     - { property: 'country' }
                     - { property: 'city' }
-            
+                    - { property: 'zipCode' }
+                    - { property: 'addressLines' }
+
             list:
                 fields:
                     - { property: 'country' }
                     - { property: 'city' }
+                    - { property: 'zipCode' }
+                    - { property: 'addressLines' }
