@@ -7,9 +7,11 @@
  */
 namespace App\Form;
 
+use App\Entity\Address;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class AddressType extends AbstractType
 {
@@ -21,5 +23,13 @@ class AddressType extends AbstractType
             ->add('zipCode', TextType::class)
             ->add('addressLines', TextType::class)
         ;
+    }
+
+    public function configureOptions(OptionsResolver $resolver)
+    {
+        $resolver->setDefaults([
+            'label' => false,
+            'data_class' => Address::class,
+        ]);
     }
 }
