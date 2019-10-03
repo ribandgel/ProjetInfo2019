@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -25,6 +27,16 @@ class WineCategory
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $variety;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Wine", mappedBy="category")
+     */
+    private $wines;
+
+    public function __construct()
+    {
+        $this->wines = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -51,6 +63,34 @@ class WineCategory
     public function setVariety(?string $variety): self
     {
         $this->variety = $variety;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Wine[]
+     */
+    public function getWines(): Collection
+    {
+        return $this->wines;
+    }
+
+    public function addWine(Wine $wine): self
+    {
+        if (!$this->wines->contains($wine)) {
+            $this->wines[] = $wine;
+            $wine->addCategory($this);
+        }
+
+        return $this;
+    }
+
+    public function removeWine(Wine $wine): self
+    {
+        if ($this->wines->contains($wine)) {
+            $this->wines->removeElement($wine);
+            $wine->removeCategory($this);
+        }
 
         return $this;
     }

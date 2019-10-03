@@ -6,6 +6,7 @@ easy_admin:
                 fields:
                     - { property: 'name' }
                     - { property: 'phone' }
+                    - { type: 'group', label: 'Address', icon: 'map-marker-alt', css_class: 'col-sm-4' }
                     - { property: 'address' , type: 'App\Form\AddressType', type_options: {label: false}}
 
             list:
