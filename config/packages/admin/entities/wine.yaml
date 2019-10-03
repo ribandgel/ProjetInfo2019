@@ -6,6 +6,7 @@ easy_admin:
                 fields:
                     - { property: 'winery' }
                     - { property: 'year' }
+                    - { property: 'category' }
 
             list:
                 fields:
