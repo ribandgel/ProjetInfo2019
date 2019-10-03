@@ -1,6 +1,8 @@
 easy_admin:
     design:
         menu:
+          
+            - { label: 'Home',  route: 'blog_home', icon: home }
             - label: 'Address'
               entity: Address
               icon: 'map-marker-alt'
