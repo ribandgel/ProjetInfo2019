@@ -1,0 +1,23 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
+      ]
+    },
+    "leaflet": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~leaflet.js",
+        "/build/leaflet.js"
+      ],
+      "css": [
+        "/build/leaflet.css"
+      ]
+    }
+  }
+}
