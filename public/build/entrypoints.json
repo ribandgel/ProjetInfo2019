@@ -14,9 +14,6 @@
         "/build/runtime.js",
         "/build/vendors~leaflet.js",
         "/build/leaflet.js"
-      ],
-      "css": [
-        "/build/leaflet.css"
       ]
     }
   }

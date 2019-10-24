@@ -14,6 +14,7 @@ class MapController extends AbstractController
     {
         return $this->render('map/index.html.twig', [
             'controller_name' => 'MapController',
+            'wineriesLink' => '',
         ]);
     }
 }
