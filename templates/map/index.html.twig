@@ -9,9 +9,9 @@
 <style>
     #mapid {height:180px;}
 </style>
-
     <div id="mapid">
     </div>
+    <input id="data" type="hidden" data-wineries-link="{{ wineriesLink|json_encode }}" />
 
     {% block javascripts %}
    {{ encore_entry_script_tags('leaflet') }}
