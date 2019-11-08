@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping\InheritanceType;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\BeverageRepository")
- * @InheritanceType("JOINED")
+ * @InheritanceType("SINGLE_TABLE")
  */
 class Beverage
 {
