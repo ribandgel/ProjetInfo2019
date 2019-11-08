@@ -5,11 +5,11 @@ easy_admin:
             form:
                 fields:
                     - { property: 'winery' }
-                    - { property: 'year' }
+                    - { property: 'name' }
                     - { property: 'category' }
 
             list:
                 fields:
                     - { property: 'winery' }
-                    - { property: 'year' }
+                    - { property: 'name' }
 

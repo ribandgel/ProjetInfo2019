@@ -3,6 +3,7 @@
     "app": {
       "js": [
         "/build/runtime.js",
+        "/build/vendors~app~leaflet.js",
         "/build/app.js"
       ],
       "css": [
@@ -12,8 +13,12 @@
     "leaflet": {
       "js": [
         "/build/runtime.js",
+        "/build/vendors~app~leaflet.js",
         "/build/vendors~leaflet.js",
         "/build/leaflet.js"
+      ],
+      "css": [
+        "/build/leaflet.css"
       ]
     }
   }
