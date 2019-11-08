@@ -12,12 +12,6 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Wine extends Beverage
 {
-    /**
-     * @ORM\Id()
-     * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
-     */
-    private $id;
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Winery", inversedBy="wines")
@@ -33,11 +27,6 @@ class Wine extends Beverage
     public function __construct()
     {
         $this->category = new ArrayCollection();
-    }
-
-    public function getId(): ?int
-    {
-        return $this->id;
     }
 
     public function getWinery(): ?Winery
