@@ -54,6 +54,10 @@ class Winery
      */
     private $longitude;
 
+    public function __toString() {
+        return $this->name;
+    }
+
     public function __construct()
     {
         $this->wines = new ArrayCollection();
