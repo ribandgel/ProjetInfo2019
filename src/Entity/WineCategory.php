@@ -38,6 +38,10 @@ class WineCategory
         $this->wines = new ArrayCollection();
     }
 
+    public function __toString() {
+        return $this->color . " " . $this->variety;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
