@@ -1,4 +1,4 @@
-require('../css/map.css');
+require('../css/leaflet.css');
 
 let L=require('leaflet');
 let $ = require('jquery');
@@ -20,7 +20,7 @@ $(document).ready(function () {
                 name: obj.name,
                 lat: obj.latitude,
                 long: obj.longitude
-                };
+            };
             wineries.push(winery);
             //console.log("HERE IS THE lat " + lat);
             //console.log("HERE IS THE long " + long);
@@ -37,7 +37,13 @@ $(document).ready(function () {
         }
     });
 
-    var searchOpt = document.getElementById("searchOpt");
+
+// let mymap = L.map('mapid').setView([46.227638, 2.213749], 6);
+// L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+//     maxZoom: 19,
+//     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+// }).addTo(mymap);
+//     var searchOpt = document.getElementById("searchOpt");
 
     // searchOpt.addEventListener("hover", function () {
     //     searchDiv.hidden = false;

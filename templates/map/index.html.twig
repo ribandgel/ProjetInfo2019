@@ -3,8 +3,9 @@
 {% block title %}Hello MapController!{% endblock %}
 {% block stylesheets %}
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
-    {# <link href="{{ asset('css/map.css') }}" rel="stylesheet"/> #}
-    {{ encore_entry_link_tags('map') }}
+
+    {# <link href="{{ asset('css/leaflet.css') }}" rel="stylesheet"/> #}
+    {{ encore_entry_link_tags('leaflet') }}
 {% endblock %}
 {% endblock %}
 {% block body %}

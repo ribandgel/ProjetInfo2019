@@ -6,6 +6,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * @ORM\Entity(repositoryClass="App\Repository\WineRepository")
  */
@@ -17,11 +18,6 @@ class Wine extends Beverage
      * @ORM\Column(type="integer")
      */
     private $id;
-
-    /**
-     * @ORM\Column(type="date")
-     */
-    private $year;
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Winery", inversedBy="wines")
@@ -42,18 +38,6 @@ class Wine extends Beverage
     public function getId(): ?int
     {
         return $this->id;
-    }
-
-    public function getYear(): ?\DateTimeInterface
-    {
-        return $this->year;
-    }
-
-    public function setYear(\DateTimeInterface $year): self
-    {
-        $this->year = $year;
-
-        return $this;
     }
 
     public function getWinery(): ?Winery
