@@ -4,9 +4,11 @@ easy_admin:
             class: App\Entity\Beverage
             form:
                 fields:
+                    - { property: 'producer' }
                     - { property: 'name' }
 
             list:
                 fields:
+                    - { property: 'producer' }
                     - { property: 'name' }
 

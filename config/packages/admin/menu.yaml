@@ -11,9 +11,6 @@ easy_admin:
             - label: 'Wine'
               entity: Wine
               icon: 'wine-bottle'
-            - label: 'WineCategory'
-              entity: WineCategory
-              icon: 'glass-cheers'
-            - label: 'Winery'
-              entity: Winery
+            - label: 'Producer'
+              entity: Producer
               icon: 'building'

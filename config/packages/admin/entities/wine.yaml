@@ -4,12 +4,13 @@ easy_admin:
             class: App\Entity\Wine
             form:
                 fields:
-                    - { property: 'winery' }
-                    - { property: 'name' }
-                    - { property: 'category' }
+                    - { property: 'producer' }
+                    - { property: 'designation' }
+                    - { property: 'color' }
+                    - { property: 'variety' }
 
             list:
                 fields:
-                    - { property: 'winery' }
-                    - { property: 'name' }
+                    - { property: 'producer' }
+                    - { property: 'designation' }
 
