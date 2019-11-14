@@ -7,7 +7,6 @@ use Doctrine\ORM\Mapping\InheritanceType;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\BeverageRepository")
- * @InheritanceType("SINGLE_TABLE")
  */
 class Beverage
 {
@@ -22,6 +21,14 @@ class Beverage
      * @ORM\Column(type="string", length=255)
      */
     private $name;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Producer", inversedBy="beverages")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $producer;
+
+
 
     public function getId(): ?int
     {
@@ -39,4 +46,18 @@ class Beverage
 
         return $this;
     }
+
+    public function getProducer(): ?Producer
+    {
+        return $this->producer;
+    }
+
+    public function setProducer(?Producer $producer): self
+    {
+        $this->producer = $producer;
+
+        return $this;
+    }
+
+
 }
