@@ -54,11 +54,6 @@ class Producer
      */
     private $wines;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $type;
-
     public function __construct()
     {
         $this->beverages = new ArrayCollection();
@@ -195,17 +190,5 @@ class Producer
     public function __toString()
     {
        return $this->name;
-    }
-
-    public function getType(): ?string
-    {
-        return $this->type;
-    }
-
-    public function setType(string $type): self
-    {
-        $this->type = $type;
-
-        return $this;
     }
 }
