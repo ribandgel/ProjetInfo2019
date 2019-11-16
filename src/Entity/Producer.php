@@ -54,6 +54,11 @@ class Producer
      */
     private $wines;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $website;
+
     public function __construct()
     {
         $this->beverages = new ArrayCollection();
@@ -190,5 +195,17 @@ class Producer
     public function __toString()
     {
        return $this->name;
+    }
+
+    public function getWebsite(): ?string
+    {
+        return $this->website;
+    }
+
+    public function setWebsite(?string $website): self
+    {
+        $this->website = $website;
+
+        return $this;
     }
 }
