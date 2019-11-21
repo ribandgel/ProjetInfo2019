@@ -1,7 +1,7 @@
 easy_admin:
     entities:
-          Winery:
-            class: App\Entity\Winery
+          Producer:
+            class: App\Entity\Producer
             form:
                 fields:
                     - { property: 'name' }

@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\InheritanceType;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\BeverageRepository")
@@ -21,6 +22,14 @@ class Beverage
      */
     private $name;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Producer", inversedBy="beverages")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $producer;
+
+
+
     public function getId(): ?int
     {
         return $this->id;
@@ -37,4 +46,18 @@ class Beverage
 
         return $this;
     }
+
+    public function getProducer(): ?Producer
+    {
+        return $this->producer;
+    }
+
+    public function setProducer(?Producer $producer): self
+    {
+        $this->producer = $producer;
+
+        return $this;
+    }
+
+
 }
