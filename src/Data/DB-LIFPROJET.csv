@@ -1,0 +1,708 @@
+﻿producer_name,phone,latitude,longitude,website,country,city,zipCode,addressLines,designation_name,color,variety_name
+Château Le Bosq,05 56 59 38 62,45.2531779,-0.7810974,http://www.dourthe.com/chateau/2-chateau-le-boscq,France,Saint estèphe,33180,Château Le Bosq,Saint-Estèphe Cru Bourgeois,rouge,Cabernet Sauvignon
+Château Le Bosq,05 56 59 38 62,45.2531779,-0.7810974,http://www.dourthe.com/chateau/2-chateau-le-boscq,France,Saint estèphe,33180,Château Le Bosq,Saint-Estèphe Cru Bourgeois,rouge,Merlot
+Château Lagrange ,05 56 73 38 38,45.1494974,-0.775314,https://www.chateau-lagrange.com/,France,Saint Julien Beycheville,33250,château Lagrange,Saint-Julien ,rouge,Cabernet Sauvignon
+Château Lagrange ,05 56 73 38 38,45.1494974,-0.775314,https://www.chateau-lagrange.com/,France,Saint Julien Beycheville,33250,château Lagrange,Saint-Julien ,rouge,Merlot
+Château Lagrange ,05 56 73 38 38,45.1494974,-0.775314,https://www.chateau-lagrange.com/,France,Saint Julien Beycheville,33250,château Lagrange,Saint-Julien ,rouge,Cabernet Franc
+Château Lagrange ,05 56 73 38 38,45.1494974,-0.775314,https://www.chateau-lagrange.com/,France,Saint Julien Beycheville,33250,château Lagrange,Saint-Julien ,rouge,Carménère
+Château Lagrange ,05 56 73 38 38,45.1494974,-0.775314,https://www.chateau-lagrange.com/,France,Saint Julien Beycheville,33250,château Lagrange,Saint-Julien ,rouge,Malbec
+Château Lagrange ,05 56 73 38 38,45.1494974,-0.775314,https://www.chateau-lagrange.com/,France,Saint Julien Beycheville,33250,château Lagrange,Saint-Julien ,rouge,Petit Verdot
+Château Branas Grand Poujeaux,05 56 58 93 30,45.0772172,-0.7440298,https://www.branasgrandpoujeaux.com/fr/,France,Moulis-en-Médoc,33480,3 Route de Grand Poujeaux,Moulis,rouge,Cabernet Sauvignon
+Château Branas Grand Poujeaux,05 56 58 93 30,45.0772172,-0.7440298,https://www.branasgrandpoujeaux.com/fr/,France,Moulis-en-Médoc,33480,3 Route de Grand Poujeaux,Moulis,rouge,Merlot
+Château Branas Grand Poujeaux,05 56 58 93 30,45.0772172,-0.7440298,https://www.branasgrandpoujeaux.com/fr/,France,Moulis-en-Médoc,33480,3 Route de Grand Poujeaux,Moulis,rouge,Cabernet Franc
+Château Branas Grand Poujeaux,05 56 58 93 30,45.0772172,-0.7440298,https://www.branasgrandpoujeaux.com/fr/,France,Moulis-en-Médoc,33480,3 Route de Grand Poujeaux,Moulis,rouge,Carménère
+Château Branas Grand Poujeaux,05 56 58 93 30,45.0772172,-0.7440298,https://www.branasgrandpoujeaux.com/fr/,France,Moulis-en-Médoc,33480,3 Route de Grand Poujeaux,Moulis,rouge,Malbec
+Château Branas Grand Poujeaux,05 56 58 93 30,45.0772172,-0.7440298,https://www.branasgrandpoujeaux.com/fr/,France,Moulis-en-Médoc,33480,3 Route de Grand Poujeaux,Moulis,rouge,Petit Verdot
+Château Belgrave ,05 56 35 53 00,45.1534951,-0.7900499,http://www.dourthe.com/chateau/1-chateau-belgrave,France,Saint-Laurent-Médoc,33112,Darrous,Haut-Médoc,rouge,Cabernet Sauvignon
+Château Belgrave ,05 56 35 53 00,45.1534951,-0.7900499,http://www.dourthe.com/chateau/1-chateau-belgrave,France,Saint-Laurent-Médoc,33112,Darrous,Haut-Médoc,rouge,Merlot
+Château Reysson ,05 56 41 99 58,45.2543981,-0.8826295,http://www.dourthe.com/chateau/10-chateau-reysson,France,Vertheuil,33180,Château Reysson ,Haut-Médoc Cru Bourgeois,rouge,Cabernet Sauvignon
+Château Reysson ,05 56 41 99 58,45.2543981,-0.8826295,http://www.dourthe.com/chateau/10-chateau-reysson,France,Vertheuil,33180,Château Reysson ,Haut-Médoc Cru Bourgeois,rouge,Merlot
+Nektart Wine ,,44.8265672,-0.5862597,https://www.nektartwine.com/fr/acceuil,France,Bordeaux,33000,43 Rue d'Arcachon,Haut-Médoc,rouge,Cabernet Sauvignon
+Nektart Wine ,,44.8265672,-0.5862597,https://www.nektartwine.com/fr/acceuil,France,Bordeaux,33000,43 Rue d'Arcachon,Haut-Médoc,rouge,Merlot
+Château La Garde,05 56 35 53 00,44.7089892,-0.5417455,http://www.dourthe.com/chateau/7-chateau-la-garde,France,Martillac,33650,1 Chemin la Tour,Pessac-Léognan,rouge,Cabernet Sauvignon
+Château La Garde,05 56 35 53 00,44.7089892,-0.5417455,http://www.dourthe.com/chateau/7-chateau-la-garde,France,Martillac,33650,1 Chemin la Tour,Pessac-Léognan,rouge,Merlot
+Château La Garde,05 56 35 53 00,44.7089892,-0.5417455,http://www.dourthe.com/chateau/7-chateau-la-garde,France,Martillac,33650,1 Chemin la Tour,Pessac-Léognan,rouge,Cabernet Franc
+Château La Garde,05 56 35 53 00,44.7089892,-0.5417455,http://www.dourthe.com/chateau/7-chateau-la-garde,France,Martillac,33650,1 Chemin la Tour,Pessac-Léognan,blanc,Sauvignon
+Château La Garde,05 56 35 53 00,44.7089892,-0.5417455,http://www.dourthe.com/chateau/7-chateau-la-garde,France,Martillac,33650,1 Chemin la Tour,Pessac-Léognan,blanc,Sémillon
+Château Naudin Larchey,,44.9415733,-0.6098743,,France,Blanquefort,33295,35 Rue de Bordeaux Parempuyre – CS80004,Pessac-Léognan,rouge,Cabernet Sauvignon
+Château Naudin Larchey,,44.9415733,-0.6098743,,France,Blanquefort,33295,35 Rue de Bordeaux Parempuyre – CS80004,Pessac-Léognan,rouge,Merlot
+Château Naudin Larchey,,44.9415733,-0.6098743,,France,Blanquefort,33295,35 Rue de Bordeaux Parempuyre – CS80004,Pessac-Léognan,rouge,Cabernet Franc
+Château Naudin Larchey,,44.9415733,-0.6098743,,France,Blanquefort,33295,35 Rue de Bordeaux Parempuyre – CS80004,Pessac-Léognan,blanc,Sauvignon
+Château Naudin Larchey,,44.9415733,-0.6098743,,France,Blanquefort,33295,35 Rue de Bordeaux Parempuyre – CS80004,Pessac-Léognan,blanc,Sémillon
+Château Rahoul,05 57 97 73 33,44.6879958,-0.428124,http://www.dourthe.com/chateau/15-chateau-rahoul/,France,Portets,33640,4 route Courneau,Graves,rouge,Cabernet Sauvignon
+Château Rahoul,05 57 97 73 33,44.6879958,-0.428124,http://www.dourthe.com/chateau/15-chateau-rahoul/,France,Portets,33640,4 route Courneau,Graves,rouge,Merlot
+Château Rahoul,05 57 97 73 33,44.6879958,-0.428124,http://www.dourthe.com/chateau/15-chateau-rahoul/,France,Portets,33640,4 route Courneau,Graves,rouge,Cabernet Franc
+Château Rahoul,05 57 97 73 33,44.6879958,-0.428124,http://www.dourthe.com/chateau/15-chateau-rahoul/,France,Portets,33640,4 route Courneau,Graves,blanc,Sauvignon
+Château Rahoul,05 57 97 73 33,44.6879958,-0.428124,http://www.dourthe.com/chateau/15-chateau-rahoul/,France,Portets,33640,4 route Courneau,Graves,blanc,Sémillon
+Château Rahoul,05 57 97 73 33,44.6879958,-0.428124,http://www.dourthe.com/chateau/15-chateau-rahoul/,France,Portets,33640,4 route Courneau,Graves,blanc,Muscadelle
+Château Roumieu,05 56 27 16 76,44.6015053,-0.3201797,https://www.chateau-roumieu.fr/,France,Barsac,33720,Pleyguemate,Sauternes,blanc,Sémillon
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,rouge,Cabernet Sauvignon
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,rouge,Merlot
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,rouge,Cabernet Franc
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,rosé,Merlot
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,rosé,Cabernet Sauvignon
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,blanc,Sémillon
+Dourthe n°1 ,05 57 24 99 26,44.8820583,-0.2123952,http://www.lacavedourthe.com/Domaine/dourthe,France,Saint-Émilion,33330,D243,Bordeaux ,blanc,Muscadelle
+Château Pey La Tour,05 56 68 34 41,44.849174,-0.3980337,http://www.dourthe.com/chateau/14-chateau-pey-la-tour,France,Sallebœuf,33370,32 Avenue de la Tour,Bordeaux Supérieur,rouge,Merlot
+Château Pey La Tour,05 56 68 34 41,44.849174,-0.3980337,http://www.dourthe.com/chateau/14-chateau-pey-la-tour,France,Sallebœuf,33370,32 Avenue de la Tour,Bordeaux Supérieur,rouge,Cabernet Franc
+Château Pey La Tour,05 56 68 34 41,44.849174,-0.3980337,http://www.dourthe.com/chateau/14-chateau-pey-la-tour,France,Sallebœuf,33370,32 Avenue de la Tour,Bordeaux Supérieur,blanc,Sauvignon
+Château Pey La Tour,05 56 68 34 41,44.849174,-0.3980337,http://www.dourthe.com/chateau/14-chateau-pey-la-tour,France,Sallebœuf,33370,32 Avenue de la Tour,Bordeaux Supérieur,blanc,Sémillon
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,rouge,Cabernet Sauvignon
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,rouge,Merlot
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,rouge,Cabernet Franc
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,rosé,Merlot
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,rosé,Cabernet Sauvignon
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,blanc,Sémillon
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Bordeaux ,blanc,Muscadelle
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Entre-deux-mers,blanc,Muscadelle
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Entre-deux-mers,blanc,Sauvignon
+Château Castenet ,05 56 61 40 67,44.7284856,0.0437025,https://www.facebook.com/castenet/,France,Auriolles,33790,3 Castanet,Entre-deux-mers,blanc,Sémillon
+Château Grimard ,05 53 63 09 83,44.9015289,0.0948925,https://www.facebook.com/Ch%C3%A2teau-les-Grimard-212334108800531/?ref=page_internal,France,Montazeau,24230,Les Grimards,Côtes-de-Bourg,rouge,Merlot
+Château Grimard ,05 53 63 09 83,44.9015289,0.0948925,https://www.facebook.com/Ch%C3%A2teau-les-Grimard-212334108800531/?ref=page_internal,France,Montazeau,24230,Les Grimards,Côtes-de-Bourg,blanc, Merlot Blanc
+Château Jeandeman,05 57 74 30 52,44.9472564,-0.3051988,,France,Saint-Aignan,33126,Château Jeandeman,Fronsac,rouge,Cabernet Sauvignon
+Château Jeandeman,05 57 74 30 52,44.9472564,-0.3051988,,France,Saint-Aignan,33126,Château Jeandeman,Fronsac,rouge,Merlot
+Château Jeandeman,05 57 74 30 52,44.9472564,-0.3051988,,France,Saint-Aignan,33126,Château Jeandeman,Fronsac,rouge,Cabernet Franc
+Château Laborde,05 57 74 30 52,45.0046258,-0.0537277,http://www.chateaulaborde.com/,France,Saint-Médard-de-Guizières,33230,13 Lieu Dit Laborde,Lalande-de-Pomerol,rouge,Cabernet Sauvignon
+Château Laborde,05 57 74 30 52,45.0046258,-0.0537277,http://www.chateaulaborde.com/,France,Saint-Médard-de-Guizières,33230,13 Lieu Dit Laborde,Lalande-de-Pomerol,rouge,Merlot
+Château Laborde,05 57 74 30 52,45.0046258,-0.0537277,http://www.chateaulaborde.com/,France,Saint-Médard-de-Guizières,33230,13 Lieu Dit Laborde,Lalande-de-Pomerol,rouge,Cabernet Franc
+Château Laborde,05 57 74 30 52,45.0046258,-0.0537277,http://www.chateaulaborde.com/,France,Saint-Médard-de-Guizières,33230,13 Lieu Dit Laborde,Lalande-de-Pomerol,rouge,Malbec
+Château Haut Gros Caillou,05 57 24 74 91,44.8614795,-0.2243201,http://www.dourthe.com/chateau/26-chateau-haut-gros-caillou,France,Saint-Sulpice-de-Faleyrens,33330,206 Gros Caillou,Saint-Emilion Grand Cru,rouge,Cabernet Sauvignon
+Château Haut Gros Caillou,05 57 24 74 91,44.8614795,-0.2243201,http://www.dourthe.com/chateau/26-chateau-haut-gros-caillou,France,Saint-Sulpice-de-Faleyrens,33330,206 Gros Caillou,Saint-Emilion Grand Cru,rouge,Merlot
+Château Haut Gros Caillou,05 57 24 74 91,44.8614795,-0.2243201,http://www.dourthe.com/chateau/26-chateau-haut-gros-caillou,France,Saint-Sulpice-de-Faleyrens,33330,206 Gros Caillou,Saint-Emilion Grand Cru,rouge,Cabernet Franc
+Château Grand Barrail Lamarzelle Figeac ,05 57 55 37 00,44.9308398,-0.1377397,http://www.dourthe.com/en/vineyard/4-chateau-grand-barrail-lamarzelle-figeac,France,Saint-Émilion,33330,Route de Libourne D243,Saint-Emilion Grand Cru,rouge,Cabernet Sauvignon
+Château Grand Barrail Lamarzelle Figeac ,05 57 55 37 00,44.9308398,-0.1377397,http://www.dourthe.com/en/vineyard/4-chateau-grand-barrail-lamarzelle-figeac,France,Saint-Émilion,33330,Route de Libourne D243,Saint-Emilion Grand Cru,rouge,Merlot
+Château Grand Barrail Lamarzelle Figeac ,05 57 55 37 00,44.9308398,-0.1377397,http://www.dourthe.com/en/vineyard/4-chateau-grand-barrail-lamarzelle-figeac,France,Saint-Émilion,33330,Route de Libourne D243,Saint-Emilion Grand Cru,rouge,Cabernet Franc
+Château Teyssier,05 57 84 64 22,44.8820583,-0.2123952,,France,Saint-Émilion,33330,SCEA du Château Teyssier Vignonet,Montagne-Saint-Emilion,rouge,Merlot
+Château La Fleur Plaisance ,06 88 06 76 43,44.9524093,-0.1534749,,France,Montagne,33570,Montagne Saint Emilion,Montagne-Saint-Emilion,rouge,Merlot
+Château de Ricaud ,05 56 35 53 00,44.9329876,-0.6171883,http://www.dourthe.com/chateau/33-chateau-de-ricaud,France,Blanquefort,33295,Groupe CVBG 35 rue de Bordeaux CS80004,Cadillac Côtes de Bordeaux ,blanc,Sémillon
+Château de Ricaud ,05 56 35 53 00,44.9329876,-0.6171883,http://www.dourthe.com/chateau/33-chateau-de-ricaud,France,Blanquefort,33295,Groupe CVBG 35 rue de Bordeaux CS80004,Cadillac Côtes de Bordeaux ,blanc,Muscadelle
+Château de Ricaud ,05 56 35 53 00,44.9329876,-0.6171883,http://www.dourthe.com/chateau/33-chateau-de-ricaud,France,Blanquefort,33295,Groupe CVBG 35 rue de Bordeaux CS80004,Cadillac Côtes de Bordeaux ,blanc,Sauvignon
+Château de Ricaud ,05 56 35 53 00,44.9329876,-0.6171883,http://www.dourthe.com/chateau/33-chateau-de-ricaud,France,Blanquefort,33295,Groupe CVBG 35 rue de Bordeaux CS80004,Loupiac,blanc,Sémillon
+Château de Ricaud ,05 56 35 53 00,44.9329876,-0.6171883,http://www.dourthe.com/chateau/33-chateau-de-ricaud,France,Blanquefort,33295,Groupe CVBG 35 rue de Bordeaux CS80004,Loupiac,blanc,Muscadelle
+Château de Ricaud ,05 56 35 53 00,44.9329876,-0.6171883,http://www.dourthe.com/chateau/33-chateau-de-ricaud,France,Blanquefort,33295,Groupe CVBG 35 rue de Bordeaux CS80004,Loupiac,blanc,Sauvignon
+Château Tourtirac,,44.8928495,-0.0356581,,France,Gardegan et Tourtirac,33350,65 lieu-dit le Bourg,Castillon Côtes de Bordeaux,rouge,Cabernet Sauvignon
+Château Tourtirac,,44.8928495,-0.0356581,,France,Gardegan et Tourtirac,33350,65 lieu-dit le Bourg,Castillon Côtes de Bordeaux,rouge,Merlot
+Château Tourtirac,,44.8928495,-0.0356581,,France,Gardegan et Tourtirac,33350,65 lieu-dit le Bourg,Castillon Côtes de Bordeaux,rouge,Cabernet Franc
+Champagne Canard Duchêne,03 26 61 11 60,49.1535235,4.0811173,https://www.canard-duchene.fr/fr/,France,Ludes,51500,1 rue Edmond Canard,Champagne Brut ,mousseux,Chardonnay
+Champagne Canard Duchêne,03 26 61 11 60,49.1535235,4.0811173,https://www.canard-duchene.fr/fr/,France,Ludes,51500,1 rue Edmond Canard,Champagne Brut ,mousseux,Meunier
+Champagne Canard Duchêne,03 26 61 11 60,49.1535235,4.0811173,https://www.canard-duchene.fr/fr/,France,Ludes,51500,1 rue Edmond Canard,Blanc de Blancs,mousseux,Chardonnay
+Champagne Canard Duchêne,03 26 61 11 60,49.1535235,4.0811173,https://www.canard-duchene.fr/fr/,France,Ludes,51500,1 rue Edmond Canard,Blancs de Noirs,mousseux,Meunier
+Champagne Thiénot,03 26 77 50 10,49.2147724,4.0739623,http://www.thienot.com/contact-et-acces,France,Taissy,51500,4 rue Joseph Cugnot,Champagne Brut ,mousseux,Chardonnay
+Champagne Thiénot,03 26 77 50 10,49.2147724,4.0739623,http://www.thienot.com/contact-et-acces,France,Taissy,51500,4 rue Joseph Cugnot,Champagne Brut ,mousseux,Meunier
+Champagne Thiénot,03 26 77 50 10,49.2147724,4.0739623,http://www.thienot.com/contact-et-acces,France,Taissy,51500,4 rue Joseph Cugnot,Blanc de Blancs,mousseux,Chardonnay
+Champagne Thiénot,03 26 77 50 10,49.2147724,4.0739623,http://www.thienot.com/contact-et-acces,France,Taissy,51500,4 rue Joseph Cugnot,Blancs de Noirs,mousseux,Meunier
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Riesling,blanc,Riesling 
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Riesling,blanc,Sylvaner 
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Riesling,rouge,Pinot Noir
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Riesling,rosé,Gewurztraminer 
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Riesling,blanc,Pinot Blanc
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Riesling,blanc,Muscat
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Pinot Noir,rouge,Pinot Noir
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Alsace Pinot Gris,blanc,Pinot Gris
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Gewurztraminer,blanc,Gewurztraminer
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Gewurztraminer,blanc,Gewurztraminer
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Riesling,blanc,Riesling 
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Riesling,blanc,Sylvaner 
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Riesling,rouge,Pinot Noir
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Riesling,rosé,Gewurztraminer 
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Riesling,blanc,Pinot Blanc
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Riesling,blanc,Muscat
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Pinot Noir,rouge,Pinot Noir
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Alsace Pinot Gris,blanc,Pinot Gris
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Gewurztraminer,blanc,Gewurztraminer
+Domaine Hertzog,03 89 49 31 93,48.0172714,7.3036089,http://www.vins-alsace-hertzog.fr/,France,Obermorschwihr,68420,36 Route du Vin,Gewurztraminer,blanc,Gewurztraminer
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Mâcon,blanc,Chardonnay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Mâcon,rouge,Gamay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Mâcon,rosé,Gamay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Mâcon,rouge,Pinot Noir
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Pouilly Vinzelles,blanc,Chardonnay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Viré Cléssé ,blanc,Chardonnay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Saint-Véran,blanc,Chardonnay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Juliénas ,rouge,Gamay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Saint-Amour,rouge,Gamay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Chiroubles,rouge,Gamay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Beaujolais Villages,blanc,Chardonnay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Beaujolais Villages,rouge,Gamay
+Maison Trénel ,03 85 34 48 20,46.2953345,4.7817867,http://trenel.fr/,France,Charnay-lès-Mâcon,71850,33 Chemin de Buery,Beaujolais Villages,rosé,Gamay
+Domaine Ferret ,03 85 35 61 56,46.2783833,4.7269593,http://www.domaine-ferret.com/fr/index.php,France,Fuissé,71960,Lieu-dit Le Plan,Macôn-Fuissé,blanc,Chardonnay
+Domaine Ferret ,03 85 35 61 56,46.2783833,4.7269593,http://www.domaine-ferret.com/fr/index.php,France,Fuissé,71960,Lieu-dit Le Plan,Pouilly Fuissé,blanc,Chardonnay
+Domaine Prieur Brunet,03 80 20 60 56,46.9184398,4.657844,,France,Santenay,21590 ,Rue de Narosse,Santenay ,blanc,Chardonnay
+Domaine Prieur Brunet,03 80 20 60 56,46.9184398,4.657844,,France,Santenay,21590 ,Rue de Narosse,Santenay ,rouge,Pinot Noir
+Domaine Prieur Brunet,03 80 20 60 56,46.9184398,4.657844,,France,Santenay,21590 ,Rue de Narosse,Meursault ,blanc,Chardonnay
+Domaine Prieur Brunet,03 80 20 60 56,46.9184398,4.657844,,France,Santenay,21590 ,Rue de Narosse,Meursault ,rouge,Pinot Noir
+Domaine Croix des Perrières,,47.0245346,4.842381,,France,Beaune,21200,2 rue Colbert,Bourgogne ,blanc,Chardonnay
+Domaine Croix des Perrières,,47.0245346,4.842381,,France,Beaune,21200,2 rue Colbert,Bourgogne ,rouge,Pinot Noir
+Château des Jacques,03 85 35 51 64,46.1822221,4.7437448,https://www.chateau-des-jacques.fr/,France,Romanèche-Thorins,71570,147 Les Jacques,Fleurie,rouge,Gamay
+Château des Jacques,03 85 35 51 64,46.1822221,4.7437448,https://www.chateau-des-jacques.fr/,France,Romanèche-Thorins,71570,147 Les Jacques,Moulin-à-Vent,rouge,Gamay
+Château des Jacques,03 85 35 51 64,46.1822221,4.7437448,https://www.chateau-des-jacques.fr/,France,Romanèche-Thorins,71570,147 Les Jacques,Morgon ,rouge,Gamay
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Crozes-Hermitage,rouge,Syrah
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Crozes-Hermitage,blanc,Marsanne 
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Crozes-Hermitage,blanc,Roussanne
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Cornas,rouge,Syrah
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Joseph,rouge,Syrah
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Joseph,blanc,Marsanne 
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Joseph,blanc,Roussanne
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Hermitage,rouge,Syrah
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Hermitage,blanc,Marsanne 
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Hermitage,blanc,Roussanne
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Péray,blanc,Marsanne 
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Péray,blanc,Roussanne
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Péray,mousseux,Marsanne 
+Cave de Tain (Bio),04 75 08 20 87,45.0721801,4.8434029,https://www.cavedetain.com/en/,France,Tain-l'Hermitage,26600,22 Route de Larnage,Saint-Péray,mousseux,Roussanne
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Côte-Rotie,rouge,Syrah
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Condrieu ,blanc,Viognier
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,rosé,Syrah
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,rouge,Syrah
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,rosé,Merlot
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,rouge,Merlot
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,blanc,Viognier
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,blanc,Marsanne 
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,blanc,Roussanne
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,blanc,Chardonnay
+Domaine Les Terriens,,45.4161423,4.6915989,http://www.les-terriens.fr/,France,Chavanay,42410,Les Egrets ,Collines Rhodaniennes,blanc,Aligoté
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Gigondas,rosé,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Gigondas,rouge,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Gigondas,rosé,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Gigondas,rouge,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Gigondas,rouge,Mourvèdre
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,rosé,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,rouge,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,rosé,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,rouge,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,rouge,Mourvèdre
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,rosé,Cinsault
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,blanc,Viognier
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,blanc,Marsanne 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,blanc,Roussanne
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,blanc,Clairette 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,blanc,Grenache Blanc
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vacqueyras,blanc,Bourboulenc
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Cairanne,rosé,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Cairanne,rouge,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Cairanne,blanc,Grenache Blanc
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Cairanne,blanc,Clairette 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Cairanne,rouge,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Cairanne,rosé,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Vinsobres,rouge,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,blanc,Grenache Blanc
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,rosé,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,rouge,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,rouge,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,rosé,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,rouge,Mourvèdre
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,blanc,Clairette 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,blanc,Viognier
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,blanc,Marsanne 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,blanc,Roussanne
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Côtes du Rhône,blanc,Bourboulenc
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rouge,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rosé,Grenache
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rosé,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rouge,Syrah
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rosé,Cinsault
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rouge,Mourvèdre
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,rosé,Carignan 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,blanc,Clairette 
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,blanc,Bourboulenc
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,blanc,Roussanne
+Domaine Pierre Amadieu,04 90 65 84 08,44.1667406,4.9972105,https://www.pierre-amadieu.com/,France,Gigondas,84190,201 Route des Princes d'Orange,Ventoux ,blanc,Grenache Blanc
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,rouge,Grenache
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,rouge,Syrah
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,blanc,Clairette 
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,rouge,Mourvèdre
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,rouge,Cinsault
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,blanc,Bourboulenc
+Domaine La Barroche,06 62 84 95 79,44.0523578,4.8320173,https://www.domainelabarroche.com/,France,Châteauneuf-du-Pape,84230,16 Chemin du Clos,Châteauneuf-du-Pape,blanc,Roussanne
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,rouge,Grenache
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,rosé,Grenache
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,rosé,Syrah
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,rouge,Syrah
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,rouge,Mourvèdre
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,blanc,Grenache Blanc
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,blanc,Clairette 
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,blanc,Bourboulenc
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,blanc,Viognier
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,blanc,Marsanne 
+Domaine Eyguestre,06 80 23 50 86,44.2179331,5.0412827,,France,Seguret,84110,Quartier Eyguestre,Côtes du Rhône Villages Séguret,blanc,Roussanne
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,rouge,Grenache
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,rosé,Grenache
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,rouge,Mourvèdre
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,rosé,Syrah
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,rouge,Syrah
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,blanc,Grenache Blanc
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,blanc,Marsanne 
+Château Beaubois (Bio),04 66 73 30 59,43.6513784,4.3446713,https://chateau-beaubois.com/,France,Beauvoisin,30640,Route de Franquevaux,Costières de Nîmes,blanc,Roussanne
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,rouge,Grenache
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,rosé,Grenache
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,rouge,Mourvèdre
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,rosé,Syrah
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,rouge,Syrah
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,blanc,Grenache Blanc
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,blanc,Marsanne 
+Domaine Marc Kreydenweiss (Biodynamie),03 88 08 95 83,48.388355,7.4133311,http://www.kreydenweiss.com/,France,Andlau,67140,12 Rue Deharbe,Costières de Nîmes,blanc,Roussanne
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,rouge,Grenache
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,rosé,Grenache
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,rouge,Mourvèdre
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,rosé,Syrah
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,rouge,Syrah
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Grenache Blanc
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Clairette 
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Bourboulenc
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Marsanne 
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Ugni-Blanc
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Vermentino
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Lubéron ,blanc,Roussanne
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rosé,Syrah
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rouge,Syrah
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rouge,Merlot
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rouge,Cabernet
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rouge,Grenache
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rosé,Grenache
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rouge,Caladoc
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rosé,Caladoc
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,rouge,Marselan
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,blanc,Viognier
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,blanc,Chardonnay 
+Le temps des sages ,04 90 79 08 06,43.7816218,5.4960593,https://www.letempsdessages.com/,France,Cabrières-d'Aigues,84240,Rue du Bout de Vière,Méditerranée ,mousseux,Chardonnay 
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Saumur ,rouge,Cabernet Franc
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Saumur ,blanc,Chenin
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Saumur-Champigny,rouge,Cabernet Franc
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Coteau de l'Aubance,blanc,Chenin
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Anjou Brissac,rouge,Cabernet Franc
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Anjou Brissac,rouge,Cabernet Sauvignon
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,blanc,Chardonnay
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,mousseux,Chardonnay
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,blanc,Chenin
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,rosé,Cabernet Sauvignon
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,rosé,Pineau d'Aunis
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,mousseux,Pineau d'Aunis
+Château de Parnay (Bio),09 67 86 77 59,47.231082,0.0091048,https://www.ot-saumur.fr/VIGNOBLE-DEGUSTATION-CHATEAU-DE-PARNAY_a5008.html,France,Parnay,49730,22 route de Saumur,Crémant de loire,rosé,Pinot Noir
+Domaine Cirotte,02 48 54 30 95,47.3145614,2.7845606,https://www.facebook.com/Domaine-Cirotte-203687082978447/?ref=page_internal,France,Bue,18300,1 Impasse de la Grand Vigne,Sancerre,rosé,Pinot Noir
+Domaine Cirotte,02 48 54 30 95,47.3145614,2.7845606,https://www.facebook.com/Domaine-Cirotte-203687082978447/?ref=page_internal,France,Bue,18300,1 Impasse de la Grand Vigne,Sancerre,rouge,Pinot Noir
+Domaine Cirotte,02 48 54 30 95,47.3145614,2.7845606,https://www.facebook.com/Domaine-Cirotte-203687082978447/?ref=page_internal,France,Bue,18300,1 Impasse de la Grand Vigne,Sancerre,blanc,Sauvignon
+Clos Vigneau ,02 47 97 75 10,47.2838337,0.1190325,http://www.closduvigneau.com/,France,Saint-Nicolas-de-Bourgueil,37140,Le Vigneau,Saint-Nicolas-de-Bourgueil,rosé,Cabernet Sauvignon
+Clos Vigneau ,02 47 97 75 10,47.2838337,0.1190325,http://www.closduvigneau.com/,France,Saint-Nicolas-de-Bourgueil,37140,Le Vigneau,Saint-Nicolas-de-Bourgueil,rouge,Cabernet Sauvignon
+Clos Vigneau ,02 47 97 75 10,47.2838337,0.1190325,http://www.closduvigneau.com/,France,Saint-Nicolas-de-Bourgueil,37140,Le Vigneau,Saint-Nicolas-de-Bourgueil,rouge,Cabernet Franc
+Domaine de Rocheville,02 41 38 10 00,47.222747,0.0086012,https://rocheville.net/,France,Parnay,49730,Chemin des Hauts de Valbrun,Saumur,rouge,Cabernet Franc
+Domaine de Rocheville,02 41 38 10 00,47.222747,0.0086012,https://rocheville.net/,France,Parnay,49730,Chemin des Hauts de Valbrun,Saumur,blanc,Chenin
+Domaine de Rocheville,02 41 38 10 00,47.222747,0.0086012,https://rocheville.net/,France,Parnay,49730,Chemin des Hauts de Valbrun,Saumur-Champigny,rouge,Cabernet Franc
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Cabernet d'Anjou,rosé,Cabernet Franc
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Cabernet d'Anjou,rosé,Cabernet Sauvignon
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Saumur Brut ,rosé,Cabernet Franc
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Saumur Brut ,mousseux,Sauvignon
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Saumur Brut ,mousseux,Chenin
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Coteau du Layon,blanc,Chenin
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Anjou,mousseux,Chenin
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Anjou,rosé,Cabernet Sauvignon
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Anjou,rosé,Cabernet Franc
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Anjou,rouge,Cabernet Sauvignon
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Anjou,blanc,Chenin
+Domaine de Pied Flond,02 41 59 92 36,47.2163743,-0.5126621,http://www.piedflond.fr/,France,Terranjou,49540,Gourdon Franck Earl,Anjou,rouge,Cabernet Franc
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Savennières,blanc,Chenin
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Coteau du Layon,blanc,Chenin
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Anjou,mousseux,Chenin
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Anjou,rosé,Cabernet Sauvignon
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Anjou,rosé,Cabernet Franc
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Anjou,rouge,Cabernet Sauvignon
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Anjou,blanc,Chenin
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Anjou,rouge,Cabernet Franc
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,rouge,Cabernet Franc
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,rouge,Cabernet Sauvignon
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,rouge,Grolleau
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,rouge,Gamay
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,rouge,Pineau d'Aunis
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,blanc,Sauvignon
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,blanc,Melon
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,blanc,Folle blanche
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,rosé,Cabernet Franc
+Château du Breuil ,02 41 78 32 54,47.3275953,-0.6291629,https://chateaudubreuil.eu/rubrique/vins.php,France,Beaulieu-sur-Layon,49750,4 Route de Rochefort,Igp val de Loire,blanc,Chenin
+Château de la Bretonnerie,02 40 46 98 48,47.1646566,-1.4084037,http://www.fredericguilbaud-vigneron.fr/,France,La Haie-Fouassière,44690,La Bretonnerie,Muscadet Sèvre et Maine,blanc,Melon
+Château de la Bretonnerie,02 40 46 98 48,47.1646566,-1.4084037,http://www.fredericguilbaud-vigneron.fr/,France,La Haie-Fouassière,44690,La Bretonnerie,Muscadet ,blanc,Melon
+Domaine Mabillot,02 54 04 02 09,46.9918299,2.0026841,https://www.vins-mabillot.fr/,France,Sainte-Lizaigne,36260,3 chemin de l'Orme Villiers les Roses,Reuilly,blanc,Sauvignon
+Domaine Mabillot,02 54 04 02 09,46.9918299,2.0026841,https://www.vins-mabillot.fr/,France,Sainte-Lizaigne,36260,3 chemin de l'Orme Villiers les Roses,Reuilly,rouge,Pinot Gris
+Domaine Mabillot,02 54 04 02 09,46.9918299,2.0026841,https://www.vins-mabillot.fr/,France,Sainte-Lizaigne,36260,3 chemin de l'Orme Villiers les Roses,Reuilly,rouge,Pinot Noir
+Domaine Mabillot,02 54 04 02 09,46.9918299,2.0026841,https://www.vins-mabillot.fr/,France,Sainte-Lizaigne,36260,3 chemin de l'Orme Villiers les Roses,Reuilly,rosé,Pinot Noir
+Domaine de Villebois,,47.349669,2.8096071,https://villebois.eu/,France,Verdigny,18300,7 Route de la Garenne,Pouilly Fumé ,blanc,Sauvignon
+Domaine de Villebois,,47.349669,2.8096071,https://villebois.eu/,France,Verdigny,18300,7 Route de la Garenne,Menetou-Salon,rouge,Pinot Noir
+Domaine de Villebois,,47.349669,2.8096071,https://villebois.eu/,France,Verdigny,18300,7 Route de la Garenne,Menetou-Salon,rosé,Pinot Noir
+Domaine de Villebois,,47.349669,2.8096071,https://villebois.eu/,France,Verdigny,18300,7 Route de la Garenne,Menetou-Salon,blanc,Sauvignon
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cour-Cheverny,blanc,Romorantin 
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,rouge,Gamay
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,rouge,Pinot Noir
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,rosé,Pinot Noir
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,rouge,Cabernet Franc
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,rouge,Malbec
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,rouge,Pineau d'Aunis
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,blanc,Sauvignon
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,blanc,Chardonnay
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Cheverny,blanc,Chenin
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Pineau d'Aunis,rouge,Pineau d'Aunis
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Pineau d'Aunis,rosé,Pineau d'Aunis
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Touraine,rouge,Pinot Noir
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Touraine,rosé,Pinot Noir
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Touraine,rouge,Pinot Gris
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Touraine,rouge,Meunier
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,blanc,Chardonnay
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,mousseux,Chardonnay
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,blanc,Chenin
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,rosé,Cabernet Sauvignon
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,rosé,Pineau d'Aunis
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,mousseux,Pineau d'Aunis
+Alpha Loire,02 47 23 27 90,47.4178083,1.02013,https://www.facebook.com/alphaloire/,France,Amboise,37400,Rue grosses Pierre ZI Boitardière,Crémant de loire,rosé,Pinot Noir
+Domaine Raffault,02 47 58 42 50,47.2047074,0.1445192,http://www.jean-maurice-raffault.com/,France,Savigny-en-Véron,37420,74 Rue du Bourg,Chinon ,rouge,Cabernet Franc
+Domaine Raffault,02 47 58 42 50,47.2047074,0.1445192,http://www.jean-maurice-raffault.com/,France,Savigny-en-Véron,37420,74 Rue du Bourg,Chinon ,blanc,Chenin
+Domaine Raffault,02 47 58 42 50,47.2047074,0.1445192,http://www.jean-maurice-raffault.com/,France,Savigny-en-Véron,37420,74 Rue du Bourg,Chinon ,rouge,Cabernet Sauvignon
+Domaine Raffault,02 47 58 42 50,47.2047074,0.1445192,http://www.jean-maurice-raffault.com/,France,Savigny-en-Véron,37420,74 Rue du Bourg,Chinon ,rosé,Cabernet Sauvignon
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,rouge,Cabernet Franc
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,rouge,Cabernet Sauvignon
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,rouge,Grolleau
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,rouge,Gamay
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,rouge,Pineau d'Aunis
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,blanc,Sauvignon
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,blanc,Melon
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,blanc,Folle blanche
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,rosé,Cabernet Franc
+Vignoble Cogné ,02 40 83 73 16,47.2561321,-1.1915892,http://www.vignoblecogne.fr/,France,Orée-d'Anjou,49270,277 La Couperie,Igp Val de Loire,blanc,Chenin
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rosé,Syrah
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rouge,Syrah
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rouge,Merlot
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rouge,Cabernet
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rouge,Grenache
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rosé,Grenache
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rouge,Caladoc
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rosé,Caladoc
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,rouge,Marselan
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,blanc,Viognier
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,blanc,Chardonnay 
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Méditerranée,mousseux,Chardonnay 
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rouge,Grenache
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rosé,Grenache
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rosé,Syrah
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rouge,Syrah
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rouge,Mourvèdre
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rouge,Cinsault
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,rosé,Tibouren
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,blanc,Vermentino
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,blanc,Ugni-Blanc
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence,blanc,Clairette 
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence La Londe,rouge,Grenache
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence La Londe,rosé,Grenache
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence La Londe,rosé,Syrah
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence La Londe,rouge,Syrah
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence La Londe,rouge,Mourvèdre
+Château Les Valentines (Bio),04 94 15 95 50,43.2698203,6.4926639,https://www.lesvalentines.com/fr/,France,La Londe-les-Maures,83250,807 Route de Collobrières,Côtes de Provence La Londe,rouge,Cinsault
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,rouge,Grenache
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,rosé,Grenache
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,rouge,Mourvèdre
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,rouge,Cinsault
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Clairette 
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Ugni-Blanc
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Sémillon
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Bourboulenc
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Sauvignon
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Marsanne 
+Domaine de la Chrétienne,,43.1920345,5.6974785,http://www.lachretienne.fr/,France,Saint-Cyr-sur-Mer,83270,713 Chemin de la Barbarie,Bandol ,blanc,Vermentino
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rouge,Grenache
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rosé,Grenache
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rosé,Syrah
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rouge,Syrah
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rouge,Mourvèdre
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rouge,Cinsault
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,rosé,Tibouren
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,blanc,Vermentino
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,blanc,Ugni-Blanc
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Côtes de Provence,blanc,Clairette 
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,rouge,Grenache
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,rosé,Grenache
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,rouge,Cinsault
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,rouge,Mourvèdre
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,rosé,Syrah
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,rouge,Syrah
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,blanc,Clairette 
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,blanc,Ugni-Blanc
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,blanc,Vermentino
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,blanc,Sémillon
+Château Clarettes,09 52 19 33 65,43.47053,6.4641793,http://www.chateauclarettes.fr/nos-vins.html,France,Les Arcs,83460,1195 Route des Nouradons,Coteaux Varois en Provence,blanc,Grenache Blanc
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rosé,Syrah
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rouge,Syrah
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rouge,Grenache
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rosé,Grenache
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rouge,Mourvèdre
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rosé,Carignan 
+Château La Dournie,04 67 38 19 43,43.4275149,2.857525,https://www.chateauladournie.com/,France,Saint-Chinian,34360,Château La Dournie,Saint-Chinian,rouge,Carignan 
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Grès de Montpellier,rouge,Grenache
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Grès de Montpellier,rouge,Mourvèdre
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Grès de Montpellier,rouge,Syrah
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rosé,Syrah
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rouge,Syrah
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rouge,Grenache
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rosé,Grenache
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rouge,Mourvèdre
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rosé,Carignan 
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rouge,Carignan 
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,rouge,Cinsault
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,blanc,Bourboulenc
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,blanc,Grenache Blanc
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,blanc,Clairette 
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,blanc,Marsanne 
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,blanc,Roussanne
+Mas du Novi (Bio),04 67 24 07 32,43.4710132,3.4366935,https://www.masdunovi.com/fr/,France,Montagnac,34530,Mas du Novi - Route de Villeveyrac,Languedoc,blanc,Piquepoul
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Terrasses du Larzac ,rouge,Grenache
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Terrasses du Larzac ,rouge,Syrah
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Terrasses du Larzac ,rouge,Mourvèdre
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rosé,Syrah
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rouge,Syrah
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rouge,Grenache
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rosé,Grenache
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rouge,Mourvèdre
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rosé,Carignan 
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rouge,Carignan 
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,rouge,Cinsault
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,blanc,Bourboulenc
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,blanc,Grenache Blanc
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,blanc,Clairette 
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,blanc,Marsanne 
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,blanc,Roussanne
+Domaine La Croix Chaptal ,04 67 16 09 36,43.6283341,3.4794179,http://www.lacroixchaptal.com/,France,Saint-André-de-Sangonis,34725,Hameau de Cambous,Languedoc,blanc,Piquepoul
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rouge,Mourvèdre
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rosé,Syrah
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rouge,Syrah
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rouge,Grenache
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rosé,Grenache
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rosé,Carignan 
+Château la Maylandie ,06 61 93 01 33,43.1521871,2.7209398,http://www.maylandie.fr/fr/index.php,France,Ferrals-les-Corbières,11200,18 Avenue de Lézignan,Corbières,rouge,Carignan 
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois ,rouge,Mourvèdre
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois ,rosé,Syrah
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois ,rouge,Syrah
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois ,rouge,Grenache
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois ,rosé,Grenache
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois ,blanc,Grenache Blanc
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois La Livinière,rouge,Syrah
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois La Livinière,rouge,Grenache
+Château de Fauzan ,04 68 43 88 45,43.3146568,2.6625308,https://www.chateaudefauzan.com/,France,Cesseras,34210,3 Route de Cesseras,Minervois La Livinière,rouge,Mourvèdre
+Les coteaux du pic ,04 67 55 81 22,43.7667811,3.8626453,,France,Saint-Mathieu-de-Tréviers,34270,140 Avenue des Coteaux de Montferrand,Pic-Saint-Loup,rouge,Mourvèdre
+Les coteaux du pic ,04 67 55 81 22,43.7667811,3.8626453,,France,Saint-Mathieu-de-Tréviers,34270,140 Avenue des Coteaux de Montferrand,Pic-Saint-Loup,rosé,Syrah
+Les coteaux du pic ,04 67 55 81 22,43.7667811,3.8626453,,France,Saint-Mathieu-de-Tréviers,34270,140 Avenue des Coteaux de Montferrand,Pic-Saint-Loup,rouge,Syrah
+Les coteaux du pic ,04 67 55 81 22,43.7667811,3.8626453,,France,Saint-Mathieu-de-Tréviers,34270,140 Avenue des Coteaux de Montferrand,Pic-Saint-Loup,rouge,Grenache
+Les coteaux du pic ,04 67 55 81 22,43.7667811,3.8626453,,France,Saint-Mathieu-de-Tréviers,34270,140 Avenue des Coteaux de Montferrand,Pic-Saint-Loup,rosé,Grenache
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rosé,Syrah
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rouge,Syrah
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rouge,Grenache
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rosé,Grenache
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rouge,Carignan 
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rosé,Carignan 
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rouge,Cinsault
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,rosé,Cinsault
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,blanc,Chardonnay
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,blanc,Sauvignon
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,blanc,Viognier
+Mas Seren (Bio),06 79 41 13 29,44.0668616,3.9679939,https://www.mas-seren.fr/,France,Anduze,30140,1820 Route de Saint-Jean du Gard,Cévennes,blanc,Vermentino
+Domaine du Gourjo,04 67 96 00 11,43.6167321,3.4511542,http://www.gourjo.com/,France,Clermont-l'Hérault,34800,Route de Canet,Coteaux Salagou ,blanc,Viognier
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rosé,Syrah
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rouge,Syrah
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rouge,Cinsault
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rosé,Cinsault
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rouge,Cabernet Sauvignon
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rosé,Cabernet Sauvignon
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,rouge,Merlot
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,blanc,Chardonnay
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,blanc,Viognier
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,blanc,Sauvignon
+Domaine Saint-Paul ,01 30 85 20 20,48.6937419,2.0641396,,France,Saint-Rémy-lès-Chevreuse,78470,102 Route de Limours,Pays d'Oc,blanc,Vermentino
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rosé,Syrah
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rouge,Syrah
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rouge,Grenache
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rosé,Grenache
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rouge,Carignan 
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rosé,Carignan 
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,rouge,Mourvèdre
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Collioure,blanc,Grenache Blanc
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rosé,Syrah
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rouge,Syrah
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rouge,Grenache
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rosé,Grenache
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rouge,Mourvèdre
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rosé,Muscat
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,rouge,Muscat
+Domaine Pietri Geraud,,44.0279005,4.8273212,https://www.domaine-pietri-geraud.com/,France,Châteauneuf-du-pape,84232,Route de Sorgues BP58,Banuyls,blanc,Muscat
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,blanc,Tourbat
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,blanc,Marsanne 
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,blanc,Grenache Blanc
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rosé,Syrah
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rouge,Syrah
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rouge,Grenache
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rosé,Grenache
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,blanc,Roussanne
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rouge,Carignan 
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rosé,Carignan 
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,blanc,Macabeu
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rouge,Cinsault
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rosé,Cinsault
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rouge,Lledoner pelut
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rosé,Lledoner pelut
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes du Roussillon,rouge,Mourvèdre
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rosé,Syrah
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rouge,Syrah
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rouge,Grenache
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rosé,Grenache
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rouge,Mourvèdre
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rouge,Cinsault
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rosé,Cinsault
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rouge,Cabernet Sauvignon
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rosé,Cabernet Sauvignon
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,rouge,Merlot
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,blanc,Chardonnay
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,blanc,Sauvignon
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,blanc,Vermentino
+Château de Rey,04 68 73 86 27,42.6847309,2.9774393,http://www.chateauderey.com/,France,Canet-en-Roussillon,66140,"Route de saint-Nazaire, Mas de Rey",Côtes Catalanes,blanc,Viognier
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,blanc,Tourbat
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,blanc,Marsanne 
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,blanc,Grenache Blanc
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rosé,Syrah
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rouge,Syrah
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rouge,Grenache
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rosé,Grenache
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,blanc,Roussanne
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rouge,Carignan 
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rosé,Carignan 
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,blanc,Macabeu
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rouge,Cinsault
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rosé,Cinsault
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rouge,Lledoner pelut
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rosé,Lledoner pelut
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes du Roussillon,rouge,Mourvèdre
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rosé,Syrah
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rouge,Syrah
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rouge,Grenache
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rosé,Grenache
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rouge,Mourvèdre
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rouge,Cinsault
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rosé,Cinsault
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rouge,Cabernet Sauvignon
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rosé,Cabernet Sauvignon
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,rouge,Merlot
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,blanc,Chardonnay
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,blanc,Sauvignon
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,blanc,Vermentino
+Château de l'Ou (Bio),04 68 54 68 67,42.6176009,2.9209278,https://chateau-de-lou.com/fr/,France,Montescot,66200,Route de Villeneuve,Côtes Catalanes,blanc,Viognier
+Maison Antech ,04 68 31 15 88,43.0562909,2.2112518,https://www.antech-limoux.com/,France,Limoux,11300,Route de Carcassonne,Crémant de Limoux ,blanc,Chenin
+Maison Antech ,04 68 31 15 88,43.0562909,2.2112518,https://www.antech-limoux.com/,France,Limoux,11300,Route de Carcassonne,Crémant de Limoux ,blanc,Chardonnay
+Le manoir des Schistes,09 83 78 33 37,43.6657649,1.5489982,,France,Castelmaurou,31180,4 Route de Beaupuy,Maury ,blanc,Grenache Blanc
+Le manoir des Schistes,09 83 78 33 37,43.6657649,1.5489982,,France,Castelmaurou,31180,4 Route de Beaupuy,Maury ,rouge,Grenache
+Terres de Roa (Bio),04 70 42 09 43,46.3899962,3.3033377,http://terresderoa.com/,France,Monétay-sur-Allier,3500,7 Route du Bourbonnais,Saint-Pourçain,rouge,Pinot Noir
+Terres de Roa (Bio),04 70 42 09 43,46.3899962,3.3033377,http://terresderoa.com/,France,Monétay-sur-Allier,3500,7 Route du Bourbonnais,Saint-Pourçain,blanc,Chardonnay
+Terres de Roa (Bio),04 70 42 09 43,46.3899962,3.3033377,http://terresderoa.com/,France,Monétay-sur-Allier,3500,7 Route du Bourbonnais,Saint-Pourçain,blanc,Sauvignon
+Terres de Roa (Bio),04 70 42 09 43,46.3899962,3.3033377,http://terresderoa.com/,France,Monétay-sur-Allier,3500,7 Route du Bourbonnais,Saint-Pourçain,blanc,Sacy
+Terres de Roa (Bio),04 70 42 09 43,46.3899962,3.3033377,http://terresderoa.com/,France,Monétay-sur-Allier,3500,7 Route du Bourbonnais,Saint-Pourçain,rouge,Gamay
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Côtes d'Auvergne ,rouge,Gamay
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Côtes d'Auvergne,rouge,Pinot Noir
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Côtes d'Auvergne,blanc,Chardonnay
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Châteaugay ,rouge,Gamay
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rouge,Cabernet Sauvignon
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rosé,Cabernet Sauvignon
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rouge,Cabernet Franc
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rouge,Malbec
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rouge,Merlot
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rouge,Gamay
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,rouge,Pinot Noir
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,blanc,Chardonnay
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,blanc,Chenin Blanc
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,blanc,sémillon
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,blanc,colombard
+Domaine Stéphane Bonjean,06 83 12 88 90,45.8301779,3.0757685,,France,Blanzat,63112,12 rue de la Tour,Puy de Dôme,blanc,Folle blanche
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Côtes d'Auvergne Corent ,rouge,Gamay
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Côtes d'Auvergne Corent ,rouge,Pinot Noir
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Côtes d'Auvergne,rouge,Gamay
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Côtes d'Auvergne,rouge,Pinot Noir
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Côtes d'Auvergne,blanc,Chardonnay
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rouge,Cabernet Sauvignon
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rosé,Cabernet Sauvignon
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rouge,Cabernet Franc
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rouge,Malbec
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rouge,Merlot
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rouge,Gamay
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,rouge,Pinot Noir
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,blanc,Chardonnay
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,blanc,Chenin Blanc
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,blanc,sémillon
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,blanc,colombard
+Domaine de la Tour de Pierre,04 73 39 00 88,45.6864583,3.124352,,France,Le Crest,63450,10 rue Néraud,Puy de Dôme,blanc,Folle blanche
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Côtes d'Auvergne,rouge,Gamay
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Côtes d'Auvergne,rouge,Pinot Noir
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Côtes d'Auvergne,blanc,Chardonnay
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rouge,Cabernet Sauvignon
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rosé,Cabernet Sauvignon
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rouge,Cabernet Franc
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rouge,Malbec
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rouge,Merlot
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rouge,Gamay
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,rouge,Pinot Noir
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,blanc,Chardonnay
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,blanc,Chenin Blanc
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,blanc,sémillon
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,blanc,colombard
+Cave Pélissier,04 73 96 43 45,45.4603924,3.1811167,https://davidpelissiervigneronrecoltant.weebly.com/,France,Boudes,63340,Route de dauzat,Puy de Dôme,blanc,Folle blanche
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Gros Manseng
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Ugni-Blanc
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Colombard
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Arrufiac
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Baroque
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Petit Courbu
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Mauzac
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,blanc,Chardonnay
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Courbu noir
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Jurançon noir
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Manseng noir
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Tannat
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Cabernet Franc
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Cabernet Sauvignon
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rosé,Cabernet Sauvignon
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Malbec
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Merlot
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rosé,Syrah
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Gers,rouge,Syrah
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Armagnac,Eau-de-vie,Ugni-Blanc
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Armagnac,Eau-de-vie,Colombard
+Château de Gensac,05 62 28 43 94,43.948294,0.2915924,http://www.gensac.com/?lang=fr,France,Condom,32100,Domaine,Armagnac,Eau-de-vie,Folle blanche
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,blanc,Ugni-Blanc
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,blanc,Colombard
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,blanc,Gros manseng
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,blanc,Sauvignon
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,blanc,Chardonnay
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,rouge,Cabernet Sauvignon
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,rosé,Cabernet Sauvignon
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,rouge,Merlot
+Domaine Papolle,09 79 35 54 41,43.9112739,-0.1206617,,France,Mauléon-d'Armagnac,32240,Lieu-dit de Papolle,Côtes de Gascogne ,rouge,Tannat
+Château Viella,05 62 69 75 81,43.6005597,-0.1284103,https://www.chateauviella.fr/,France,Viella,32400,"Laouliérat, Route de Maumusson",Madiran,rouge,Tannat
+Château Viella,05 62 69 75 81,43.6005597,-0.1284103,https://www.chateauviella.fr/,France,Viella,32400,"Laouliérat, Route de Maumusson",Madiran,rouge,Cabernet Sauvignon
+Château Viella,05 62 69 75 81,43.6005597,-0.1284103,https://www.chateauviella.fr/,France,Viella,32400,"Laouliérat, Route de Maumusson",Madiran,rouge,Cabernet Franc
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,blanc,Len de l'el
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,blanc,Mauzac
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,rosé,Mauzac
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,blanc,Sauvignon
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,blanc,Muscadelle
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,rouge,Duras
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,rouge,Fer servadou
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,rosé,Syrah
+Domaine Carcenac ,05 63 57 57 28,43.8536213,1.871415,http://www.domainecarcenac.com/,France,Montans,81600,807 Jauret,Gaillac,rouge,Syrah
+Château des Lys ,05 47 77 07 24,50.1756094,1.7637766,http://www.vins-bergeracduras.fr/vignerons/chateau-des-lys/,France,Bergerac,24100,1214 Chemin du Hameau de Pécharmant,Pécharmant,rouge,Merlot
+Château des Lys ,05 47 77 07 24,50.1756094,1.7637766,http://www.vins-bergeracduras.fr/vignerons/chateau-des-lys/,France,Bergerac,24100,1214 Chemin du Hameau de Pécharmant,Pécharmant,rouge,Cabernet Franc
+Château des Lys ,05 47 77 07 24,50.1756094,1.7637766,http://www.vins-bergeracduras.fr/vignerons/chateau-des-lys/,France,Bergerac,24100,1214 Chemin du Hameau de Pécharmant,Pécharmant,rouge,Cabernet Sauvignon
+Château des Lys ,05 47 77 07 24,50.1756094,1.7637766,http://www.vins-bergeracduras.fr/vignerons/chateau-des-lys/,France,Bergerac,24100,1214 Chemin du Hameau de Pécharmant,Pécharmant,rouge,Malbec
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,rouge,Merlot
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,rouge,Cabernet Franc
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,rouge,Cabernet Sauvignon
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,rouge,Malbec
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,blanc,Sauvignon
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,blanc,Muscadelle
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,blanc,Sémillon
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,blanc,Mauzac
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,rosé,Mauzac
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,blanc,Chenin
+Domaine de la Belle,04 75 08 24 58,45.0986377,4.8657734,http://www.domainebelle.com/,France,Larnage,26600,510 La Croix,Côtes du Duras,blanc,Ondenc
+Domaine de Beyssac ,06 74 67 96 31,43.2861821,1.5673187,,France,Cintegabelle,31550,900 Chemin du Beyssac,Côtes du Marmandais,rouge,Merlot
+Domaine de Beyssac ,06 74 67 96 31,43.2861821,1.5673187,,France,Cintegabelle,31550,900 Chemin du Beyssac,Côtes du Marmandais,rouge,Cabernet Franc
+Domaine de Beyssac ,06 74 67 96 31,43.2861821,1.5673187,,France,Cintegabelle,31550,900 Chemin du Beyssac,Côtes du Marmandais,rouge,Cabernet Sauvignon
+Domaine de Beyssac ,06 74 67 96 31,43.2861821,1.5673187,,France,Cintegabelle,31550,900 Chemin du Beyssac,Côtes du Marmandais,blanc,Sauvignon
+Château Laurou ,05 61 82 40 88,43.8711838,1.4161173,,France,Fronton,31620,2250 Route de Nohic,Fronton,rouge,Négrette
+Château Laurou ,05 61 82 40 88,43.8711838,1.4161173,,France,Fronton,31620,2250 Route de Nohic,Fronton,rosé,Négrette

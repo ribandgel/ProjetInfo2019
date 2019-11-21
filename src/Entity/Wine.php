@@ -6,11 +6,13 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * @ORM\Entity(repositoryClass="App\Repository\WineRepository")
  */
-class Wine extends Beverage
+class Wine
 {
+
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -18,25 +20,34 @@ class Wine extends Beverage
      */
     private $id;
 
-    /**
-     * @ORM\Column(type="date")
-     */
-    private $year;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Winery", inversedBy="wines")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Designation", inversedBy="wines")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $winery;
+    private $designation;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\WineCategory", inversedBy="wines")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Color", inversedBy="wines")
+     * @ORM\JoinColumn(nullable=false)
      */
-    private $category;
+    private $color;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Variety", inversedBy="wines")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $variety;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Producer", inversedBy="wines")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $producer;
 
     public function __construct()
     {
-        $this->category = new ArrayCollection();
+        $this->designation = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -44,53 +55,57 @@ class Wine extends Beverage
         return $this->id;
     }
 
-    public function getYear(): ?\DateTimeInterface
-    {
-        return $this->year;
-    }
-
-    public function setYear(\DateTimeInterface $year): self
-    {
-        $this->year = $year;
-
-        return $this;
-    }
-
-    public function getWinery(): ?Winery
-    {
-        return $this->winery;
-    }
-
-    public function setWinery(?Winery $winery): self
-    {
-        $this->winery = $winery;
-
-        return $this;
-    }
 
     /**
-     * @return Collection|WineCategory[]
+     * @return Collection|Designation[]
      */
-    public function getCategory(): Collection
+    public function getDesignation(): Collection
     {
-        return $this->category;
+        return $this->designation;
     }
 
-    public function addCategory(WineCategory $category): self
+    public function setDesignation(?Designation $designation): self
     {
-        if (!$this->category->contains($category)) {
-            $this->category[] = $category;
-        }
+        $this->designation=$designation;
+        return $this;
+    }
+
+    public function getColor(): ?Color
+    {
+        return $this->color;
+    }
+
+    public function setColor(?Color $color): self
+    {
+        $this->color = $color;
 
         return $this;
     }
 
-    public function removeCategory(WineCategory $category): self
+    public function getVariety(): ?Variety
     {
-        if ($this->category->contains($category)) {
-            $this->category->removeElement($category);
-        }
+        return $this->variety;
+    }
+
+    public function setVariety(?Variety $variety): self
+    {
+        $this->variety = $variety;
 
         return $this;
     }
+
+    public function getProducer(): ?Producer
+    {
+        return $this->producer;
+    }
+
+    public function setProducer(?Producer $producer): self
+    {
+        $this->producer = $producer;
+
+        return $this;
+    }
+
+
+
 }

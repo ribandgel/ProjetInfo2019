@@ -7,9 +7,9 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\WineCategoryRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\ColorRepository")
  */
-class WineCategory
+class Color
 {
     /**
      * @ORM\Id()
@@ -24,12 +24,7 @@ class WineCategory
     private $color;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
-     */
-    private $variety;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Wine", mappedBy="category")
+     * @ORM\OneToMany(targetEntity="App\Entity\Wine", mappedBy="color")
      */
     private $wines;
 
@@ -55,18 +50,6 @@ class WineCategory
         return $this;
     }
 
-    public function getVariety(): ?string
-    {
-        return $this->variety;
-    }
-
-    public function setVariety(?string $variety): self
-    {
-        $this->variety = $variety;
-
-        return $this;
-    }
-
     /**
      * @return Collection|Wine[]
      */
@@ -79,7 +62,7 @@ class WineCategory
     {
         if (!$this->wines->contains($wine)) {
             $this->wines[] = $wine;
-            $wine->addCategory($this);
+            $wine->setColor($this);
         }
 
         return $this;
@@ -89,7 +72,10 @@ class WineCategory
     {
         if ($this->wines->contains($wine)) {
             $this->wines->removeElement($wine);
-            $wine->removeCategory($this);
+            // set the owning side to null (unless already changed)
+            if ($wine->getColor() === $this) {
+                $wine->setColor(null);
+            }
         }
 
         return $this;

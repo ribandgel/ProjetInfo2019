@@ -3,12 +3,38 @@
 {% block title %}Hello MapController!{% endblock %}
 {% block stylesheets %}
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+
+    {# <link href="{{ asset('css/leaflet.css') }}" rel="stylesheet"/> #}
+    {{ encore_entry_link_tags('leaflet') }}
 {% endblock %}
 {% endblock %}
 {% block body %}
-<style>
-    #mapid {height:180px;}
-</style>
+
+    <div class="d-flex justify-content-center py-2">
+        <button class="btn btn-primary" id="searchOpt">Rechercher sur la carte</button>
+    </div>
+    <div id="search" id="container justify-content-center" class="py-2">
+        <div class="d-flex justify-content-center py-2">
+            <button id="filterBt" class="btn btn-primary pt-1">Filtrer par</button>
+        </div>
+        <form class="mx-auto" method="get">
+            <div id="dropdown-content" class="d-flex justify-content-center py-2">
+                <label class="pr-2"><input type="radio" name="searchOption" checked value="appellation" >Appellation</label>
+                <label class="pr-2"><input type="radio" name="searchOption" value="couleur" >Couleur</label>
+                <label class="pr-2"><input type="radio" name="searchOption" value="region" >Région</label>
+                <label class="pr-2"><input type="radio" name="searchOption" value="cepage" >Cépage</label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="searchQuery" class="form-control mx-auto d-flex justify-content-center" id="formGroupExampleInput" placeholder="Nom de domaine, appellation, type de vin...">
+            </div>
+            <div class="d-flex justify-content-center pb-2">
+                <button id="searchBt" type="button" class="btn btn-primary">Rechercher</button>
+            </div>
+        </form>
+    </div>
+    <div>
+       <p id="result"></p>
+    </div>
     <div id="mapid">
     </div>
     <input id="data" type="hidden" data-wineries-link="{{ wineriesLink|json_encode }}" />
