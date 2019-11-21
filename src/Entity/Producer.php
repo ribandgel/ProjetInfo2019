@@ -35,12 +35,12 @@ class Producer
     private $address;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255,nullable=true)
      */
     private $latitude;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255,nullable=true)
      */
     private $longitude;
 
@@ -106,7 +106,7 @@ class Producer
         return $this->latitude;
     }
 
-    public function setLatitude(string $latitude): self
+    public function setLatitude(?string $latitude): self
     {
         $this->latitude = $latitude;
 
@@ -118,7 +118,7 @@ class Producer
         return $this->longitude;
     }
 
-    public function setLongitude(string $longitude): self
+    public function setLongitude(?string $longitude): self
     {
         $this->longitude = $longitude;
 
