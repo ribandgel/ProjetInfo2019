@@ -29,7 +29,8 @@
         "symfony/web-link": "4.3.*",
         "symfony/webpack-encore-bundle": "^1.6",
         "symfony/yaml": "4.3.*",
-        "willdurand/geocoder": "^4.2"
+        "willdurand/geocoder": "^4.2",
+      "ext-json": "*"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
