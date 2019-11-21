@@ -2,15 +2,26 @@ easy_admin:
     design:
         menu:
             - { label: 'Home',  route: 'blog_home', icon: home }
+            - label: 'Wine'
+            - label: 'Designation'
+              entity: Designation
+              icon: 'sign'
+            - label: 'Variety'
+              entity: Variety
+              icon: 'globe-americas'
+            - label: 'Color'
+              entity: Color
+              icon: 'palette'
+            - label: 'Wine'
+              entity: Wine
+              icon: 'wine-bottle'
+            - label: 'Other'
             - label: 'Beverage'
               entity: Beverage
               icon: 'tint'
             - label: 'Professional'
               entity: Professional
               icon: 'user-tie'
-            - label: 'Wine'
-              entity: Wine
-              icon: 'wine-bottle'
             - label: 'Producer'
               entity: Producer
               icon: 'building'
