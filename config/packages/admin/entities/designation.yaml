@@ -1,0 +1,11 @@
+easy_admin:
+  entities:
+    Designation:
+      class: App\Entity\Designation
+      form:
+        fields:
+          - { property: 'name' }
+      list:
+        fields:
+          - { property: 'name' }
+

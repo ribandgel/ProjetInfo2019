@@ -1,0 +1,11 @@
+easy_admin:
+  entities:
+    Color:
+      class: App\Entity\Color
+      form:
+        fields:
+          - { property: 'color' }
+      list:
+        fields:
+          - { property: 'color' }
+

@@ -1,0 +1,11 @@
+easy_admin:
+  entities:
+    Variety:
+      class: App\Entity\Variety
+      form:
+        fields:
+          - { property: 'name' }
+      list:
+        fields:
+          - { property: 'name' }
+

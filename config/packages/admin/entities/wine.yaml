@@ -5,7 +5,7 @@ easy_admin:
             form:
                 fields:
                     - { property: 'producer' }
-                    - { property: 'designation' }
+                    - { property: 'designation'}
                     - { property: 'color' }
                     - { property: 'variety' }
 

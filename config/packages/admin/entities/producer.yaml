@@ -1,6 +1,7 @@
 easy_admin:
     entities:
           Producer:
+            controller: App\Controller\ProducerController
             class: App\Entity\Producer
             form:
                 fields:
