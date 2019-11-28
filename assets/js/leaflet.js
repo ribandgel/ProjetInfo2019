@@ -5,8 +5,8 @@ let $ = require('jquery');
 
 let wineries = [];
 let winery = {};
-var marker;
-var searchDiv = document.getElementById("search")
+let marker;
+let searchDiv = document.getElementById("search")
 
 $(document).ready(function () {
     $.get("http://127.0.0.1:8000/api/wineries", function(data) {
@@ -59,7 +59,7 @@ $(document).ready(function () {
     //     searchDiv.style.display = "none";
     // });
 
-    var dropDwnContent = document.getElementById("dropdown-content");
+    let dropDwnContent = document.getElementById("dropdown-content");
 
     searchOpt.addEventListener("click", function () {
         searchDiv.style.display = "inline";
