@@ -15,9 +15,9 @@ let marker;
 
 
 $(document).ready(function () {
-    $.get("http://127.0.0.1:8000/api/producers", function(data) {
+    $.get("http://127.0.0.1:8000/api/producers", function (data) {
         //console.log(data);
-        for(let i=0; i<data.length; i++) {
+        for (let i = 0; i < data.length; i++) {
             let obj = data[i];
             let name = obj.name;
             //console.log("name" + name)
@@ -38,12 +38,13 @@ $(document).ready(function () {
             attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(mymap);
 
-        for(let i=0; i<producers.length; i++) {
+        for (let i = 0; i < producers.length; i++) {
             marker = L.marker([producers[i].lat, producers[i].long]).addTo(mymap);
             marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + producers[i].name + "</a>");
         }
         marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + producers[i].name + "</a>").openPopup();
     });
+
 
     let searchDiv = document.getElementById("search");
     searchDiv.style.display = "none";
@@ -65,7 +66,7 @@ $(document).ready(function () {
 
     filterBt.addEventListener("click", function () {
         dropDwnContent.style.display = "block";
-    })
+    });
 
     /*----------------------------STUFFS TO FILTER SEARCH ON MAP-------------------------------*/
     let searchBt = document.getElementById("searchBt"); //le boutton rechercher
@@ -73,30 +74,61 @@ $(document).ready(function () {
     let radioOpt = document.getElementsByName('searchOption'); //le radio bt chosen by user to filter by
     //let p = document.getElementById("result");// this is just a test
 
-    searchBt.addEventListener("click", function() {
-        for(let i = 0; i < radioOpt.length; i++) {
-            if(radioOpt[i].checked) {
-                //p.innerHTML = search.value + radioOpt[i].value;
-                $.get("http://127.0.0.1:8000/api/wines", function(data) {
-                    if(radioOpt[i].value === "Appellation") {
-                        for (let i = 0; i < data.length; i++) {
-                            let obj = data[i];
-                            let name = obj.name;
-                            // let lat = obj.latitude;
-                            // let long = obj.longitude;
-                            // let winery = {
-                            //     name: obj.name,
-                            //     lat: obj.latitude,
-                            //     long: obj.longitude
-                            // };
-                        }
-                    }
-                    if(radioOpt[i].value === "Couleur") {}
-                    if(radioOpt[i].value === "Région") {}
-                    if(radioOpt[i].value === "Cépage") {}
-                });
+    var prev = null;
+    for (var i = 0; i < radioOpt.length; i++) {
+        radioOpt[i].addEventListener('change', function() {
+            (prev) ? console.log(prev.value): null;
+            if (this !== prev) {
+                prev = this;
             }
+            for (var i = 0, length = radioOpt.length; i < length; i++) {
+                if(radioOpt[i].checked) {
+                    console.log("radio checked = " + radioOpt[i].value);
+                    if(radioOpt[i].value === "appellation") {
+                        search.placeholder = 'Entrez un nom d\'appellation';
+                    }
+                    if(radioOpt[i].value === "couleur") {
+                        search.placeholder = 'Entrez une couleur';
+                    }
+                    if(radioOpt[i].value === "region") {
+                        search.placeholder = 'Entrez une ville, region ou code postal';
+                    }
+                    if(radioOpt[i].value === "cepage") {
+                        search.placeholder = 'Entrez un nom de cépage';
+                    }
+                }
+            console.log(this.value)
         }
+        });
+    }
+        searchBt.addEventListener("click", function () {
+            for (let i = 0; i < radioOpt.length; i++) {
+                if (radioOpt[i].checked) {
+                    //p.innerHTML = search.value + radioOpt[i].value;
+                    $.get("http://127.0.0.1:8000/api/wines", function (data) {
+                        if (radioOpt[i].value === "Appellation") {
+                            for (let i = 0; i < data.length; i++) {
+                                let obj = data[i];
+                                let name = obj.name;
+                                // let lat = obj.latitude;
+                                // let long = obj.longitude;
+                                // let winery = {
+                                //     name: obj.name,
+                                //     lat: obj.latitude,
+                                //     long: obj.longitude
+                                // };
+                            }
+                        }
+                        if (radioOpt[i].value === "Couleur") {
+                        }
+                        if (radioOpt[i].value === "Région") {
+                        }
+                        if (radioOpt[i].value === "Cépage") {
+                        }
+                    });
+                }
+            }
+        });
     });
 
     // marker.addEventListener("click", function () {
@@ -128,7 +160,6 @@ $(document).ready(function () {
         var marker = L.marker(wineries[i].latitude, wineries[i].longitude).addTo(mymap);
         marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + wineries[i].name + "</a>").openPopup();
     }*/
-});
 
 
 // let mymap = L.map('mapid').setView([51.505, -0.09], 13);
