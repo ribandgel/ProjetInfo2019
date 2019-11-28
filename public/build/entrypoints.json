@@ -5,9 +5,6 @@
         "/build/runtime.js",
         "/build/vendors~app~leaflet.js",
         "/build/app.js"
-      ],
-      "css": [
-        "/build/app.css"
       ]
     },
     "leaflet": {
