@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
-        {% block stylesheets %}{% endblock %}
+                {% block stylesheets %}{{encore_entry_link_tags('app')}} {% endblock %}
+
     </head>
     <body>
          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -19,21 +19,163 @@
                             <a class="nav-link" href="#">Articles </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="/sommelier">About</a>
                         </li>
                 </ul>
-                    
-                
+
+
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
-    
+
             </div>
-          
+
         </nav>
+
+        <div class="container">
+
 
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small mdb-color pt-4  #546e7a mdb-color bg-primary">
+
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left">
+
+            <!-- Footer links -->
+            <div class="row text-center text-md-left mt-3 pb-3">
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">About autor</h5>
+                <p>Agent-commercial-multi-cartes-Negoces
+                 Animation haut de gamme autour du vin</p>
+                <h4> Jeny Velani</h4>
+                <p>19 Rue du Bout du Plot
+                  63800 Cournon D'auvergne</p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                <p>
+                  <a href="#!">MDBootstrap</a>
+                </p>
+                <p>
+                  <a href="#!">MDWordPress</a>
+                </p>
+                <p>
+                  <a href="#!">BrandFlow</a>
+                </p>
+                <p>
+                  <a href="#!">Bootstrap Angular</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                <p>
+                  <a href="#!">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!">Help</a>
+                </p>
+              </div>
+
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p>
+                  <i class="fas fa-home mr-3"></i> Jenny Villani</p>
+                <p>
+                  <i class="fas fa-envelope mr-3"></i> contact@atout-vins.fr</p>
+                <p>
+                  <i class="fas fa-phone mr-3"></i>Jenny Villani-Negociante en vins</p>
+                <p>
+                  <i class="fas fa-phone mr-3"></i> 06-10-79--15-92</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Footer links -->
+
+            <hr>
+
+            <!-- Grid row -->
+            <div class="row d-flex align-items-center">
+
+              <!-- Grid column -->
+              <div class="col-md-7 col-lg-8">
+
+                    <!-- Copyright -->
+                 <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                   <a href=" #"> www.atout-vins.fr</a>
+                 </div>
+                 <!-- Copyright -->
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                <!-- Social buttons -->
+                <div class="text-center text-md-right">
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.facebook.com " >
+                        <i class="fab fa-facebook-f">facebook</i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.twitter.com ">
+                        <i class="fab fa-twitter"> twitter</i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.google.com ">
+                        <i class="fab fa-google-plus-g"></i>google
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white">
+                        <i class="fab fa-linkedin-in"></i>linkedin
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+
+        </footer>
+        <!-- Footer -->
+
     </body>
 </html>
