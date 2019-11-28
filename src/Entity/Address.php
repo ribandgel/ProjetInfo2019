@@ -4,11 +4,13 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiResource;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ApiResource(
  *     collectionOperations={"get"},
- *     itemOperations={"get"}
+ *     itemOperations={"get"},
+ *     normalizationContext={"groups"="address"}
  * )
  * @ORM\Entity(repositoryClass="App\Repository\AddressRepository")
  */
@@ -22,21 +24,25 @@ class Address
     private $id;
 
     /**
+     * @Groups("address")
      * @ORM\Column(type="string", length=255)
      */
     private $country;
 
     /**
+     * @Groups("address")
      * @ORM\Column(type="string", length=255)
      */
     private $city;
 
     /**
+     * @Groups("address")
      * @ORM\Column(type="string", length=255)
      */
     private $zipCode;
 
     /**
+     * @Groups("address")
      * @ORM\Column(type="text")
      */
     private $addressLines;
