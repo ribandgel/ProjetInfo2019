@@ -4,11 +4,13 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiResource;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ApiResource(
  *     collectionOperations={"get"},
- *     itemOperations={"get"}
+ *     itemOperations={"get"},
+ *     normalizationContext={"groups"={"beverage"}}
  * ))
  * @ORM\Entity(repositoryClass="App\Repository\BeverageRepository")
  */
@@ -22,11 +24,13 @@ class Beverage
     private $id;
 
     /**
+     * @Groups("beverage")
      * @ORM\Column(type="string", length=255)
      */
     private $name;
 
     /**
+     * @Groups("beverage")
      * @ORM\ManyToOne(targetEntity="App\Entity\Producer", inversedBy="beverages")
      * @ORM\JoinColumn(nullable=false)
      */
