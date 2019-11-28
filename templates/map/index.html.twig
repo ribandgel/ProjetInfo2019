@@ -1,12 +1,7 @@
 {% extends 'base.html.twig' %}
 {% block head %}
 {% block title %}Hello MapController!{% endblock %}
-{% block stylesheets %}
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
 
-    {# <link href="{{ asset('css/leaflet.css') }}" rel="stylesheet"/> #}
-    {{ encore_entry_link_tags('leaflet') }}
-{% endblock %}
 {% endblock %}
 {% block body %}
 
@@ -39,7 +34,6 @@
     </div>
     <input id="data" type="hidden" data-wineries-link="{{ wineriesLink|json_encode }}" />
 
-    {% block javascripts %}
-   {{ encore_entry_script_tags('leaflet') }}
-    {% endblock %}
+    {% block javascripts %}  {{ encore_entry_script_tags('leaflet') }} {% endblock %}
+
 {% endblock %}
