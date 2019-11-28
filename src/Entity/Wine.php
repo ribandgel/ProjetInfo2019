@@ -20,7 +20,6 @@ class Wine
      */
     private $id;
 
-
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Designation", inversedBy="wines")
      * @ORM\JoinColumn(nullable=false)
@@ -105,7 +104,4 @@ class Wine
 
         return $this;
     }
-
-
-
 }
