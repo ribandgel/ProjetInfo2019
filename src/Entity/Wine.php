@@ -2,12 +2,19 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 
 /**
+ * @ApiResource(
+ *     collectionOperations={"get"},
+ *     itemOperations={"get"},
+ *     normalizationContext={"groups"={"wine","color","designation","variety","producer"}}
+ * )
  * @ORM\Entity(repositoryClass="App\Repository\WineRepository")
  */
 class Wine
@@ -22,44 +29,39 @@ class Wine
 
 
     /**
+     * @Groups("designation")
      * @ORM\ManyToOne(targetEntity="App\Entity\Designation", inversedBy="wines")
      * @ORM\JoinColumn(nullable=false)
      */
     private $designation;
 
     /**
+     * @Groups("color")
      * @ORM\ManyToOne(targetEntity="App\Entity\Color", inversedBy="wines")
      * @ORM\JoinColumn(nullable=false)
      */
     private $color;
 
     /**
+     * @Groups("variety")
      * @ORM\ManyToOne(targetEntity="App\Entity\Variety", inversedBy="wines")
      * @ORM\JoinColumn(nullable=false)
      */
     private $variety;
 
     /**
+     * @Groups("producer")
      * @ORM\ManyToOne(targetEntity="App\Entity\Producer", inversedBy="wines")
      * @ORM\JoinColumn(nullable=false)
      */
     private $producer;
-
-    public function __construct()
-    {
-        $this->designation = new ArrayCollection();
-    }
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-
-    /**
-     * @return Collection|Designation[]
-     */
-    public function getDesignation(): Collection
+    public function getDesignation(): ?Designation
     {
         return $this->designation;
     }

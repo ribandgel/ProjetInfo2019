@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+<<<<<<< HEAD
 
  footer{
   
@@ -11,6 +12,11 @@
 
  }
 
+=======
+ footer{
+   color: white;
+ }
+>>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
