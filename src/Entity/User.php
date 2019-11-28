@@ -10,10 +10,6 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
- * @ApiResource(
- *     collectionOperations={"get"},
- *     itemOperations={"get"}
- * )
  * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
  * 
  * @UniqueEntity("email")
