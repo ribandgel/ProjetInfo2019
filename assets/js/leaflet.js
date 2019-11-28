@@ -1,5 +1,4 @@
-require('../css/leaflet.css');
-
+//require('leaflet');
 let L=require('leaflet');
 let $ = require('jquery');
 
@@ -9,8 +8,8 @@ let marker;
 let searchDiv = document.getElementById("search")
 
 $(document).ready(function () {
-    $.get("http://127.0.0.1:8000/api/wineries", function(data) {
-        //console.log(data);
+    $.get("http://127.0.0.1:8000/api/producers", function(data) {
+        console.log(data);
         for(let i=0; i<data.length; i++) {
             let obj = data[i];
             let name = obj.name;
@@ -22,8 +21,8 @@ $(document).ready(function () {
                 long: obj.longitude
             };
             wineries.push(winery);
-            //console.log("HERE IS THE lat " + lat);
-            //console.log("HERE IS THE long " + long);
+            console.log("HERE IS THE lat " + lat);
+            console.log("HERE IS THE long " + long);
         }
         let mymap = L.map('mapid').setView([46.227638, 2.213749], 6);
         L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
@@ -43,15 +42,15 @@ $(document).ready(function () {
 //     maxZoom: 19,
 //     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 // }).addTo(mymap);
-//     var searchOpt = document.getElementById("searchOpt");
+     let searchOpt = document.getElementById("searchOpt");
 
     // searchOpt.addEventListener("hover", function () {
     //     searchDiv.hidden = false;
     // });
-    //
-    // searchOpt.addEventListener("click", function () {
-    //     searchDiv.hidden = false;
-    // });
+
+    searchOpt.addEventListener("click", function () {
+        searchDiv.hidden = false;
+    });
 
     // searchOpt.hover(function(){
     //     searchDiv.style.display = "inline";
@@ -83,7 +82,7 @@ $(document).ready(function () {
         for(let i = 0; i < radioOpt.length; i++) {
             if(radioOpt[i].checked) {
                 //p.innerHTML = search.value + radioOpt[i].value;
-                $.get("http://127.0.0.1:8000/api/wineries", function(data) {
+                $.get("http://127.0.0.1:8000/api/wines", function(data) {
                     if(radioOpt[i].value === "Appellation") {
                         for (let i = 0; i < data.length; i++) {
                             let obj = data[i];

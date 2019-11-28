@@ -4,7 +4,11 @@
       "js": [
         "/build/runtime.js",
         "/build/vendors~app~leaflet.js",
+        "/build/app~boostrap.js",
         "/build/app.js"
+      ],
+      "css": [
+        "/build/app~boostrap.css"
       ]
     },
     "leaflet": {
@@ -13,9 +17,16 @@
         "/build/vendors~app~leaflet.js",
         "/build/vendors~leaflet.js",
         "/build/leaflet.js"
+      ]
+    },
+    "boostrap": {
+      "js": [
+        "/build/runtime.js",
+        "/build/app~boostrap.js",
+        "/build/boostrap.js"
       ],
       "css": [
-        "/build/leaflet.css"
+        "/build/app~boostrap.css"
       ]
     }
   }
