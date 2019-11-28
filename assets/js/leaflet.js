@@ -1,28 +1,36 @@
-//require('leaflet');
 let L=require('leaflet');
 let $ = require('jquery');
 
-let wineries = [];
-let winery = {};
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+    iconUrl: require('leaflet/dist/images/marker-icon.png'),
+    shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
+
+let producers = [];
+let producer = {};
 let marker;
-let searchDiv = document.getElementById("search")
+
 
 $(document).ready(function () {
     $.get("http://127.0.0.1:8000/api/producers", function(data) {
-        console.log(data);
+        //console.log(data);
         for(let i=0; i<data.length; i++) {
             let obj = data[i];
             let name = obj.name;
+            //console.log("name" + name)
             let lat = obj.latitude;
             let long = obj.longitude;
-            let winery = {
+            let producer = {
                 name: obj.name,
                 lat: obj.latitude,
                 long: obj.longitude
             };
-            wineries.push(winery);
-            console.log("HERE IS THE lat " + lat);
-            console.log("HERE IS THE long " + long);
+            producers.push(producer);
+            //console.log("HERE IS THE lat " + lat);
+            //console.log("HERE IS THE long " + long);
         }
         let mymap = L.map('mapid').setView([46.227638, 2.213749], 6);
         L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
@@ -30,33 +38,20 @@ $(document).ready(function () {
             attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(mymap);
 
-        for(let i=0; i<wineries.length; i++) {
-            marker = L.marker([wineries[i].lat, wineries[i].long]).addTo(mymap);
-            //marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + wineries[i].name + "</a>").openPopup();
+        for(let i=0; i<producers.length; i++) {
+            marker = L.marker([producers[i].lat, producers[i].long]).addTo(mymap);
+            marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + producers[i].name + "</a>");
         }
+        marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + producers[i].name + "</a>").openPopup();
     });
 
-
-// let mymap = L.map('mapid').setView([46.227638, 2.213749], 6);
-// L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
-//     maxZoom: 19,
-//     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-// }).addTo(mymap);
-     let searchOpt = document.getElementById("searchOpt");
-
-    // searchOpt.addEventListener("hover", function () {
-    //     searchDiv.hidden = false;
-    // });
+    let searchDiv = document.getElementById("search");
+    searchDiv.style.display = "none";
+    let searchOpt = document.getElementById("searchOpt");
 
     searchOpt.addEventListener("click", function () {
         searchDiv.hidden = false;
     });
-
-    // searchOpt.hover(function(){
-    //     searchDiv.style.display = "inline";
-    // }, function(){
-    //     searchDiv.style.display = "none";
-    // });
 
     let dropDwnContent = document.getElementById("dropdown-content");
 
