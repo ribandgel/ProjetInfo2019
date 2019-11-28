@@ -34,7 +34,6 @@
     </div>
     <input id="data" type="hidden" data-wineries-link="{{ wineriesLink|json_encode }}" />
 
-    {% block javascripts %}
-   {{ encore_entry_script_tags('leaflet') }}
-    {% endblock %}
+    {% block javascripts %}  {{ encore_entry_script_tags('leaflet') }} {% endblock %}
+
 {% endblock %}
