@@ -2,22 +2,11 @@ $primary: darken(#428bca, 20%);
 @import "~bootstrap/scss/bootstrap";
 @import "~leaflet";
 
-<<<<<<< HEAD
-//body {
-//      background-color: ;
-//}
-
-
-
 #mapid {
   height: 500px;
+  width: 70%;
 }
-=======
-body {
-<<<<<<< HEAD
-      background-color: red !important ;
-=======
-      background-color: ;
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
+
+#searchQuery {
+  width: 50%;
 }
->>>>>>> 8ac37d4e7b733dd39af08ea33f8de4d1d7fd38ff

@@ -5,22 +5,20 @@
 {% endblock %}
 {% block body %}
 
+    <h2 class="d-flex justify-content-center py-2">Carte des domaines viticoles</h2>
     <div class="d-flex justify-content-center py-2">
         <button class="btn btn-primary" id="searchOpt">Rechercher sur la carte</button>
     </div>
     <div id="search" id="container justify-content-center" class="py-2">
-        <div class="d-flex justify-content-center py-2">
-            <button id="filterBt" class="btn btn-primary pt-1">Filtrer par</button>
-        </div>
+        <p class="d-flex justify-content-center">Filtrer par :</p>
         <form class="mx-auto" method="get">
-            <div id="dropdown-content" class="d-flex justify-content-center py-2">
+            <div id="dropdown-content" class="d-flex justify-content-center py-1">
                 <label class="pr-2"><input type="radio" name="searchOption" checked value="appellation" >Appellation</label>
                 <label class="pr-2"><input type="radio" name="searchOption" value="couleur" >Couleur</label>
-                <label class="pr-2"><input type="radio" name="searchOption" value="region" >Région</label>
                 <label class="pr-2"><input type="radio" name="searchOption" value="cepage" >Cépage</label>
             </div>
             <div class="form-group">
-                <input type="text" id="searchQuery" class="form-control mx-auto d-flex justify-content-center" id="formGroupExampleInput" placeholder="Entrez un nom d'appellation">
+                <input type="text" id="searchQuery" class="form-control mx-auto d-flex justify-content-center" placeholder="Entrez un nom d'appellation">
             </div>
             <div class="d-flex justify-content-center pb-2">
                 <button id="searchBt" type="button" class="btn btn-primary">Rechercher</button>
@@ -30,7 +28,9 @@
     <div>
        <p id="result"></p>
     </div>
+    <div class="d-flex justify-content-center py-2">
     <div id="mapid">
+    </div>
     </div>
     <input id="data" type="hidden" data-wineries-link="{{ wineriesLink|json_encode }}" />
 
