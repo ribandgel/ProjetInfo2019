@@ -61,8 +61,9 @@ $(document).ready(function () {
     /*----------------------------STUFFS TO FILTER SEARCH ON MAP-------------------------------*/
     let searchBt = document.getElementById("searchBt"); //le boutton rechercher
     let radioOpt = document.getElementsByName('searchOption'); //le radio bt chosen by user to filter by
+    let resNotDFound = document.getElementById('notFound');
 
-    /*---- controls the placeholder of the search bar when picking different filtering options from the radio buttons ----*/
+    /*....controls the placeholder of the search bar when picking different filtering options from the radio buttons ....*/
     let prev = null;
     for (let i = 0; i < radioOpt.length; i++) {
         radioOpt[i].addEventListener('change', function() {
@@ -72,7 +73,7 @@ $(document).ready(function () {
             }
             for (let i = 0, length = radioOpt.length; i < length; i++) {
                 if(radioOpt[i].checked) {
-                    console.log("radio checked = " + radioOpt[i].value);
+                    //console.log("radio checked = " + radioOpt[i].value);
                     if(radioOpt[i].value === "appellation") {
                         document.getElementById("searchQuery").placeholder = 'Entrez un nom d\'appellation';
                     }
@@ -87,7 +88,8 @@ $(document).ready(function () {
         }
         });
     }
-    /*-----------------------------------------------------------------------------------------*/
+    /*.............................................................................................................*/
+
         searchBt.addEventListener("click", function () {
             layerGroup.clearLayers();
             let ps = [];
@@ -99,8 +101,9 @@ $(document).ready(function () {
                         if (radioOpt[i].value === "appellation") {
                             for (let i = 0; i < data.length; i++) {
                                 let obj = data[i];
+                                console.log("DATA[i] = " + data[i]);
                                 let name = obj.designation.name;
-                                console.log("NAME = " + name);
+                                //console.log("NAME = " + name);
                                 if(search == name) {
                                     p.name = obj.producer.name;
                                     //console.log("name found = " + p.name);
@@ -115,19 +118,22 @@ $(document).ready(function () {
                                     }
                                 }
                             }
+                            if(ps.length == 0) {
+                                resNotDFound.innerText = "Pas de résultats."
+                            }
                         }
                         if (radioOpt[i].value === "couleur") {
                             for (let i = 0; i < data.length; i++) {
                                 let obj = data[i];
                                 let color = obj.color.color;
-                                console.log("COLOR = " + color);
+                                //console.log("COLOR = " + color);
                                 if(search == color) {
                                     p.name = obj.producer.name;
-                                    console.log("name found = " + p.name);
+                                    //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
-                                    console.log("name found = " + p.lat);
+                                    //console.log("name found = " + p.lat);
                                     p.long = obj.producer.longitude;
-                                    console.log("name found = " + p.long);
+                                    //console.log("name found = " + p.long);
                                     ps.push(p);
                                     for (let i = 0; i < ps.length; i++) {
                                         marker = L.marker([ps[i].lat, ps[i].long]).addTo(layerGroup);
@@ -142,11 +148,11 @@ $(document).ready(function () {
                                 let variety = obj.variety.name;
                                 if(search == variety) {
                                     p.name = obj.producer.name;
-                                    console.log("name found = " + p.name);
+                                    //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
-                                    console.log("name found = " + p.lat);
+                                    //console.log("name found = " + p.lat);
                                     p.long = obj.producer.longitude;
-                                    console.log("name found = " + p.long);
+                                    //console.log("name found = " + p.long);
                                     ps.push(p);
                                     for (let i = 0; i < ps.length; i++) {
                                         marker = L.marker([ps[i].lat, ps[i].long]).addTo(layerGroup);
