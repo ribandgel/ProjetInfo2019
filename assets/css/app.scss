@@ -1,0 +1,12 @@
+$primary: darken(#428bca, 20%);
+@import "~bootstrap/scss/bootstrap";
+@import "~leaflet";
+
+#mapid {
+  height: 500px;
+  width: 70%;
+}
+
+#searchQuery {
+  width: 50%;
+}

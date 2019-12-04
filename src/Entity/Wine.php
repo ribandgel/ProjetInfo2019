@@ -27,7 +27,6 @@ class Wine
      */
     private $id;
 
-
     /**
      * @Groups("designation")
      * @ORM\ManyToOne(targetEntity="App\Entity\Designation", inversedBy="wines")
@@ -107,7 +106,4 @@ class Wine
 
         return $this;
     }
-
-
-
 }
