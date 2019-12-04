@@ -3,19 +3,154 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-<<<<<<< HEAD
         <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
 
 
         {% block stylesheets %}{{encore_entry_link_tags('app')}} {% endblock %}
-=======
-                {% block stylesheets %}{{encore_entry_link_tags('app')}} {% endblock %}
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
 
     </head>
     <body>
-         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <style media="screen">
+
+      body{
+        background: url(images/fond-2.jpg) center center fixed no-repeat;
+        background-size: cover;
+        margin: 0 ;
+        padding: 10px;
+
+       }
+
+
+      header{
+
+            font-family: Tohoma,Geneva, sans-serif;
+            margin: 0 auto;
+
+            box-shadow: 0 0 5px #999;
+
+
+          }
+      h1{display: inline-block; }
+      h1 img {width: 120px;}
+      h2{display: inline-block;font-size: 18px; color: #3c76fa;}
+
+  /*  body conteneur*/
+     #conteneur{
+        margin: 0 auto;
+
+        box-shadow: 0 0 5px #999;
+        background: #fff;
+      }
+  /*  body conteneur*/
+
+     .page-footer{
+       margin: 0 auto;
+       padding: 0 10px;
+     }
+
+
+    /* Debut menu Horizontal*/
+  header   ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+    }
+header    a{display: block;
+      width: 331.7px;
+      height: 40px;
+      background:#838383;
+      color: #00Fb2f;
+       font-size: 14px;
+       line-height: 40px;
+       text-decoration: none;
+       padding-left: 20px;}
+header    a:hover{ background: orange;}
+
+  header  li{
+      float: left;
+    }
+
+      /*Fin menu Horizontal*/
+
+
+
+            /*colone*/
+
+
+          #conteneur   section .nousVous{
+            background: blue;
+               display: inline-block;
+
+
+
+
+             }
+
+              #conteneur  section .contenu{
+                background: red;
+                vertical-align: top;
+                width: :50px;
+                padding: 0px;
+
+             }
+
+            #conteneur    section .pub{
+              background: green;
+               display: inline-block;
+               vertical-align: top;
+               width: :195px;
+               padding: 0px;
+
+
+             }
+
+
+          /*colone*/
+
+
+
+
+      </style>
+
+
+
+
+           <header>
+               <h1>
+                 <img src="images/logov1.jpeg" alt="logo info-vins">
+               </h1>
+
+               <h2>le site de vins</h2>
+              <nav>
+            			<ul>
+            				<li><a href="/">Accueil</a></li>
+            				<li><a href="/admin">Easy Admin</a></li>
+            				<li><a href="/sommelier">A propos</a></li>
+            				<li><a href="#">Contact</a></li>
+
+
+
+
+
+            			</ul>
+
+	           	</nav>
+
+               <div id=slider"">
+                  <img src="images/slider.jpg" alt="ima info-vins">
+
+               </div>
+           </header>
+
+
+
+
+
+
+      <!--    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="/admin">EasyAdmin</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,8 +174,53 @@
 
             </div>
 
-        </nav>
-        <div class="container">
+        </nav>  -->
+        <div id="conteneur">
+
+          <section class="ombre">
+
+            <section class="nousVous ombre">
+                <h1>De nous <span class="bdc">à</span> <span class="vert">vous</span></h1>
+
+                <div class="rectangle ombre">
+                    <h2 class="rouge">Météo</h2>
+                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                </div>
+
+                <div class="rectangle ombre">
+                    <h2 class="vert">Points de ventes</h2>
+                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                </div>
+
+                <div class="rectangle ombre">
+                    <h2 class="orange">Calendrier</h2>
+                    <p></p>
+                </div>
+
+                <div class="rectangle ombre">
+                    <h2 class="bleu">Challenge du mois</h2>
+                    <p></p>
+                </div>
+
+            </section><!--
+
+        --><section class="contenu ombre">
+              <article >
+
+                  <h1>Pellentesque habitant morbi</h1>
+                  <p>Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. </p>
+
+                  <p><img src="images/vignette1.jpg" alt="Sièges rer" class="flottantDroite"/>Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus<p>
+
+                  <footer>Le quotidien latin - 2014</footer>
+              </article>
+
+          </section><!--
+
+    --><aside class="pub ombre"><img src="images/pub.gif" width="175" /></aside>
+
+        </section>
+
 
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
@@ -57,23 +237,15 @@
             <div class="row text-center text-md-left mt-3 pb-3">
 
               <!-- Grid column -->
-<<<<<<< HEAD
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 e">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-red">About autor</h5>
                 <div class="text-white">
-=======
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold">About autor</h5>
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
                 <p>Agent-commercial-multi-cartes-Negoces
                  Animation haut de gamme autour du vin</p>
                 <h4> Jeny Velani</h4>
                 <p>19 Rue du Bout du Plot
                   63800 Cournon D'auvergne</p>
-<<<<<<< HEAD
                  </div>
-=======
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
               </div>
               <!-- Grid column -->
 
@@ -120,7 +292,6 @@
               <hr class="w-100 clearfix d-md-none">
 
               <!-- Grid column -->
-<<<<<<< HEAD
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
                 <h6 class="text-uppercase mb-4 font-weight-bold text-">Contact</h6>
                 <div class="text-white">
@@ -132,18 +303,6 @@
                 <p>
                   <i class="fa fa-phone " ></i>  06-10-79--15-92 </p>
                 </div>
-=======
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                <p>
-                  <i class="fas fa-home mr-3"></i> Jenny Villani</p>
-                <p>
-                  <i class="fas fa-envelope mr-3"></i> contact@atout-vins.fr</p>
-                <p>
-                  <i class="fas fa-phone mr-3"></i>Jenny Villani-Negociante en vins</p>
-                <p>
-                  <i class="fas fa-phone mr-3"></i> 06-10-79--15-92</p>
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
               </div>
               <!-- Grid column -->
 
@@ -160,11 +319,7 @@
 
                     <!-- Copyright -->
                  <div class="footer-copyright text-center py-3">© 2019 Copyright:
-<<<<<<< HEAD
                    <a href=" #" class=" text-white"> www.atout-vins.fr</a>
-=======
-                   <a href=" #"> www.atout-vins.fr</a>
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
                  </div>
                  <!-- Copyright -->
               </div>
@@ -177,7 +332,6 @@
                 <div class="text-center text-md-right">
                   <ul class="list-unstyled list-inline">
                     <li class="list-inline-item">
-<<<<<<< HEAD
                       <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white  " href="https://www.facebook.com " >
                         <i class="fa fa-facebook"></i>
 
@@ -186,34 +340,16 @@
                     <li class="list-inline-item">
                       <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white  " href="https://www.twitter.com ">
                       <i class="fa fa-twitter"></i>
-=======
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.facebook.com " >
-                        <i class="fab fa-facebook-f">facebook</i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.twitter.com ">
-                        <i class="fab fa-twitter"> twitter</i>
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.google.com ">
-<<<<<<< HEAD
                         <i class="fa fa-google"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.linkedin.com ">
                         <i class="fa fa-linkedin"></i>
-=======
-                        <i class="fab fa-google-plus-g"></i>google
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white">
-                        <i class="fab fa-linkedin-in"></i>linkedin
->>>>>>> 281bf76ea5689fe3df691f84e22c899b41fd714a
                       </a>
                     </li>
                   </ul>
