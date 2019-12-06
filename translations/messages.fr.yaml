@@ -2,8 +2,6 @@ Address: Adresse
 Beverage: Boisson
 Professional: Professionnel
 Wine: Vin
-WineCategory: Catégorie de vin
-Winery: Domaine
 Country: Pays
 City: Ville
 ZipCode: Code postal
@@ -11,7 +9,7 @@ AddressLines: Lignes d'adresse
 Name: Nom
 Year: Année
 Color: Couleur
-Variety: Variété
+Variety: Cépage
 Phone: Numéro de téléphone
 Wines: Vins
 Home: Accueil
@@ -20,3 +18,8 @@ Address lines: Lignes d'adresse
 Month: Mois
 Day: Jour
 Category: Catégorie
+Producer: Producteur
+Designation: Appellation
+Other: Autre
+Register: S'enregistrer
+
