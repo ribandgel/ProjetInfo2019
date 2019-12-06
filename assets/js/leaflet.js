@@ -1,5 +1,6 @@
 let L=require('leaflet');
 let $ = require('jquery');
+let c = require('../css/app.scss');
 
 //this fixes a leaflet bug that does not import the marker images if we don't add those lines
 delete L.Icon.Default.prototype._getIconUrl;
@@ -19,17 +20,15 @@ $(document).ready(function () {
     $.get("http://127.0.0.1:8000/api/producers", function (data) {
         for (let i = 0; i < data.length; i++) {
             let obj = data[i];
-            let name = obj.name;
-            let lat = obj.latitude;
-            let long = obj.longitude;
             let producer = {
                 name: obj.name,
                 lat: obj.latitude,
-                long: obj.longitude
+                long: obj.longitude,
+                website: obj.website
             };
             producers.push(producer);
         }
-        mymap = L.map('mapid').setView([46.227638, 2.213749], 6);
+        mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], 6);
         L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -38,7 +37,11 @@ $(document).ready(function () {
         layerGroup = L.layerGroup().addTo(mymap);
         for (let i = 0; i < producers.length; i++) {
             marker = L.marker([producers[i].lat, producers[i].long]).addTo(layerGroup);
-            marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + producers[i].name + "</a>");
+            if(producers[i].website != "") {
+                marker.bindPopup("<a target=\"_blank\" href=" + producers[i].website + "><b>Domaine</b><br>" + producers[i].name + "</a>");
+            } else {
+                marker.bindPopup("<b>Domaine</b><br>" + producers[i].name);
+            }
         }
     });
 
@@ -103,7 +106,6 @@ $(document).ready(function () {
                                 let obj = data[i];
                                 console.log("DATA[i] = " + data[i]);
                                 let name = obj.designation.name;
-                                //console.log("NAME = " + name);
                                 if(search == name) {
                                     p.name = obj.producer.name;
                                     //console.log("name found = " + p.name);
@@ -167,4 +169,17 @@ $(document).ready(function () {
         });
     });
 
+// The Leaflet L.Map class provides the fitBounds method to zoom a map to contain a rectangular bounding box.
+// The L.latLngBounds utility function creates a bounding box object from an array of latitude and longitude coordinates.
+// With a single marker, however, we only have one latitude and longitude coordinate from which to create the bounding box.
+// The solution is to create a single-element array containing the latitude and longitude coordinate of the marker.
 
+// The following function centers and zooms a leaflet map on a single marker. Line 2 creates the single-element array containing
+// the latitude and longitude coordinate of the marker. Line 3 creates the bounding box that encloses the marker’s location. Finally,
+// line 4 zooms the map to enclose the bounding box.
+
+// function centerLeafletMapOnMarker(map, marker) {
+//     var latLngs = [ marker.getLatLng() ];
+//     var markerBounds = L.latLngBounds(latLngs);
+//     map.fitBounds(markerBounds);
+// }
