@@ -16,4 +16,14 @@ class BlogController extends AbstractController
             'controller_name' => 'BlogController',
         ]);
     }
+
+    /**
+     * @Route("/sommelier", name="sommelier")
+     */
+    public function sommelier()
+    {
+        return $this->render('sommelier/index.html.twig', [
+            'controller_name' => 'SommelierController',
+        ]);
+    }
 }
