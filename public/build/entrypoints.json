@@ -3,30 +3,32 @@
     "app": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors~app~leaflet.js",
-        "/build/app~boostrap.js",
+        "/build/app~boostrap~leaflet.js",
         "/build/app.js"
       ],
       "css": [
-        "/build/app~boostrap.css"
+        "/build/app~boostrap~leaflet.css"
       ]
     },
     "leaflet": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors~app~leaflet.js",
         "/build/vendors~leaflet.js",
+        "/build/app~boostrap~leaflet.js",
         "/build/leaflet.js"
+      ],
+      "css": [
+        "/build/app~boostrap~leaflet.css"
       ]
     },
     "boostrap": {
       "js": [
         "/build/runtime.js",
-        "/build/app~boostrap.js",
+        "/build/app~boostrap~leaflet.js",
         "/build/boostrap.js"
       ],
       "css": [
-        "/build/app~boostrap.css"
+        "/build/app~boostrap~leaflet.css"
       ]
     }
   }

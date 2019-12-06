@@ -10,3 +10,102 @@ $primary: darken(#428bca, 20%);
 #searchQuery {
   width: 50%;
 }
+
+body{
+
+  background: url(/images/fond-2.jpg) center center fixed no-repeat;
+  background-size: cover;
+  margin: 0 ;
+  padding: 10px;
+
+}
+
+
+header{
+
+  font-family: Tohoma,Geneva, sans-serif;
+  margin: 0 auto;
+
+  box-shadow: 0 0 5px #999;
+
+
+}
+h1{display: inline-block; }
+h1 img {width: 120px;}
+h2{display: inline-block;font-size: 18px; color: #3c76fa;}
+
+/*  body conteneur*/
+#conteneur{
+  margin: 0 auto;
+
+  box-shadow: 0 0 5px #999;
+  background: #fff;
+}
+/*  body conteneur*/
+
+.page-footer{
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+/* Debut menu Horizontal*/
+header   ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+header    a{display: block;
+  width: 331.7px;
+  height: 40px;
+  background:#838383;
+  color: #00Fb2f;
+  font-size: 14px;
+  line-height: 40px;
+  text-decoration: none;
+  padding-left: 20px;}
+header    a:hover{ background: orange;}
+
+header  li{
+  float: left;
+}
+
+/*Fin menu Horizontal*/
+
+
+
+/*colone*/
+
+
+#conteneur   section .nousVous{
+  background: blue;
+  display: inline-block;
+
+
+
+
+}
+
+#conteneur  section .contenu{
+  background: greenyellow;
+  vertical-align: top;
+  width:50px;
+  padding: 0px;
+
+}
+
+#conteneur    section .pub{
+  background: green;
+  display: inline-block;
+  vertical-align: top;
+  width:195px;
+  padding: 0px;
+
+
+}
+
+
+/*colone*/
+
+
