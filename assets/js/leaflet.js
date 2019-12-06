@@ -1,5 +1,6 @@
 let L=require('leaflet');
 let $ = require('jquery');
+let c = require('../css/app.scss');
 
 //this fixes a leaflet bug that does not import the marker images if we don't add those lines
 delete L.Icon.Default.prototype._getIconUrl;
