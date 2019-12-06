@@ -12,7 +12,22 @@ class ProducerController extends EasyAdminController
 {
         protected function updateEntity($entity)
         {
-            if($entity instanceof Producer && ($entity->getLatitude() == null || $entity->getLongitude() == null) ){
+            if($entity instanceof Producer){
+                $entity = $this->setLatitudeAndLongitude($entity);
+            }
+            parent::updateEntity($entity);
+        }
+
+        protected function persistEntity($entity)
+        {
+            if($entity instanceof Producer){
+                $entity = $this->setLatitudeAndLongitude($entity);
+            }
+            parent::persistEntity($entity);
+        }
+
+        private function setLatitudeAndLongitude(Producer $entity){
+            if(($entity->getLatitude() == null || $entity->getLongitude() == null) ){
                 $address = $entity->getAddress();
                 $parsedAddressLines = str_replace(' ','-',$address->getAddressLines());
                 $parsedCity = str_replace(' ','-',$address->getCity());
@@ -30,6 +45,8 @@ class ProducerController extends EasyAdminController
                     $entity->setLongitude($array['results'][0]['locations'][0]['latLng']['lng']);
                 }
             }
-            parent::updateEntity($entity);
+
+            return $entity;
         }
+
 }
