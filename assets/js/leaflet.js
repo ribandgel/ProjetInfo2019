@@ -1,6 +1,5 @@
 let L=require('leaflet');
 let $ = require('jquery');
-let c = require('../css/app.scss');
 
 //this fixes a leaflet bug that does not import the marker images if we don't add those lines
 delete L.Icon.Default.prototype._getIconUrl;
@@ -15,6 +14,12 @@ let producer = {};
 let mymap;
 let layerGroup;
 let marker;
+var bigmapheight = 600;
+var smallmapheight = 300;
+var mapbreakwidth = 720;
+var highzoom = 6;
+var lowzoom = 4;
+var initzoom;
 
 $(document).ready(function () {
     $.get("http://127.0.0.1:8000/api/producers", function (data) {
@@ -28,7 +33,17 @@ $(document).ready(function () {
             };
             producers.push(producer);
         }
-        mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], 6);
+
+        if ($("#mapid").width() > mapbreakwidth) {
+            initzoom = highzoom;
+            $("#mapid").height(bigmapheight);
+        }
+        else {
+            initzoom = lowzoom;
+            $("#mapid").height(smallmapheight);
+        };
+
+        mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom );
         L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -43,6 +58,20 @@ $(document).ready(function () {
                 marker.bindPopup("<b>Domaine</b><br>" + producers[i].name);
             }
         }
+    });
+
+    // listen for screen resize events and changes map size and zoom accordingly
+    window.addEventListener('resize', function(event) {
+        if ($("#mapid").width() > mapbreakwidth) {
+            initzoom = highzoom;
+            $("#mapid").height(bigmapheight);
+            mymap.setView([46.227638, 2.213749], initzoom );
+        }
+        else {
+            initzoom = lowzoom;
+            $("#mapid").height(smallmapheight);
+            mymap.setView([46.227638, 2.213749], initzoom );
+        };
     });
 
     let searchDiv = document.getElementById("search");
@@ -106,7 +135,7 @@ $(document).ready(function () {
                                 let obj = data[i];
                                 console.log("DATA[i] = " + data[i]);
                                 let name = obj.designation.name;
-                                if(search == name) {
+                                if(search.toLowerCase().trim() == name.toLowerCase().trim()) {
                                     p.name = obj.producer.name;
                                     //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
@@ -129,7 +158,7 @@ $(document).ready(function () {
                                 let obj = data[i];
                                 let color = obj.color.color;
                                 //console.log("COLOR = " + color);
-                                if(search == color) {
+                                if(search.toLowerCase().trim() == color.toLowerCase().trim()) {
                                     p.name = obj.producer.name;
                                     //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
@@ -148,7 +177,7 @@ $(document).ready(function () {
                             for (let i = 0; i < data.length; i++) {
                                 let obj = data[i];
                                 let variety = obj.variety.name;
-                                if(search == variety) {
+                                if(search.toLowerCase().trim() == variety.toLowerCase().trim()) {
                                     p.name = obj.producer.name;
                                     //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
