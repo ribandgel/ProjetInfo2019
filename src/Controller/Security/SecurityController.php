@@ -56,7 +56,7 @@ class SecurityController extends AbstractController
         foreach ($users as $user) {
             if ($user->hasRoles(['ADMIN'])) {
                 $this->addFlash('danger','An user with admin role already exist');
-                return $this->redirectToRoute('blog');
+                return $this->redirectToRoute('home');
             }
         }
         $registrationForm = $this->createForm(RegistrationForm::class);
