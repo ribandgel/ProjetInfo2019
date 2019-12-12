@@ -3,7 +3,7 @@ $primary: darken(#428bca, 20%);
 @import "~leaflet";
 
 #mapid {
-  height: 500px;
+  height: 30%;
   width: 70%;
 }
 
@@ -90,7 +90,7 @@ header  li{
 #conteneur  section .contenu{
   background: greenyellow;
   vertical-align: top;
-  width:50px;
+  width:150px;
   padding: 0px;
 
 }

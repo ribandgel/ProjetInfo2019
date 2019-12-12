@@ -1,8 +1,6 @@
 {
+  "build/app.css": "/build/app.css",
   "build/app.js": "/build/app.js",
-  "build/app~boostrap~leaflet.css": "/build/app~boostrap~leaflet.css",
-  "build/app~boostrap~leaflet.js": "/build/app~boostrap~leaflet.js",
-  "build/boostrap.js": "/build/boostrap.js",
   "build/leaflet.js": "/build/leaflet.js",
   "build/runtime.js": "/build/runtime.js",
   "build/vendors~leaflet.js": "/build/vendors~leaflet.js",
