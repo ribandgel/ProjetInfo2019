@@ -14,7 +14,7 @@ let producer = {};
 let mymap;
 let layerGroup;
 let marker;
-var bigmapheight = 600;
+var bigmapheight = 500;
 var smallmapheight = 300;
 var mapbreakwidth = 720;
 var highzoom = 6;
