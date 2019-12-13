@@ -9,7 +9,10 @@ $primary: darken(#428bca, 20%);
 #searchQuery {
   width: 50%;
 }
-
+#myCarousel.carousel.slide {
+  width: 80%;
+  max-width: 85%;
+}
 body{
   background: url(/images/bkgd.png) center center no-repeat;
   background-size: cover;
