@@ -2,24 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <title>{% block title %}{% endblock %}</title>
+
+{#        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">#}
+{#        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">#}
+{#        <link rel="stylesheet" href="/assets/css/styles.css">#}
 
         {% block stylesheets %}{{encore_entry_link_tags('app')}} {% endblock %}
 
     </head>
+
     <body>
 
            <header>
-               <h1>
-                 <img src="images/logov1.jpeg" alt="logo info-vins">
-               </h1>
-
-               <h2>le site de vins</h2>
+{#               <h1>#}
+{#                 <img src="images/logov1.jpeg" alt="logo info-vins">#}
+{#               </h1>#}
               <nav>
-            			<ul>
+            			<ul class="d-flex justify-content-between align-middle p-1">
+                          <li><img src="images/AVLOGO.png" alt="logo info-vins" id="logo-img"></li>
             				<li><a href="{{ path('home') }}">Accueil</a></li>
             				<li><a href="{{ path('map') }}">Carte des domaines</a></li>
             				<li><a href="{{ path('info') }}">A propos</a></li>
@@ -29,16 +30,11 @@
 
 	           	</nav>
 
-               <div id=slider"">
-                  <img src="images/slider.jpg" alt="ima info-vins">
+{#               <div id=slider"">#}
+{#                  <img src="images/slider.jpg" alt="ima info-vins">#}
 
-               </div>
+{#               </div>#}
            </header>
-
-
-
-
-
 
       <!--    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="/admin">EasyAdmin</a>
@@ -65,77 +61,74 @@
             </div>
 
         </nav>  -->
-        <div id="conteneur">
+{#        <div id="conteneur">#}
 
-          <section class="ombre">
+{#          <section class="ombre">#}
 
-            <section class="nousVous ombre">
-                <h1>De nous <span class="bdc">à</span> <span class="vert">vous</span></h1>
+{#            <section class="nousVous ombre">#}
+{#                <h1>De nous <span class="bdc">à</span> <span class="vert">vous</span></h1>#}
 
-                <div class="rectangle ombre">
-                    <h2 class="rouge">Météo</h2>
-                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>
-                </div>
+{#                <div class="rectangle ombre">#}
+{#                    <h2 class="rouge">Météo</h2>#}
+{#                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>#}
+{#                </div>#}
 
-                <div class="rectangle ombre">
-                    <h2 class="vert">Points de ventes</h2>
-                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>
-                </div>
+{#                <div class="rectangle ombre">#}
+{#                    <h2 class="vert">Points de ventes</h2>#}
+{#                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>#}
+{#                </div>#}
 
-                <div class="rectangle ombre">
-                    <h2 class="orange">Calendrier</h2>
-                    <p></p>
-                </div>
+{#                <div class="rectangle ombre">#}
+{#                    <h2 class="orange">Calendrier</h2>#}
+{#                    <p></p>#}
+{#                </div>#}
 
-                <div class="rectangle ombre">
-                    <h2 class="bleu">Challenge du mois</h2>
-                    <p></p>
-                </div>
+{#                <div class="rectangle ombre">#}
+{#                    <h2 class="bleu">Challenge du mois</h2>#}
+{#                    <p></p>#}
+{#                </div>#}
 
-            </section><!--
+{#            </section><!--#}
 
-        --><section class="contenu ombre">
-              <article >
+{#        --><section class="contenu ombre">#}
+{#              <article >#}
 
-                  <h1>Pellentesque habitant morbi</h1>
-                  <p>Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. </p>
+{#                  <h1>Pellentesque habitant morbi</h1>#}
+{#                  <p>Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. </p>#}
 
-                  <p><img src="images/vignette1.jpg" alt="Sièges rer" class="flottantDroite"/>Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus<p>
+{#                  <p><img src="images/vignette1.jpg" alt="Sièges rer" class="flottantDroite"/>Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus<p>#}
 
-                  <footer>Le quotidien latin - 2014</footer>
-              </article>
+{#                  <footer>Le quotidien latin - 2014</footer>#}
+{#              </article>#}
 
-          </section><!--
+{#          </section><!--#}
 
-    --><aside class="pub ombre"><img src="images/pub.gif" width="175" /></aside>
+{#    --><aside class="pub ombre"><img src="images/pub.gif" width="175" /></aside>#}
 
-        </section>
+{#        </section>#}
 
-
-
-        {% block body %}{% endblock %}
+           {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
         </div>
-
-
+           
         <!-- Footer -->
-        <footer class="page-footer font-small mdb-color pt-4  #546e7a mdb-color bg-primary">
+        <footer class="page-footer font-small mdb-color pt-1 #546e7a mdb-color bg-primary">
 
           <!-- Footer Links -->
           <div class="container text-center text-md-left">
 
             <!-- Footer links -->
-            <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="row text-center text-md-left mt-3 pb-1">
 
               <!-- Grid column -->
               <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-red">About autor</h5>
+                <h5 class="text-uppercase mb-4 font-weight-bold text-red">About author</h5>
                 <div class="text-white">
                 <p>Agent-commercial-multi-cartes-Negoces
                  Animation haut de gamme autour du vin</p>
                 <h4> Jeny Velani</h4>
-                <p>19 Rue du Bout du Plot
-                  63800 Cournon D'auvergne</p>
+                <address>19 Rue du Bout du Plot
+                  63800 Cournon D'auvergne</address>
                  </div>
               </div>
               <!-- Grid column -->
