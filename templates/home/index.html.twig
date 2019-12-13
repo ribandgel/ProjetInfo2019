@@ -3,7 +3,54 @@
 {% block title %}Accueil{% endblock %}
 
 {% block body %}
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div id="myCarousel" class="carousel slide container justify-content-center p-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/wineyard2.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sommelière, j’épaule les professionnels dans leur sélection</h5>
+                    <p>1500 références de vins, champagnes et spiritueux
+                        4 départements : Puy-de-Dôme, Allier, Loire, Cantal
+                        175 clients restaurants, cavistes, traiteurs.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/slide-2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Formatrice, je forme leurs salariés pour la commercialisation des vins</h5>
+                    <p>Sous-traitante du centre de formation H&C Conseil
+                        Dans le cadre des budgets fournis par les OPCA
+                        6 formations en intra en 2018
+                        5 formations en intra de prévues en 2019 à ce jour
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/logos.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block text-black-50">
+                    <h5>Commerciale, j’épaule les professionnels pour leurs opérations commerciales</h5>
+                    <p>Mise en relation avec mes partenaires pour faciliter leur achats,
+                        Assistance pour mise en valeur produit, définir ses prix de vente…
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 {% endblock %}
