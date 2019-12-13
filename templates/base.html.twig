@@ -5,7 +5,7 @@
         <title>{% block title %}{% endblock %}</title>
 
 {#        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">#}
-{#        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">#}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 {#        <link rel="stylesheet" href="/assets/css/styles.css">#}
 
         {% block stylesheets %}{{encore_entry_link_tags('app')}} {% endblock %}
@@ -13,243 +13,66 @@
     </head>
 
     <body>
-
-           <header>
-{#               <h1>#}
-{#                 <img src="images/logov1.jpeg" alt="logo info-vins">#}
-{#               </h1>#}
+        <header>
               <nav>
-            			<ul class="d-flex justify-content-between align-middle p-1">
-                          <li><img src="images/AVLOGO.png" alt="logo info-vins" id="logo-img"></li>
-            				<li><a href="{{ path('home') }}">Accueil</a></li>
-            				<li><a href="{{ path('map') }}">Carte des domaines</a></li>
-            				<li><a href="{{ path('info') }}">A propos</a></li>
-            				<li><a href="{{ path('contact') }}">Contact</a></li>
-                            <li><a href="{{ path('app_login') }}"></a></li>
-            			</ul>
-
-	           	</nav>
-
+                  <ul class="d-flex justify-content-between align-middle p-1">
+                        <li><img src="images/AVLOGO.png" alt="logo info-vins" id="logo-img"></li>
+            			<li><a href="{{ path('home') }}">Accueil</a></li>
+            			<li><a href="{{ path('map') }}">Carte des domaines</a></li>
+            			<li><a href="{{ path('info') }}">A propos</a></li>
+            			<li><a href="{{ path('contact') }}">Contact</a></li>
+                        <li><a href="{{ path('app_login') }}"></a></li>
+                  </ul>
+              </nav>
 {#               <div id=slider"">#}
 {#                  <img src="images/slider.jpg" alt="ima info-vins">#}
-
 {#               </div>#}
-           </header>
+        </header>
 
-      <!--    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="/admin">EasyAdmin</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        {% block body %}{% endblock %}
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Articles </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/sommelier">About</a>
-                        </li>
-                </ul>
-
-
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-
-            </div>
-
-        </nav>  -->
-{#        <div id="conteneur">#}
-
-{#          <section class="ombre">#}
-
-{#            <section class="nousVous ombre">#}
-{#                <h1>De nous <span class="bdc">à</span> <span class="vert">vous</span></h1>#}
-
-{#                <div class="rectangle ombre">#}
-{#                    <h2 class="rouge">Météo</h2>#}
-{#                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>#}
-{#                </div>#}
-
-{#                <div class="rectangle ombre">#}
-{#                    <h2 class="vert">Points de ventes</h2>#}
-{#                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas</p>#}
-{#                </div>#}
-
-{#                <div class="rectangle ombre">#}
-{#                    <h2 class="orange">Calendrier</h2>#}
-{#                    <p></p>#}
-{#                </div>#}
-
-{#                <div class="rectangle ombre">#}
-{#                    <h2 class="bleu">Challenge du mois</h2>#}
-{#                    <p></p>#}
-{#                </div>#}
-
-{#            </section><!--#}
-
-{#        --><section class="contenu ombre">#}
-{#              <article >#}
-
-{#                  <h1>Pellentesque habitant morbi</h1>#}
-{#                  <p>Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. </p>#}
-
-{#                  <p><img src="images/vignette1.jpg" alt="Sièges rer" class="flottantDroite"/>Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus<p>#}
-
-{#                  <footer>Le quotidien latin - 2014</footer>#}
-{#              </article>#}
-
-{#          </section><!--#}
-
-{#    --><aside class="pub ombre"><img src="images/pub.gif" width="175" /></aside>#}
-
-{#        </section>#}
-
-           {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
-        </div>
 
-        <!-- Footer -->
-        <footer class="page-footer font-small mdb-color pt-1 #546e7a mdb-color bg-primary">
-
-          <!-- Footer Links -->
-          <div class="container text-center text-md-left">
-
-            <!-- Footer links -->
-            <div class="row text-center text-md-left mt-3 pb-1">
-
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-red">About author</h5>
-                <div class="text-white">
-                <p>Agent-commercial-multi-cartes-Negoces
-                 Animation haut de gamme autour du vin</p>
-                <h4> Jeny Velani</h4>
-                <address>19 Rue du Bout du Plot
-                  63800 Cournon D'auvergne</address>
-                 </div>
-              </div>
-              <!-- Grid column -->
-
-              <hr class="w-100 clearfix d-md-none">
-
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                <p>
-                  <a href="#!">MDBootstrap</a>
-                </p>
-                <p>
-                  <a href="#!">MDWordPress</a>
-                </p>
-                <p>
-                  <a href="#!">BrandFlow</a>
-                </p>
-                <p>
-                  <a href="#!">Bootstrap Angular</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <hr class="w-100 clearfix d-md-none">
-
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-                <p>
-                  <a href="#!">Your Account</a>
-                </p>
-                <p>
-                  <a href="#!">Become an Affiliate</a>
-                </p>
-                <p>
-                  <a href="#!">Shipping Rates</a>
-                </p>
-                <p>
-                  <a href="#!">Help</a>
-                </p>
+        <footer class="pt-4">
+          <div class="container d-flex justify-content-between">
+              <div class="flex-column ">
+                  <h5 class="text-uppercase mb-4 font-weight-bold">À Propos</h5>
+                  <div class="text-black-50">
+                      <p>Sommelière</br>
+                      Formatrice</br>
+                      Commerciale </p>
+                  </div>
               </div>
 
-              <!-- Grid column -->
-              <hr class="w-100 clearfix d-md-none">
-
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
-                <h6 class="text-uppercase mb-4 font-weight-bold text-">Contact</h6>
-                <div class="text-white">
-                <p><i class="fa fa-linkedin "></i> Jenny Villani</p>
-                <p>
-                <i class="fa fa-envelope-o "></i> contact@atout-vins.fr</p>
-                <p>
-                  <i class="fa fa-facebook-square "></i> Jenny Villani-Negociante en vins</p>
-                <p>
-                  <i class="fa fa-phone " ></i>  06-10-79--15-92 </p>
-                </div>
+              <div class="flex-column ">
+                  <h5 class="text-uppercase mb-4 font-weight-bold">Atous Vins</h5>
+                  <div class="text-black-50">
+                      <p>Partenaire vins,</br>
+                      Champagnes et spiritueux</br>
+                      pour les restaurants,</br>
+                      cavistes, traiteurs.</p>
+                  </div>
               </div>
-              <!-- Grid column -->
 
-            </div>
-            <!-- Footer links -->
-
-            <hr>
-
-            <!-- Grid row -->
-            <div class="row d-flex align-items-center">
-
-              <!-- Grid column -->
-              <div class="col-md-7 col-lg-8">
-
-                    <!-- Copyright -->
-                 <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                   <a href=" #" class=" text-white"> www.atout-vins.fr</a>
-                 </div>
-                 <!-- Copyright -->
+              <div class="flex-column">
+                  <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+                  <div class="text-black-50">
+                      <p><i class="fa fa-envelope-o "></i> contact@atout-vins.fr</p>
+                      <p><i class="fa fa-phone" ></i> 06-10-79-15-92</p>
+                      <address>19 Rue du Bout du Plot </br> 63800 Cournon D'auvergne</address>
+                  </div>
               </div>
-              <!-- Grid column -->
 
-              <!-- Grid column -->
-              <div class="col-md-5 col-lg-4 ml-lg-0">
-
-                <!-- Social buttons -->
-                <div class="text-center text-md-right">
-                  <ul class="list-unstyled list-inline">
-                    <li class="list-inline-item">
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white  " href="https://www.facebook.com " >
-                        <i class="fa fa-facebook"></i>
-
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white  " href="https://www.twitter.com ">
-                      <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.google.com ">
-                        <i class="fa fa-google"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="btn-floating btn-sm rgba-white-slight mx-1 text-white" href="https://www.linkedin.com ">
-                        <i class="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
+              <div class="flex-column ">
+                   <h5 class="text-uppercase mb-4 font-weight-bold">Réseaux Sociaux</h5>
+                   <div class="text-black-50">
+                       <p><a href="https://fr.linkedin.com/in/jenny-villani-aa8324116"><i class="fa fa-linkedin"></i> Jenny Villani</a></p>
+                       <p><a href="https://fr-fr.facebook.com/atoutvins/"><i class="fa fa-facebook-square"></i> Atout Vins</a></p>
+                   </div>
               </div>
-              <!-- Grid column -->
-
-            </div>
-            <!-- Grid row -->
-
           </div>
-          <!-- Footer Links -->
-
         </footer>
-        <!-- Footer -->
 
+        <div>© 2019 Copyright: <a href=" #" class="text-black"> www.atout-vins.fr</a></div>
     </body>
 </html>
