@@ -2,16 +2,27 @@ $primary: darken(#428bca, 20%);
 @import "~bootstrap/scss/bootstrap";
 @import "~leaflet";
 
-#mapid {
-  width: 70%;
+body {
+  background: url(/images/bkgd.png) center center fixed no-repeat;
+  background-size: cover;
+  margin: 0 ;
+  padding: 10px;
 }
 
-#searchQuery {
-  width: 50%;
-}
 #myCarousel.carousel.slide {
   width: 80%;
   max-width: 85%;
+}
+
+header nav ul li a {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #444340;
+  text-align: center;
+}
+
+#txt-slide1 {
+  color: white;
+  background: rgba(225, 225, 225, .3);
 }
 
 .txt-slide1-2 {
@@ -20,18 +31,15 @@ $primary: darken(#428bca, 20%);
   font-weight: 500;
   background: rgba(225, 225, 225, .5);
   border-radius: 60px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #txt-slide3 {
-  color: #444340;
+  color: black;
   font-size: 1.4rem;
-}
-
-body {
-  background: url(/images/bkgd.png) center center no-repeat;
-  background-size: cover;
-  margin: 0 ;
-  padding: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: rgba(225, 225, 225, .7);
+  border-radius: 60px;
 }
 
 header {
@@ -61,10 +69,22 @@ footer {
 
 address {
   font-size: .8rem;
+  color: #2F2E2B;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 footer h5 {
-  color: #7C7B76;
+  color: #2F2E2B;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+footer p {
+  color: #2F2E2B;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#sm-links {
+  font-weight: 500;
 }
 
 footer a:hover {
@@ -93,4 +113,20 @@ header li {
   float: left;
 }
 
+#mapid {
+  width: 70%;
+}
+
+#searchQuery {
+  width: 50%;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.navbar {
+  font-family: 'Noto Sans KR', sans-serif;
+  //font-family: 'Cambay', sans-serif;
+}
 
