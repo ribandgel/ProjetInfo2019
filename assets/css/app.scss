@@ -13,7 +13,21 @@ $primary: darken(#428bca, 20%);
   width: 80%;
   max-width: 85%;
 }
-body{
+
+.txt-slide1-2 {
+  color: #2F2E2B;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background: rgba(225, 225, 225, .5);
+  border-radius: 60px;
+}
+
+#txt-slide3 {
+  color: #444340;
+  font-size: 1.4rem;
+}
+
+body {
   background: url(/images/bkgd.png) center center no-repeat;
   background-size: cover;
   margin: 0 ;
