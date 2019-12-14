@@ -21,6 +21,8 @@ var highzoom = 6;
 var lowzoom = 4;
 var initzoom;
 
+document.getElementById("nav-map").setAttribute("class", "active");
+
 $(document).ready(function () {
     $.get("http://127.0.0.1:8000/api/producers", function (data) {
         for (let i = 0; i < data.length; i++) {
