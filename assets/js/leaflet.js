@@ -1,68 +1,99 @@
 let L=require('leaflet');
 let $ = require('jquery');
 
-//this fixes a leaflet bug that does not import the marker images if we don't add those lines
+/* -------------
+* this fixes a leaflet bug that does not import the marker images if we don't add those lines
+ ---------------*/
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
     iconUrl: require('leaflet/dist/images/marker-icon.png'),
     shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
+/* ----------------------------*/
 
 let producers = [];
-let producer = {};
+let desTab = [];
+let varietyTab = [];
 let mymap;
+let mymap1;
+let mymap2;
 let layerGroup;
 let marker;
-var bigmapheight = 500;
-var smallmapheight = 300;
-var mapbreakwidth = 720;
-var highzoom = 6;
-var lowzoom = 4;
-var initzoom;
+let bigmapheight = 500;
+let smallmapheight = 300;
+let mapbreakwidth = 720;
+let highzoom = 6;
+let lowzoom = 4;
+let initzoom;
+let wineriesMap = document.getElementById("domaines");
+let designationsMap = document.getElementById("appellations");
+let varietiesMap = document.getElementById("cepages");
 
 document.getElementById("nav-map").setAttribute("class", "active");
 
 $(document).ready(function () {
-    $.get("http://127.0.0.1:8000/api/producers", function (data) {
-        for (let i = 0; i < data.length; i++) {
-            let obj = data[i];
-            let producer = {
-                name: obj.name,
-                lat: obj.latitude,
-                long: obj.longitude,
-                website: obj.website
-            };
-            producers.push(producer);
-        }
-
-        if ($("#mapid").width() > mapbreakwidth) {
-            initzoom = highzoom;
-            $("#mapid").height(bigmapheight);
-        }
-        else {
-            initzoom = lowzoom;
-            $("#mapid").height(smallmapheight);
-        };
-
-        mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom );
-        L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(mymap);
-
-        layerGroup = L.layerGroup().addTo(mymap);
-        for (let i = 0; i < producers.length; i++) {
-            marker = L.marker([producers[i].lat, producers[i].long]).addTo(layerGroup);
-            if(producers[i].website != "") {
-                marker.bindPopup("<a target=\"_blank\" href=" + producers[i].website + "><b>Domaine</b><br>" + producers[i].name + "</a>");
-            } else {
-                marker.bindPopup("<b>Domaine</b><br>" + producers[i].name);
+    $.get("http://127.0.0.1:8000/api/producers", function (data, status) {
+        if(status == "success") {
+            for (let i = 0; i < data.length; i++) {
+                let obj = data[i];
+                let producer = {
+                    name: obj.name,
+                    lat: obj.latitude,
+                    long: obj.longitude,
+                    website: obj.website
+                };
+                producers.push(producer);
             }
+
+            if ($("#mapid").width() > mapbreakwidth) {
+                initzoom = highzoom;
+                $("#mapid").height(bigmapheight);
+            } else {
+                initzoom = lowzoom;
+                $("#mapid").height(smallmapheight);
+            };
+
+            mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+            L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mymap);
+
+            layerGroup = L.layerGroup().addTo(mymap);
+            for (let i = 0; i < producers.length; i++) {
+                marker = L.marker([producers[i].lat, producers[i].long]).addTo(layerGroup);
+                if (producers[i].website != "") {
+                    marker.bindPopup("<a target=\"_blank\" href=" + producers[i].website + "><b>Domaine</b><br>" + producers[i].name + "</a>");
+                } else {
+                    marker.bindPopup("<b>Domaine</b><br>" + producers[i].name);
+                }
+            }
+        } else {
+            //display map without markers + error message
+            document.getElementById('errorMsgApiNotWorking').innerText = "Désolé nous n'avons pas pu trouver les données sur les domaines";
+            if ($("#mapid").width() > mapbreakwidth) {
+                initzoom = highzoom;
+                $("#mapid").height(bigmapheight);
+            } else {
+                initzoom = lowzoom;
+                $("#mapid").height(smallmapheight);
+            };
+
+            mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+            L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mymap);
         }
-    });
+        });
+
+    designationsMap.style.display = "none";
+    varietiesMap.style.display = "none";
 
     // listen for screen resize events and changes map size and zoom accordingly
+    //check first for which map is active
+    //if ...
     window.addEventListener('resize', function(event) {
         if ($("#mapid").width() > mapbreakwidth) {
             initzoom = highzoom;
@@ -76,21 +107,219 @@ $(document).ready(function () {
         };
     });
 
+    document.getElementById('map1Link').addEventListener("click", function (event) {
+        document.getElementById('map1Link').style.color = "black";
+        document.getElementById('map1Link').style.background = "#EADFC1";
+        document.getElementById('map2Link').style.color = "#444340"
+        document.getElementById('map2Link').style.background = "white";
+        document.getElementById('map3Link').style.color = "#444340"
+        document.getElementById('map3Link').style.background = "white";
+        wineriesMap.style.display = "block";
+        designationsMap.style.display = "none";
+        varietiesMap.style.display = "none";
+        $.get("http://127.0.0.1:8000/api/producers", function (data, status) {
+            if(status == "success") {
+                for (let i = 0; i < data.length; i++) {
+                    let obj = data[i];
+                    let producer = {
+                        name: obj.name,
+                        lat: obj.latitude,
+                        long: obj.longitude,
+                        website: obj.website
+                    };
+                    producers.push(producer);
+                }
+
+                if ($("#mapid").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid").height(bigmapheight);
+                } else {
+                    initzoom = lowzoom;
+                    $("#mapid").height(smallmapheight);
+                }
+                ;
+
+                mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(mymap);
+
+                layerGroup = L.layerGroup().addTo(mymap);
+                for (let i = 0; i < producers.length; i++) {
+                    marker = L.marker([producers[i].lat, producers[i].long]).addTo(layerGroup);
+                    if (producers[i].website != "") {
+                        marker.bindPopup("<a target=\"_blank\" href=" + producers[i].website + "><b>Domaine</b><br>" + producers[i].name + "</a>");
+                    } else {
+                        marker.bindPopup("<b>Domaine</b><br>" + producers[i].name);
+                    }
+                }
+            } else {
+                //display map without markers + error message
+                document.getElementById('errorMsgApiNotWorking').innerText = "Désolé nous n'avons pas pu trouver les données sur les domaines";
+                if ($("#mapid").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid").height(bigmapheight);
+                } else {
+                    initzoom = lowzoom;
+                    $("#mapid").height(smallmapheight);
+                };
+
+                mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(mymap);
+            }
+        });
+    });
+
+    document.getElementById('map2Link').addEventListener("click", function (event) {
+        document.getElementById('map2Link').style.color = "black";
+        document.getElementById('map2Link').style.background = "#EADFC1";
+        document.getElementById('map1Link').style.color = "#444340"
+        document.getElementById('map1Link').style.background = "white";
+        document.getElementById('map3Link').style.color = "#444340"
+        document.getElementById('map3Link').style.background = "white";
+        wineriesMap.style.display = "none";
+        designationsMap.style.display = "block";
+        varietiesMap.style.display = "none";
+        $.get("http://127.0.0.1:8000/api/wines", function (data, status) {
+            if(status == "success") {
+                for (let i = 0; i < data.length; i++) {
+                    let obj = data[i];
+                    let des = {
+                        appellation: obj.designation.name,
+                        lat: obj.producer.latitude,
+                        long: obj.producer.longitude
+                    };
+                    desTab.push(des);
+                }
+
+                if ($("#mapid1").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid1").height(bigmapheight);
+                } else {
+                    initzoom = lowzoom;
+                    $("#mapid1").height(smallmapheight);
+                };
+
+                mymap1 = L.map('mapid1', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(mymap1);
+
+                layerGroup = L.layerGroup().addTo(mymap1);
+                for (let i = 0; i < desTab.length; i++) {
+                    marker = L.marker([desTab[i].lat, desTab[i].long]).addTo(layerGroup);
+                    marker.bindPopup(desTab[i].appellation);
+                }
+            } else {
+                //display map without markers + error message
+                document.getElementById('errorMsgApiNotWorking').innerText = "Désolé nous n'avons pas pu trouver les données sur les appellations";
+                if ($("#mapid").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid").height(bigmapheight);
+                } else {
+                    initzoom = lowzoom;
+                    $("#mapid").height(smallmapheight);
+                };
+
+                mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(mymap);
+            }
+        });
+    });
+
+    document.getElementById('map3Link').addEventListener("click", function (event) {
+        document.getElementById('map3Link').style.color = "black";
+        document.getElementById('map3Link').style.background = "#EADFC1";
+        document.getElementById('map2Link').style.color = "#444340"
+        document.getElementById('map2Link').style.background = "white";
+        document.getElementById('map1Link').style.color = "#444340"
+        document.getElementById('map1Link').style.background = "white";
+        wineriesMap.style.display = "none";
+        designationsMap.style.display = "none";
+        varietiesMap.style.display = "block";
+        $.get("http://127.0.0.1:8000/api/wines", function (data, status) {
+            if(status == "success") {
+                for (let i = 0; i < data.length; i++) {
+                    let obj = data[i];
+                    console.log("obj.variety.name = " + obj.variety.name);
+                    let cepage = {
+                        variety: obj.variety.name,
+                        lat: obj.producer.latitude,
+                        long: obj.producer.longitude
+                    };
+                    varietyTab.push(cepage);
+                }
+
+                if ($("#mapid2").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid2").height(bigmapheight);
+                } else {
+                    initzoom = lowzoom;
+                    $("#mapid2").height(smallmapheight);
+                }
+                ;
+
+                mymap2 = L.map('mapid2', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(mymap2);
+
+                layerGroup = L.layerGroup().addTo(mymap2);
+                for (let i = 0; i < varietyTab.length; i++) {
+                    marker = L.marker([varietyTab[i].lat, varietyTab[i].long]).addTo(layerGroup);
+                    marker.bindPopup(varietyTab[i].variety);
+                }
+            } else {
+                //display map without markers + error message
+                document.getElementById('errorMsgApiNotWorking').innerText = "Désolé nous n'avons pas pu trouver les données sur les cépages";
+                if ($("#mapid").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid").height(bigmapheight);
+                } else {
+                    initzoom = lowzoom;
+                    $("#mapid").height(smallmapheight);
+                };
+
+                mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(mymap);
+            }
+        });
+    });
+
+
     let searchDiv = document.getElementById("search");
     searchDiv.style.display = "none";
     let searchOpt = document.getElementById("searchOpt");
+    let closeSearch = document.getElementById("closeSearch");
 
     searchOpt.addEventListener("click", function () {
         searchDiv.hidden = false;
     });
 
-    let dropDwnContent = document.getElementById("dropdown-content");
+    let radioOptSearch = document.getElementById("radioOptSearch");
 
     searchOpt.addEventListener("click", function () {
         searchDiv.style.display = "inline";
         searchOpt.style.display = "none";
-        dropDwnContent.style.display = "none";
+        radioOptSearch.style.display = "none";
     });
+
+    closeSearch.addEventListener("click", function () {
+        searchDiv.style.display = "none";
+        searchOpt.style.display = "inline";
+    })
 
     /*----------------------------STUFFS TO FILTER SEARCH ON MAP-------------------------------*/
     let searchBt = document.getElementById("searchBt"); //le boutton rechercher
