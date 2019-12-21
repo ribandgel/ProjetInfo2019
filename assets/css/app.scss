@@ -151,6 +151,12 @@ header li {
   padding-bottom: 5px;
 }
 
+#searchResMap {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 55px;
+}
+
 .mapLinks {
   background-color: #EADFC1;
   font-family: 'Noto Sans KR', sans-serif;
@@ -183,6 +189,10 @@ header li {
   font-size: 1.2rem;
 }
 
+#closeSearch {
+  font-size: 0.9rem;
+}
+
 #errorMsgApiNotWorking {
   font-size: 1.3rem;
 }
@@ -192,16 +202,9 @@ header li {
     display: flex;
     flex-direction: column;
   }
-}
-// -----------
-// END CSS related to map page
-// -----------
 
-@media only screen and (max-width: 768px) {
   #radioOptSearch {
-    //display: flex;
-    //flex-direction: column;
-    align-items: center; /* NEW */
+    align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -212,5 +215,7 @@ header li {
   ::placeholder {
     font-size: 0.9rem;
   }
-
 }
+// -----------
+// END CSS related to map page
+// -----------
