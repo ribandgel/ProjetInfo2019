@@ -3,7 +3,7 @@ let $ = require('jquery');
 
 /* -------------
 * this fixes a leaflet bug that does not import the marker images if we don't add those lines
- ---------------*/
+*/
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
@@ -18,6 +18,7 @@ let varietyTab = [];
 let mymap;
 let mymap1;
 let mymap2;
+let mymapS;
 let layerGroup;
 let marker;
 let bigmapheight = 500;
@@ -30,9 +31,15 @@ let wineriesMap = document.getElementById("domaines");
 let designationsMap = document.getElementById("appellations");
 let varietiesMap = document.getElementById("cepages");
 
+function resetSearch() {
+    document.getElementById("notFound").innerText = "";
+    $("#designationRadio").prop("checked", true);
+}
+
 document.getElementById("nav-map").setAttribute("class", "active");
 
 $(document).ready(function () {
+    document.getElementById("searchResMap").style.display = "none";
     $.get("http://127.0.0.1:8000/api/producers", function (data, status) {
         if(status == "success") {
             for (let i = 0; i < data.length; i++) {
@@ -60,9 +67,8 @@ $(document).ready(function () {
                 attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(mymap);
 
-            layerGroup = L.layerGroup().addTo(mymap);
             for (let i = 0; i < producers.length; i++) {
-                marker = L.marker([producers[i].lat, producers[i].long]).addTo(layerGroup);
+                marker = L.marker([producers[i].lat, producers[i].long]).addTo(mymap).addTo(mymap);
                 if (producers[i].website != "") {
                     marker.bindPopup("<a target=\"_blank\" href=" + producers[i].website + "><b>Domaine</b><br>" + producers[i].name + "</a>");
                 } else {
@@ -136,8 +142,7 @@ $(document).ready(function () {
                 } else {
                     initzoom = lowzoom;
                     $("#mapid").height(smallmapheight);
-                }
-                ;
+                };
 
                 mymap = L.map('mapid', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
                 L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
@@ -145,9 +150,8 @@ $(document).ready(function () {
                     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 }).addTo(mymap);
 
-                layerGroup = L.layerGroup().addTo(mymap);
                 for (let i = 0; i < producers.length; i++) {
-                    marker = L.marker([producers[i].lat, producers[i].long]).addTo(layerGroup);
+                    marker = L.marker([producers[i].lat, producers[i].long]).addTo(mymap);
                     if (producers[i].website != "") {
                         marker.bindPopup("<a target=\"_blank\" href=" + producers[i].website + "><b>Domaine</b><br>" + producers[i].name + "</a>");
                     } else {
@@ -210,9 +214,8 @@ $(document).ready(function () {
                     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 }).addTo(mymap1);
 
-                layerGroup = L.layerGroup().addTo(mymap1);
                 for (let i = 0; i < desTab.length; i++) {
-                    marker = L.marker([desTab[i].lat, desTab[i].long]).addTo(layerGroup);
+                    marker = L.marker([desTab[i].lat, desTab[i].long]).addTo(mymap1);
                     marker.bindPopup(desTab[i].appellation);
                 }
             } else {
@@ -249,7 +252,6 @@ $(document).ready(function () {
             if(status == "success") {
                 for (let i = 0; i < data.length; i++) {
                     let obj = data[i];
-                    console.log("obj.variety.name = " + obj.variety.name);
                     let cepage = {
                         variety: obj.variety.name,
                         lat: obj.producer.latitude,
@@ -264,8 +266,7 @@ $(document).ready(function () {
                 } else {
                     initzoom = lowzoom;
                     $("#mapid2").height(smallmapheight);
-                }
-                ;
+                };
 
                 mymap2 = L.map('mapid2', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
                 L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
@@ -273,9 +274,8 @@ $(document).ready(function () {
                     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 }).addTo(mymap2);
 
-                layerGroup = L.layerGroup().addTo(mymap2);
                 for (let i = 0; i < varietyTab.length; i++) {
-                    marker = L.marker([varietyTab[i].lat, varietyTab[i].long]).addTo(layerGroup);
+                    marker = L.marker([varietyTab[i].lat, varietyTab[i].long]).addTo(mymap2);
                     marker.bindPopup(varietyTab[i].variety);
                 }
             } else {
@@ -298,7 +298,6 @@ $(document).ready(function () {
         });
     });
 
-
     let searchDiv = document.getElementById("search");
     searchDiv.style.display = "none";
     let searchOpt = document.getElementById("searchOpt");
@@ -316,15 +315,20 @@ $(document).ready(function () {
         radioOptSearch.style.display = "none";
     });
 
-    closeSearch.addEventListener("click", function () {
-        searchDiv.style.display = "none";
-        searchOpt.style.display = "inline";
-    })
-
     /*----------------------------STUFFS TO FILTER SEARCH ON MAP-------------------------------*/
     let searchBt = document.getElementById("searchBt"); //le boutton rechercher
     let radioOpt = document.getElementsByName('searchOption'); //le radio bt chosen by user to filter by
     let resNotDFound = document.getElementById('notFound');
+
+
+    closeSearch.addEventListener("click", function () {
+        searchDiv.style.display = "none";
+        searchOpt.style.display = "inline";
+        document.getElementById("mapsAndMenu").style.display = "block";
+        document.getElementById("searchResMap").style.display = "none";
+        resNotDFound.innerText = "";
+        document.getElementById("searchForm").reset();
+    });
 
     /*....controls the placeholder of the search bar when picking different filtering options from the radio buttons ....*/
     let prev = null;
@@ -354,54 +358,91 @@ $(document).ready(function () {
     /*.............................................................................................................*/
 
         searchBt.addEventListener("click", function () {
-            layerGroup.clearLayers();
+            if(mymapS != undefined) {
+                mymapS.off();
+                mymapS.remove();
+            }
+            document.getElementById("mapsAndMenu").style.display = "none";
+            document.getElementById("searchResMap").style.display = "block";
+            if(layerGroup != undefined) {
+                layerGroup.clearLayers();
+            }
             let ps = [];
             let p = {};
-            let search = document.getElementById("searchQuery").value; //ce qu'a ecrit l'utilisateur dans la barre de recherche
+            let search = document.getElementById("searchQuery").value; //user input in search bar
             for (let i = 0; i < radioOpt.length; i++) {
                 if (radioOpt[i].checked) {
                     $.get("http://127.0.0.1:8000/api/wines", function (data) {
+
+                        if ($("#searchResMap").width() > mapbreakwidth) {
+                            initzoom = highzoom;
+                            $("#searchResMap").height(bigmapheight);
+                        } else {
+                            initzoom = lowzoom;
+                            $("#searchResMap").height(smallmapheight);
+                        };
+
+                        mymapS = L.map('searchResMap', {minZoom: 5, maxZoom: 8}).setView([46.227638, 2.213749], initzoom);
+                        L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+                            maxZoom: 19,
+                            attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                        }).addTo(mymapS);
+
+                        layerGroup = L.layerGroup().addTo(mymapS);
+
                         if (radioOpt[i].value === "appellation") {
                             for (let i = 0; i < data.length; i++) {
                                 let obj = data[i];
-                                console.log("DATA[i] = " + data[i]);
+                                // console.log("DATA[i] = " + data[i]);
                                 let name = obj.designation.name;
                                 if(search.toLowerCase().trim() == name.toLowerCase().trim()) {
                                     p.name = obj.producer.name;
-                                    //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
-                                    //console.log("name found = " + p.lat);
                                     p.long = obj.producer.longitude;
-                                    //console.log("name found = " + p.long);
+                                    p.website = obj.producer.website;
                                     ps.push(p);
                                     for (let i = 0; i < ps.length; i++) {
                                         marker = L.marker([ps[i].lat, ps[i].long]).addTo(layerGroup);
-                                        marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + ps[i].name + "</a>");
+                                        if (ps[i].website != "") {
+                                            marker.bindPopup("<a target=\"_blank\" href=" + ps[i].website + "><b>Domaine</b><br>" + ps[i].name + "</a>");
+                                        } else {
+                                            marker.bindPopup("<b>Domaine</b><br>" + ps[i].name);
+                                        }
                                     }
                                 }
                             }
-                            if(ps.length == 0) {
-                                resNotDFound.innerText = "Pas de résultats."
+                            if(search == "") {
+                                resNotDFound.innerText = "Veuillez entrez un mot."
+                            }
+                            if(search != "" && ps.length == 0) {
+                                resNotDFound.innerText = "Aucun resultat trouve pour " + search + ".";
                             }
                         }
                         if (radioOpt[i].value === "couleur") {
                             for (let i = 0; i < data.length; i++) {
                                 let obj = data[i];
                                 let color = obj.color.color;
-                                //console.log("COLOR = " + color);
                                 if(search.toLowerCase().trim() == color.toLowerCase().trim()) {
                                     p.name = obj.producer.name;
-                                    //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
-                                    //console.log("name found = " + p.lat);
                                     p.long = obj.producer.longitude;
-                                    //console.log("name found = " + p.long);
+                                    p.website = obj.producer.website;
                                     ps.push(p);
                                     for (let i = 0; i < ps.length; i++) {
                                         marker = L.marker([ps[i].lat, ps[i].long]).addTo(layerGroup);
-                                        marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + ps[i].name + "</a>");
+                                        if (ps[i].website != "") {
+                                            marker.bindPopup("<a target=\"_blank\" href=" + ps[i].website + "><b>Domaine</b><br>" + ps[i].name + "</a>");
+                                        } else {
+                                            marker.bindPopup("<b>Domaine</b><br>" + ps[i].name);
+                                        }
                                     }
                                 }
+                            }
+                            if(search == "") {
+                                resNotDFound.innerText = "Veuillez entrez un mot."
+                            }
+                            if(search != "" && ps.length == 0) {
+                                resNotDFound.innerText = "Aucun resultat trouve pour " + search + ".";
                             }
                         }
                         if (radioOpt[i].value === "cepage") {
@@ -410,22 +451,32 @@ $(document).ready(function () {
                                 let variety = obj.variety.name;
                                 if(search.toLowerCase().trim() == variety.toLowerCase().trim()) {
                                     p.name = obj.producer.name;
-                                    //console.log("name found = " + p.name);
                                     p.lat = obj.producer.latitude;
-                                    //console.log("name found = " + p.lat);
                                     p.long = obj.producer.longitude;
-                                    //console.log("name found = " + p.long);
+                                    p.website = obj.producer.website;
                                     ps.push(p);
                                     for (let i = 0; i < ps.length; i++) {
                                         marker = L.marker([ps[i].lat, ps[i].long]).addTo(layerGroup);
-                                        marker.bindPopup("<a href='/info_winery'><b>Domaine</b><br>" + ps[i].name + "</a>");
+                                        if (ps[i].website != "") {
+                                            marker.bindPopup("<a target=\"_blank\" href=" + ps[i].website + "><b>Domaine</b><br>" + ps[i].name + "</a>");
+                                        } else {
+                                            marker.bindPopup("<b>Domaine</b><br>" + ps[i].name);
+                                        }
                                     }
                                 }
+                            }
+                            if(search == "") {
+                                resNotDFound.innerText = "Veuillez entrez un mot."
+                            }
+                            if(search != "" && ps.length == 0) {
+                                resNotDFound.innerText = "Aucun resultat trouve pour " + search + ".";
                             }
                         }
                     });
                 }
             }
+            resNotDFound.innerText = "";
+            document.getElementById("searchForm").reset();
         });
     });
 
