@@ -2,49 +2,25 @@ $primary: darken(#428bca, 20%);
 @import "~bootstrap/scss/bootstrap";
 @import "~leaflet";
 
+// -----------
+// BEGIN CSS related to all pages
+// -----------
 body {
+  font-family: 'Noto Sans KR', sans-serif;
   background: url(/images/bkgd.png) center center fixed no-repeat;
   background-size: cover;
   margin: 0 ;
   padding: 10px;
 }
 
-#myCarousel.carousel.slide {
-  width: 80%;
-  max-width: 85%;
-}
-
 header nav ul li a {
-  font-family: 'Noto Sans KR', sans-serif;
+  //font-family: 'Noto Sans KR', sans-serif;
   color: #444340;
   text-align: center;
-}
-
-#txt-slide1 {
-  color: white;
-  background: rgba(225, 225, 225, .3);
-}
-
-.txt-slide1-2 {
-  color: #2F2E2B;
-  font-size: 1.4rem;
-  font-weight: 500;
-  background: rgba(225, 225, 225, .5);
-  border-radius: 60px;
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-#txt-slide3 {
-  color: black;
-  font-size: 1.4rem;
-  font-family: 'Noto Sans KR', sans-serif;
-  background: rgba(225, 225, 225, .7);
-  border-radius: 60px;
+  font-size: 1.5rem;
 }
 
 header {
-  font-family: Tohoma,Geneva, sans-serif;
-  margin: 0 auto;
   box-shadow: 0 0 5px #999;
 }
 
@@ -56,29 +32,24 @@ h1 {
   width: 150px;
 }
 
-#profileImg {
-  width: 15rem;
-}
-
 footer {
-  margin: 0 auto;
   box-shadow: 0 0 5px #999;
 }
 
 address {
   font-size: .8rem;
   color: #2F2E2B;
-  font-family: 'Noto Sans KR', sans-serif;
+  //font-family: 'Noto Sans KR', sans-serif;
 }
 
 footer h5 {
   color: #2F2E2B;
-  font-family: 'Noto Sans KR', sans-serif;
+  //font-family: 'Noto Sans KR', sans-serif;
 }
 
 footer p {
   color: #2F2E2B;
-  font-family: 'Noto Sans KR', sans-serif;
+  //font-family: 'Noto Sans KR', sans-serif;
 }
 
 #sm-links {
@@ -103,27 +74,143 @@ header a {
 
 header a:hover {
   font-weight: bold;
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 header li {
   float: left;
 }
+// -----------
+// END CSS related to all the pages
+// -----------
 
+
+// -----------
+// BEGIN CSS related to home page
+// -----------
+#myCarousel.carousel.slide {
+  width: 80%;
+  max-width: 85%;
+}
+
+#txt-slide1 {
+  color: white;
+  background: rgba(225, 225, 225, .3);
+}
+
+.txt-slide1-2 {
+  color: #2F2E2B;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background: rgba(225, 225, 225, .5);
+  border-radius: 60px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#txt-slide3 {
+  color: black;
+  font-size: 1.4rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: rgba(225, 225, 225, .7);
+  border-radius: 60px;
+}
+// -----------
+// END CSS related to home page
+// -----------
+
+
+// -----------
+// BEGIN CSS related to info page
+// -----------
+#profileImg {
+  width: 15rem;
+}
+// -----------
+// END CSS related to home page
+// -----------
+
+
+// -----------
+// BEGIN CSS related to map page
+// -----------
 #mapid {
-  background-color: red;
   width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#mapid1 {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#mapid2 {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.mapLinks {
+  background-color: #EADFC1;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.5rem;
+}
+
+#map1Link {
+  color: black;
+}
+
+#map2Link {
+  color: #444340;
+  background-color: white;
+}
+
+#map3Link {
+  color: #444340;
+  background-color: white;
+}
+
+#searchBt, #searchOpt {
+  background-color: #EADFC1;
 }
 
 #searchQuery {
   width: 50%;
 }
 
-.nav-link {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.navbar {
-  font-family: 'Noto Sans KR', sans-serif;
+#notFound {
+  font-size: 1.2rem;
 }
 
+#errorMsgApiNotWorking {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #btMapLinks {
+    display: flex;
+    flex-direction: column;
+  }
+}
+// -----------
+// END CSS related to map page
+// -----------
+
+@media only screen and (max-width: 768px) {
+  #radioOptSearch {
+    //display: flex;
+    //flex-direction: column;
+    align-items: center; /* NEW */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    font-size: 0.9rem;
+  }
+
+}
