@@ -1,13 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Contact{% endblock %}
-
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
-    {% for message in app.flashes('sucess') %}
+
+    {% for message in app.flashes('success') %}
     <div class="alert alert-success">
         {{ message }}
     </div>
@@ -19,27 +16,74 @@
         </div>
     {% endif %}
 
-<div class="d-flex justify-content-center mt-4" id="contactForm">
+    <div class="container p-4">
     {{ form_start(form) }}
-    <div class="row">
-        <div class="col">
-            {{ form_row(form.firstName) }}
+    {{ form_widget(form) }}
+{#        {{ form_row(form.firstName, {'attr': {'placeholder': "Entrez votre nom"}}) }}#}
+        {{ form_widget(form) }}
+        <div class="d-flex justify-content-center">
+        <button class="border-0 rounded" id="submitBt">Envoyer</button>
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            {{ form_row(form.lastName) }}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            {{ form_row(form.emailAdr) }}
-        </div>
-    </div>
-    {{ form_rest(form) }}
-<div class="form-group">
-    <button class="btn btn-primary">Envoyer</button>
-</div>
     {{ form_end(form) }}
-</div>
+    </div>
+
+
+{#    <form class="container d-flex justify-content-center p-3">#}
+{#        <div class="form-group">#}
+{#            {{ form_start(form) }}#}
+{#            <div class="row">#}
+{#            <div class="col">#}
+{#            <label for="formGroupExampleInput">{{ form_label(form.firstName, 'Nom :') }}</label>#}
+{#            {{ form_widget(form.firstName) }}#}
+{#            </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                <div class="col">#}
+{#            <label for="formGroupExampleInput">{{ form_label(form.lastName, 'Prénom :') }}</label>#}
+{#            {{ form_widget(form.lastName) }}#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                <div class="col">#}
+{#            <label for="formGroupExampleInput">{{ form_label(form.emailAdr, 'Mail :') }}</label>#}
+{#            {{ form_widget(form.emailAdr) }}#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row">#}
+{#                <div class="col">#}
+{#            <label for="formGroupExampleInput">{{ form_label(form.message, 'Message :') }}</label>#}
+{#            {{ form_widget(form.message) }}#}
+{#                </div>#}
+{#            </div>#}
+{#        {{ form_end(form) }}#}
+{#        </div>#}
+{#    </form>#}
+
+
+
+
+{#<div class="d-flex justify-content-center mt-4" id="contactForm">#}
+{#    {{ form_start(form) }}#}
+{#    <div class="row">#}
+{#        <div class="col">#}
+{#            {{ form_label(form.firstName, 'Nom') }}#}
+{#            {{ form_row(form.firstName) }}#}
+{#        </div>#}
+{#    </div>#}
+{#    <div class="row">#}
+{#        <div class="col">#}
+{#            {{ form_row(form.lastName) }}#}
+{#        </div>#}
+{#    </div>#}
+{#    <div class="row">#}
+{#        <div class="col">#}
+{#            {{ form_row(form.emailAdr) }}#}
+{#        </div>#}
+{#    </div>#}
+{#    {{ form_rest(form) }}#}
+{#<div class="form-group">#}
+{#    <button class="btn btn-primary">Envoyer</button>#}
+{#</div>#}
+{#    {{ form_end(form) }}#}
+{#</div>#}
 {% endblock %}
