@@ -5,13 +5,13 @@
 {% block body %}
 
     {% for message in app.flashes('success') %}
-    <div class="alert alert-success">
+    <div class="alert alert-success mt-2">
         {{ message }}
     </div>
     {% endfor %}
 
     {% if not form.vars.valid %}
-        <div class="alert alert-danger">
+        <div class="alert alert-danger mt-2">
             <p>Vous n'avez pas rempli correctement le formulaire</p>
         </div>
     {% endif %}
@@ -27,63 +27,4 @@
     {{ form_end(form) }}
     </div>
 
-
-{#    <form class="container d-flex justify-content-center p-3">#}
-{#        <div class="form-group">#}
-{#            {{ form_start(form) }}#}
-{#            <div class="row">#}
-{#            <div class="col">#}
-{#            <label for="formGroupExampleInput">{{ form_label(form.firstName, 'Nom :') }}</label>#}
-{#            {{ form_widget(form.firstName) }}#}
-{#            </div>#}
-{#            </div>#}
-{#            <div class="row">#}
-{#                <div class="col">#}
-{#            <label for="formGroupExampleInput">{{ form_label(form.lastName, 'Prénom :') }}</label>#}
-{#            {{ form_widget(form.lastName) }}#}
-{#                </div>#}
-{#            </div>#}
-{#            <div class="row">#}
-{#                <div class="col">#}
-{#            <label for="formGroupExampleInput">{{ form_label(form.emailAdr, 'Mail :') }}</label>#}
-{#            {{ form_widget(form.emailAdr) }}#}
-{#                </div>#}
-{#            </div>#}
-{#            <div class="row">#}
-{#                <div class="col">#}
-{#            <label for="formGroupExampleInput">{{ form_label(form.message, 'Message :') }}</label>#}
-{#            {{ form_widget(form.message) }}#}
-{#                </div>#}
-{#            </div>#}
-{#        {{ form_end(form) }}#}
-{#        </div>#}
-{#    </form>#}
-
-
-
-
-{#<div class="d-flex justify-content-center mt-4" id="contactForm">#}
-{#    {{ form_start(form) }}#}
-{#    <div class="row">#}
-{#        <div class="col">#}
-{#            {{ form_label(form.firstName, 'Nom') }}#}
-{#            {{ form_row(form.firstName) }}#}
-{#        </div>#}
-{#    </div>#}
-{#    <div class="row">#}
-{#        <div class="col">#}
-{#            {{ form_row(form.lastName) }}#}
-{#        </div>#}
-{#    </div>#}
-{#    <div class="row">#}
-{#        <div class="col">#}
-{#            {{ form_row(form.emailAdr) }}#}
-{#        </div>#}
-{#    </div>#}
-{#    {{ form_rest(form) }}#}
-{#<div class="form-group">#}
-{#    <button class="btn btn-primary">Envoyer</button>#}
-{#</div>#}
-{#    {{ form_end(form) }}#}
-{#</div>#}
 {% endblock %}
