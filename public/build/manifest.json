@@ -4,6 +4,7 @@
   "build/leaflet.js": "/build/leaflet.js",
   "build/runtime.js": "/build/runtime.js",
   "build/vendors~app.js": "/build/vendors~app.js",
+  "build/vendors~app~leaflet.js": "/build/vendors~app~leaflet.js",
   "build/vendors~leaflet.js": "/build/vendors~leaflet.js",
   "build/images/layers-2x.png": "/build/images/layers-2x.4f0283c6.png",
   "build/images/layers.png": "/build/images/layers.a6137456.png",

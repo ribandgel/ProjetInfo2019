@@ -1,5 +1,5 @@
 let L=require('leaflet');
-//let $ = require('jquery');
+let $ = require('jquery');
 
 /* -------------
 * this fixes a leaflet bug that does not import the marker images if we don't add those lines
@@ -112,6 +112,10 @@ $(document).ready(function () {
     });
 
     document.getElementById('map1Link').addEventListener("click", function (event) {
+        if(mymap != undefined) {
+            mymap.off();
+            mymap.remove();
+        }
         document.getElementById('map1Link').style.color = "black";
         document.getElementById('map1Link').style.background = "#EADFC1";
         document.getElementById('map2Link').style.color = "#444340"
@@ -174,6 +178,10 @@ $(document).ready(function () {
     });
 
     document.getElementById('map2Link').addEventListener("click", function (event) {
+        if(mymap1 != undefined) {
+            mymap1.off();
+            mymap1.remove();
+        }
         document.getElementById('map2Link').style.color = "black";
         document.getElementById('map2Link').style.background = "#EADFC1";
         document.getElementById('map1Link').style.color = "#444340"
@@ -226,10 +234,26 @@ $(document).ready(function () {
                     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 }).addTo(mymap1);
             }
+            window.addEventListener('resize', function(event) {
+                if ($("#mapid1").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid1").height(bigmapheight);
+                    mymap1.setView([46.227638, 2.213749], initzoom );
+                }
+                else {
+                    initzoom = lowzoom;
+                    $("#mapid1").height(smallmapheight);
+                    mymap1.setView([46.227638, 2.213749], initzoom );
+                };
+            });
         });
     });
 
     document.getElementById('map3Link').addEventListener("click", function (event) {
+        if(mymap2 != undefined) {
+            mymap2.off();
+            mymap2.remove();
+        }
         document.getElementById('map3Link').style.color = "black";
         document.getElementById('map3Link').style.background = "#EADFC1";
         document.getElementById('map2Link').style.color = "#444340"
@@ -283,6 +307,18 @@ $(document).ready(function () {
                     attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 }).addTo(mymap2);
             }
+            window.addEventListener('resize', function(event) {
+                if ($("#mapid2").width() > mapbreakwidth) {
+                    initzoom = highzoom;
+                    $("#mapid2").height(bigmapheight);
+                    mymap2.setView([46.227638, 2.213749], initzoom );
+                }
+                else {
+                    initzoom = lowzoom;
+                    $("#mapid2").height(smallmapheight);
+                    mymap2.setView([46.227638, 2.213749], initzoom );
+                };
+            });
         });
     });
 
