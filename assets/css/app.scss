@@ -7,9 +7,9 @@ $primary: darken(#428bca, 20%);
 // -----------
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  background: url(/images/bkgd.png) center center fixed no-repeat;
+  background: url("/images/bkgd.png") center center fixed no-repeat;
   background-size: cover;
-  margin: 0 ;
+  margin: 0;
   padding: 10px;
 }
 
@@ -120,102 +120,117 @@ header li {
 
 
 // -----------
-// BEGIN CSS related to info page
+// BEGIN CSS related to contact page
 // -----------
-#profileImg {
-  width: 15rem;
-}
-// -----------
-// END CSS related to home page
-// -----------
-
-
-// -----------
-// BEGIN CSS related to map page
-// -----------
-#mapid {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#mapid1 {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#mapid2 {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#searchResMap {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 55px;
-}
-
-.mapLinks {
+#submitBt {
   background-color: #EADFC1;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.5rem;
-}
-
-#map1Link {
-  color: black;
-}
-
-#map2Link {
-  color: #444340;
-  background-color: white;
-}
-
-#map3Link {
-  color: #444340;
-  background-color: white;
-}
-
-#searchBt, #searchOpt {
-  background-color: #EADFC1;
-}
-
-#searchQuery {
-  width: 50%;
-}
-
-#notFound {
-  font-size: 1.2rem;
-}
-
-#closeSearch {
-  font-size: 0.9rem;
-}
-
-#errorMsgApiNotWorking {
   font-size: 1.3rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
+// -----------
+// END CSS related to contact page
+// -----------
 
-@media only screen and (max-width: 768px) {
-  #btMapLinks {
-    display: flex;
-    flex-direction: column;
+  // -----------
+  // BEGIN CSS related to info page
+  // -----------
+  #profileImg {
+    width: 15rem;
+  }
+  // -----------
+  // END CSS related to info page
+  // -----------
+
+
+  // -----------
+  // BEGIN CSS related to map page
+  // -----------
+  #mapid {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
   }
 
-  #radioOptSearch {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+  #mapid1 {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
   }
 
-  ::placeholder {
+  #mapid2 {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+
+  #searchResMap {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+
+  .mapLinks {
+    background-color: #EADFC1;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  #map1Link {
+    color: black;
+  }
+
+  #map2Link {
+    color: #444340;
+    background-color: white;
+  }
+
+  #map3Link {
+    color: #444340;
+    background-color: white;
+  }
+
+  #searchBt, #searchOpt {
+    background-color: #EADFC1;
+  }
+
+  #searchQuery {
+    width: 50%;
+  }
+
+  #notFound {
+    font-size: 1.2rem;
+  }
+
+  #closeSearch {
     font-size: 0.9rem;
   }
-}
+
+  #errorMsgApiNotWorking {
+    font-size: 1.3rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #btMapLinks {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #radioOptSearch {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+    }
+
+    ::placeholder {
+      font-size: 0.9rem;
+    }
+  }
 // -----------
 // END CSS related to map page
 // -----------
