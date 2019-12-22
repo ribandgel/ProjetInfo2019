@@ -1,12 +1,13 @@
 $primary: darken(#428bca, 20%);
 @import "~bootstrap/scss/bootstrap";
 @import "~leaflet";
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap);
 
 // -----------
 // BEGIN CSS related to all pages
 // -----------
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background: url("/images/bkgd.png") center center fixed no-repeat;
   background-size: cover;
   margin: 0;
@@ -14,10 +15,10 @@ body {
 }
 
 header nav ul li a {
-  //font-family: 'Noto Sans KR', sans-serif;
   color: #444340;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 header {
@@ -39,28 +40,25 @@ footer {
 address {
   font-size: .8rem;
   color: #2F2E2B;
-  //font-family: 'Noto Sans KR', sans-serif;
 }
 
 footer h5 {
   color: #2F2E2B;
-  //font-family: 'Noto Sans KR', sans-serif;
 }
 
 footer p {
   color: #2F2E2B;
-  //font-family: 'Noto Sans KR', sans-serif;
 }
 
 #sm-links {
   font-weight: 500;
 }
 
-footer a:hover {
+a:hover {
   text-decoration: none;
 }
 
-header ul{
+ul {
   list-style-type: none;
 }
 
@@ -70,11 +68,6 @@ header a {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.5rem;
-}
-
-header a:hover {
-  font-weight: bold;
-  //text-decoration: none;
 }
 
 header li {
@@ -104,13 +97,11 @@ header li {
   font-weight: 500;
   background: rgba(225, 225, 225, .5);
   border-radius: 60px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #txt-slide3 {
   color: black;
   font-size: 1.4rem;
-  font-family: 'Noto Sans KR', sans-serif;
   background: rgba(225, 225, 225, .7);
   border-radius: 60px;
 }
@@ -134,103 +125,152 @@ header li {
 // END CSS related to contact page
 // -----------
 
-  // -----------
-  // BEGIN CSS related to info page
-  // -----------
+
+// -----------
+// BEGIN CSS related to info page
+// -----------
+#profileImg {
+  width: 30%;
+  height: 30%;
+  border-radius: 20%;
+}
+
+.grapesIcon {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.infoH4 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
   #profileImg {
-    width: 15rem;
-  }
-  // -----------
-  // END CSS related to info page
-  // -----------
-
-
-  // -----------
-  // BEGIN CSS related to map page
-  // -----------
-  #mapid {
     width: 70%;
+    margin: auto;
+    border-radius: 10%;
+  }
+
+  #infoIntro {
+    display: flex;
+    flex-direction: column;
+  }
+}
+// -----------
+// END CSS related to info page
+// -----------
+
+
+// -----------
+// BEGIN CSS related to map page
+// -----------
+#mapid {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#mapid1 {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#mapid2 {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#searchResMap {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.mapLinks {
+  background-color: #EADFC1;
+  font-size: 1.5rem;
+}
+
+#map1Link {
+  color: black;
+}
+
+#map2Link {
+  color: #444340;
+  background-color: white;
+}
+
+#map3Link {
+  color: #444340;
+  background-color: white;
+}
+
+#searchBt, #searchOpt {
+  background-color: #EADFC1;
+}
+
+#searchQuery {
+  width: 50%;
+}
+
+#notFound {
+  font-size: 1.2rem;
+}
+
+#closeSearch {
+  font-size: 0.9rem;
+}
+
+#errorMsgApiNotWorking {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #btMapLinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #radioOptSearch {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    font-size: 0.9rem;
+  }
+
+  #mapid {
+    width: 80%;
     margin: auto;
     padding-bottom: 5px;
   }
 
   #mapid1 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding-bottom: 5px;
   }
 
   #mapid2 {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding-bottom: 5px;
   }
 
   #searchResMap {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding-bottom: 5px;
   }
-
-  .mapLinks {
-    background-color: #EADFC1;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.5rem;
-  }
-
-  #map1Link {
-    color: black;
-  }
-
-  #map2Link {
-    color: #444340;
-    background-color: white;
-  }
-
-  #map3Link {
-    color: #444340;
-    background-color: white;
-  }
-
-  #searchBt, #searchOpt {
-    background-color: #EADFC1;
-  }
-
-  #searchQuery {
-    width: 50%;
-  }
-
-  #notFound {
-    font-size: 1.2rem;
-  }
-
-  #closeSearch {
-    font-size: 0.9rem;
-  }
-
-  #errorMsgApiNotWorking {
-    font-size: 1.3rem;
-  }
-
-  @media only screen and (max-width: 768px) {
-    #btMapLinks {
-      display: flex;
-      flex-direction: column;
-    }
-
-    #radioOptSearch {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-content: center;
-      justify-content: center;
-    }
-
-    ::placeholder {
-      font-size: 0.9rem;
-    }
-  }
+}
 // -----------
 // END CSS related to map page
 // -----------
