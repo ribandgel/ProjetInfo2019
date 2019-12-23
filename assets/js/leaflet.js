@@ -31,11 +31,6 @@ let wineriesMap = document.getElementById("domaines");
 let designationsMap = document.getElementById("appellations");
 let varietiesMap = document.getElementById("cepages");
 
-function resetSearch() {
-    document.getElementById("notFound").innerText = "";
-    $("#designationRadio").prop("checked", true);
-}
-
 document.getElementById("nav-map").setAttribute("class", "active");
 
 $(document).ready(function () {
@@ -220,7 +215,7 @@ $(document).ready(function () {
                 }
             } else {
                 //display map without markers + error message
-                document.getElementById('errorMsgApiNotWorking').innerText = "Désolé nous n'avons pas pu trouver les données sur les appellations";
+                document.getElementById('errorMsgApiNotWorking1').innerText = "Désolé nous n'avons pas pu trouver les données sur les appellations";
                 if ($("#mapid1").width() > mapbreakwidth) {
                     initzoom = highzoom;
                     $("#mapid1").height(bigmapheight);
@@ -293,7 +288,7 @@ $(document).ready(function () {
                 }
             } else {
                 //display map without markers + error message
-                document.getElementById('errorMsgApiNotWorking').innerText = "Désolé nous n'avons pas pu trouver les données sur les cépages";
+                document.getElementById('errorMsgApiNotWorking2').innerText = "Désolé nous n'avons pas pu trouver les données sur les cépages";
                 if ($("#mapid2").width() > mapbreakwidth) {
                     initzoom = highzoom;
                     $("#mapid2").height(bigmapheight);
