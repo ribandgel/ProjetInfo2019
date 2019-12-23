@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
         <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -43,7 +44,7 @@
         {% block body %}{% endblock %}
 
         <footer class="pt-4">
-          <div class="container d-flex justify-content-between">
+          <div id="footerElts" class="container d-flex justify-content-between">
               <div class="flex-column d-none d-md-block">
                   <h5 class="text-uppercase mb-4 font-weight-bold">À Propos</h5>
                   <div class="text-black-50">
@@ -65,11 +66,9 @@
 
               <div class="flex-column">
                   <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
-                  <div class="text-black-50">
-                      <p><i class="fa fa-envelope-o "></i> contact@atout-vins.fr</p>
-                      <p><i class="fa fa-phone" ></i> 06-10-79-15-92</p>
-                      <address>19 Rue du Bout du Plot </br> 63800 Cournon D'auvergne</address>
-                  </div>
+                  <p><a href="mailto: contact@atout-vins.fr"><i class="fa fa-envelope-o"></i> contact@atout-vins.fr</a></p>
+                  <p><i class="fa fa-phone" ></i> 06-10-79-15-92</p>
+                  <address>19 Rue du Bout du Plot </br>63800 Cournon D'auvergne</address>
               </div>
 
               <div class="flex-column">
@@ -82,7 +81,7 @@
           </div>
         </footer>
 
-        <div>© 2019 Copyright: <a href=" #" class="text-black"> www.atout-vins.fr</a></div>
+        <div>© 2019 Copyright: <a href="#" class="text-black"> www.atout-vins.fr</a></div>
     </body>
     {% block javascripts %}  {{ encore_entry_script_tags('app') }} {% endblock %}
 </html>

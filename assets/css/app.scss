@@ -73,6 +73,13 @@ header a {
 header li {
   float: left;
 }
+
+@media only screen and (max-width: 768px) {
+  #footerElts {
+    display: flex;
+    flex-direction: column;
+  }
+}
 // -----------
 // END CSS related to all the pages
 // -----------
@@ -86,6 +93,10 @@ header li {
   max-width: 85%;
 }
 
+#myCarousel h4 {
+  font-weight: bold;
+}
+
 #txt-slide1 {
   color: white;
   background: rgba(225, 225, 225, .3);
@@ -94,13 +105,14 @@ header li {
 .txt-slide1-2 {
   color: #2F2E2B;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: bold;
   background: rgba(225, 225, 225, .5);
   border-radius: 60px;
 }
 
 #txt-slide3 {
   color: black;
+  font-weight: bold;
   font-size: 1.4rem;
   background: rgba(225, 225, 225, .7);
   border-radius: 60px;
