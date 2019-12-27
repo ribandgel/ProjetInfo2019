@@ -177,25 +177,7 @@ header li {
 // -----------
 // BEGIN CSS related to map page
 // -----------
-#mapid {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#mapid1 {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#mapid2 {
-  width: 70%;
-  margin: auto;
-  padding-bottom: 5px;
-}
-
-#searchResMap {
+#mapid, #mapid1, #mapid2, #searchResMap {
   width: 70%;
   margin: auto;
   padding-bottom: 5px;
@@ -210,12 +192,7 @@ header li {
   color: black;
 }
 
-#map2Link {
-  color: #444340;
-  background-color: white;
-}
-
-#map3Link {
+#map2Link, #map3Link {
   color: #444340;
   background-color: white;
 }
@@ -246,6 +223,10 @@ header li {
     flex-direction: column;
   }
 
+  #searchQuery {
+    width: 75%;
+  }
+
   #radioOptSearch {
     align-items: center;
     display: flex;
@@ -256,29 +237,11 @@ header li {
   }
 
   ::placeholder {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
-  #mapid {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 5px;
-  }
-
-  #mapid1 {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 5px;
-  }
-
-  #mapid2 {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 5px;
-  }
-
-  #searchResMap {
-    width: 80%;
+  #mapid, #mapid1, #mapid2, #searchResMap {
+    width: 90%;
     margin: auto;
     padding-bottom: 5px;
   }
