@@ -26,7 +26,7 @@ class ContactNotification {
     public function notify(Contact $contact) {
         $message = (new \Swift_Message("contact atout-vins"))
             ->setFrom('noreply@test.fr')
-            ->setTo('carolemerle0@gmail.com')
+            ->setTo('test.atoutvins@gmail.com')
             ->setReplyTo($contact->getEmailAdr())
             ->setBody($this->renderer->render('emails/contact.html.twig', [
                 'contact' => $contact
