@@ -18,6 +18,8 @@
     },
     "dependencies": {
         "jquery": "^3.4.1",
-        "leaflet": "^1.5.1"
+        "leaflet": "^1.5.1",
+        "popper.js": "^1.16.0",
+        "util.js": "^0.0.0"
     }
 }
