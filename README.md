@@ -19,4 +19,4 @@ Ce site web Atout-vins présente des informations sur une sommelière/commerçan
 
 Pour la page de contact sur le site, les messages sont envoyés sur le compte gmail suivant :  
 test.atoutvins@gmail.com  
-mot de passe : lifprojet
+
