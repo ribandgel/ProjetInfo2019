@@ -39,7 +39,7 @@
                 <li class="nav-item" id="nav-contact">
                     <a class="nav-link px-md-2 px-lg-5" href="{{ path('contact') }}">Contact</a>
                 </li>
-                {% if(app.user) %}
+                {% if(not app.user) %}
                     <li class="nav-item" id="nav-login">
                         <a class="nav-link" href="{{ path('app_login') }}">{% trans %}Sign in{% endtrans %}</a>
                     </li>
