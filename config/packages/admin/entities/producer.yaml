@@ -7,6 +7,7 @@ easy_admin:
                 fields:
                     - { property: 'name' }
                     - { property: 'phone' }
+                    - { property: 'website' }
                     - { property: 'latitude' }
                     - { property: 'longitude' }
                     - { type: 'group', label: 'Address', icon: 'map-marker-alt', css_class: 'col-sm-4' }

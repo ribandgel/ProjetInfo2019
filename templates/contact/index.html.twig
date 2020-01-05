@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact{% endblock %}
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+{% block body %}
+
+    {% for message in app.flashes('success') %}
+    <div class="alert alert-success mt-2">
+        {{ message }}
+    </div>
+    {% endfor %}
+
+    {% if not form.vars.valid %}
+        <div class="alert alert-danger mt-2">
+            <p>Vous n'avez pas rempli correctement le formulaire</p>
+        </div>
+    {% endif %}
+
+    <div class="container p-4">
+    {{ form_start(form) }}
+        <label class="p-1 labels">Nom: </label>
+    {{ form_widget(form.lastName) }}
+{#        {{ form_row(form.firstName, {'attr': {'placeholder': "Entrez votre nom"}}) }}#}
+        <label class="pt-2 labels">Prénom: </label>
+        {{ form_widget(form.firstName) }}
+        <label class="pt-2 labels">Adresse mail: </label>
+        {{ form_widget(form.emailAdr) }}
+        <label class="pt-2 labels">Message: </label>
+        {{ form_widget(form.message) }}
+        {{ form_widget(form) }}
+        <div class="d-flex justify-content-center">
+        <button class="border-0 rounded mt-3 p-1" id="submitBt">Envoyer</button>
+        </div>
+    {{ form_end(form) }}
+    </div>
+
+{% endblock %}

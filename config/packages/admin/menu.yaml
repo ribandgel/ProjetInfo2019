@@ -1,7 +1,7 @@
 easy_admin:
     design:
         menu:
-            - { label: 'Home',  route: 'blog_home', icon: home }
+            - { label: 'Home',  route: 'home', icon: home }
             - label: 'Wine'
             - label: 'Designation'
               entity: Designation

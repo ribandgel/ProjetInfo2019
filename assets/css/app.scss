@@ -1,6 +1,255 @@
 $primary: darken(#428bca, 20%);
 @import "~bootstrap/scss/bootstrap";
+@import "~leaflet";
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap);
 
+// -----------
+// BEGIN CSS related to all pages
+// -----------
 body {
-      background-color: ;
+  font-family: 'Nunito', sans-serif;
+  background: url("/images/bkgd.png") center center fixed no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 10px;
 }
+
+header nav ul li a {
+  color: #444340;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+header {
+  box-shadow: 0 0 5px #999;
+}
+
+h1 {
+  display: inline-block;
+}
+
+#logo-img {
+  width: 150px;
+}
+
+footer {
+  box-shadow: 0 0 5px #999;
+}
+
+address {
+  font-size: .8rem;
+  color: #2F2E2B;
+}
+
+footer h5 {
+  color: #2F2E2B;
+}
+
+footer p {
+  color: #2F2E2B;
+}
+
+#sm-links {
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header a {
+  display: block;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+header li {
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  #footerElts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+// -----------
+// END CSS related to all the pages
+// -----------
+
+
+// -----------
+// BEGIN CSS related to home page
+// -----------
+#myCarousel.carousel.slide {
+  width: 80%;
+  max-width: 85%;
+}
+
+#myCarousel h4 {
+  font-weight: bold;
+}
+
+#txt-slide1 {
+  color: white;
+  background: rgba(225, 225, 225, .3);
+}
+
+.txt-slide1-2 {
+  color: #2F2E2B;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background: rgba(225, 225, 225, .5);
+  border-radius: 60px;
+}
+
+#txt-slide3 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background: rgba(225, 225, 225, .7);
+  border-radius: 60px;
+}
+// -----------
+// END CSS related to home page
+// -----------
+
+
+// -----------
+// BEGIN CSS related to contact page
+// -----------
+.labels {
+  font-size: 1.2rem;
+}
+
+#submitBt {
+  background-color: #EADFC1;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+// -----------
+// END CSS related to contact page
+// -----------
+
+
+// -----------
+// BEGIN CSS related to info page
+// -----------
+#profileImg {
+  width: 30%;
+  height: 30%;
+  border-radius: 20%;
+}
+
+.grapesIcon {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.infoH4 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  #profileImg {
+    width: 70%;
+    margin: auto;
+    border-radius: 10%;
+  }
+
+  #infoIntro {
+    display: flex;
+    flex-direction: column;
+  }
+}
+// -----------
+// END CSS related to info page
+// -----------
+
+
+// -----------
+// BEGIN CSS related to map page
+// -----------
+#mapid, #mapid1, #mapid2, #searchResMap {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.mapLinks {
+  background-color: #EADFC1;
+  font-size: 1.5rem;
+}
+
+#map1Link {
+  color: black;
+}
+
+#map2Link, #map3Link {
+  color: #444340;
+  background-color: white;
+}
+
+#searchBt, #searchOpt {
+  background-color: #EADFC1;
+}
+
+#searchQuery {
+  width: 50%;
+}
+
+#notFound {
+  font-size: 1.2rem;
+}
+
+#closeSearch {
+  font-size: 0.9rem;
+}
+
+#errorMsgApiNotWorking {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #btMapLinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #searchQuery {
+    width: 75%;
+  }
+
+  #radioOptSearch {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+
+  #mapid, #mapid1, #mapid2, #searchResMap {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+}
+// -----------
+// END CSS related to map page
+// -----------
