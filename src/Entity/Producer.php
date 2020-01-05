@@ -2,11 +2,18 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
+ * @ApiResource(
+ *     collectionOperations={"get"},
+ *     itemOperations={"get"},
+ *     normalizationContext={"groups"={"producer"}}
+ * )
  * @ORM\Entity(repositoryClass="App\Repository\ProducerRepository")
  */
 class Producer
@@ -19,32 +26,38 @@ class Producer
     private $id;
 
     /**
+     * @Groups("producer")
      * @ORM\Column(type="string", length=255)
      */
     private $name;
 
     /**
+     * @Groups("producer")
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $phone;
 
     /**
+     * @Groups("producer")
      * @ORM\OneToOne(targetEntity="App\Entity\Address", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $address;
 
     /**
+     * @Groups("producer")
      * @ORM\Column(type="string", length=255,nullable=true)
      */
     private $latitude;
 
     /**
+     * @Groups("producer")
      * @ORM\Column(type="string", length=255,nullable=true)
      */
     private $longitude;
 
     /**
+     * @Groups("producer")
      * @ORM\OneToMany(targetEntity="App\Entity\Beverage", mappedBy="producer")
      */
     private $beverages;
@@ -55,6 +68,7 @@ class Producer
     private $wines;
 
     /**
+     * @Groups("producer")
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $website;
