@@ -3,7 +3,7 @@
 ![GitHub Logo](http://lif.sci-web.net/~atout-vins/public/images/AVLOGO.png)
 
 ### Description:
-Ce site web Atout-vins présente des informations sur une sommelière/commerçante de vins ainsi que les différents domaines avec lesquels elle travaille. Le site contient une carte interactive sur les domaines, les appellations et les cépages. Ce site a été créé dans le cadre d’un projet d’un cours de licence informatique.
+Ce site web Atout-vins présente des informations sur une sommelière/commerçante de vins ainsi que les différents domaines avec lesquels elle travaille. Le site contient une carte interactive sur les domaines, les appellations et les cépages. Ce site a été créé dans le cadre d’un projet pour un cours de licence informatique.
 
 ### Lien du site: [atout-vins](http://lif.sci-web.net/~atout-vins/public/)
 
