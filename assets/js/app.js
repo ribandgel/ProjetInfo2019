@@ -5,10 +5,22 @@
  * (and its CSS file) in your base layout (base.html.twig).
  */
 
-// any CSS you require will output into a single css file (app.css in this case)
- require('../css/app.scss');
+let title = document.title;
+if(title == "Accueil") {
+ document.getElementById("nav-home").setAttribute("class", "active");
+} else if (title == "À Propos") {
+ document.getElementById("nav-info").setAttribute("class", "active");
+} else if (title == "Contact") {
+ document.getElementById("nav-contact").setAttribute("class", "active");
+} else if (title == "Log in") {
+ document.getElementById("nav-login").setAttribute("class", "active");
+}
+
+// any CSS you require will output into a single css file (app.scss in this case)
+require('../css/app.scss');
+import 'bootstrap';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
-// const $ = require('jquery');
+const $ = require('jquery');
 //
-// console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+//console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
