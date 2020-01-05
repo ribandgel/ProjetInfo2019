@@ -21,15 +21,11 @@
                <h2>le site de vins</h2>
               <nav>
             			<ul>
-            				<li><a href="/">Accueil</a></li>
-            				<li><a href="/admin">Easy Admin</a></li>
-            				<li><a href="/sommelier">A propos</a></li>
+            				<li><a href="{{ url('blog') }}">Accueil</a></li>
+            				{% if is_granted('ADMIN') %}<li><a href={{ url('easyadmin') }}>Easy Admin</a></li>{% endif %}
+            				<li><a href={{ url('sommelier') }}>A propos</a></li>
             				<li><a href="#">Contact</a></li>
                             <li><a href="{{ path('app_login') }}"></a></li>
-
-
-
-
 
             			</ul>
 

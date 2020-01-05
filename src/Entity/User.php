@@ -60,7 +60,12 @@ class User implements UserInterface
     public function hasRoles(array $roles): bool
     {
         $roles = $this->getRoles();
-        return in_array('ADMIN',$roles);
+        foreach($roles as $role){
+            if(! in_array('ADMIN',$roles) ){
+                return false;
+            }
+        }
+        return true;
     }
 
     public function getEmail(): ?string
