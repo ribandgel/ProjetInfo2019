@@ -14,7 +14,7 @@ Ce site web Atout-vins présente des informations sur une sommelière/commerçan
 * Le répertoire **config** contient les configurations des différents bundles utilisé dans ce projet.
 * Le répertoire **public** contient tous les fichiers publics et statiques du site, y compris les images, les feuilles de style et les fichiers JavaScript. C'est également là que réside le contrôleur principal (index.php).
 * Le répertoire **src** contient les contrôleurs (de l'architecture Modèle Vue Contrôleur) des pages du site et aussi et le modèle (répertoire migrations) qui gère les données liées au site.
-* Le répertoire templates contient le code pour les vues (affichage) des pages du site.
+* Le répertoire **templates** contient le code pour les vues (affichage) des pages du site.
 * Le fichier **.env** contient les variables d'environnement utiliser dans ce projet et le reste des fichiers sont principalement des fichiers de configuration ou de gestion des dépendances. 
 
 Pour la page de contact sur le site, les messages sont envoyés sur le compte gmail suivant :  
