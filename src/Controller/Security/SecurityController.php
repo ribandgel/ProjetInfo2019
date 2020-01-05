@@ -40,7 +40,7 @@ class SecurityController extends AbstractController
                 ]);
             }
         }
-        $this->redirectToRoute('app_first_admin_registration');
+        return $this->redirectToRoute('app_first_admin_registration');
     }
 
     /**
