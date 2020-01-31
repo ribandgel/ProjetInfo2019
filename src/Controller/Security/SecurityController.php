@@ -28,7 +28,7 @@ class SecurityController extends AbstractController
     {
         $users = $repository->findAll();
         foreach ($users as $user) {
-            if ($user->hasRoles(['ADMIN'])) {
+            if ($user->hasRoles(['ROLE_ADMIN'])) {
                 // get the login error if there is one
                 $error = $authenticationUtils->getLastAuthenticationError();
                 // last username entered by the user
@@ -60,7 +60,7 @@ class SecurityController extends AbstractController
     {
         $users = $repository->findAll();
         foreach ($users as $user) {
-            if ($user->hasRoles(['ADMIN'])) {
+            if ($user->hasRoles(['ROLE_ADMIN'])) {
                 $this->addFlash('danger','An user with admin role already exist');
                 return $this->redirectToRoute('home');
             }
@@ -70,8 +70,8 @@ class SecurityController extends AbstractController
         if ($registrationForm->isSubmitted() && $registrationForm->isValid()) {
             $user = $registrationForm->getData();
             if (!$user instanceof User)
-                throw new RuntimeException('An error has occured');
-            $user->setRoles(['ADMIN']);
+                throw new RuntimeException('An error has occurred');
+            $user->setRoles(['ROLE_ADMIN']);
             $password = $user->getPassword();
             $encryptedPassword = $encoder->encodePassword($user, $password);
             $user->setPassword($encryptedPassword);
